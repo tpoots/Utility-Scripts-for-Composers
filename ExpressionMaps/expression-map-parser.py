@@ -1,17 +1,19 @@
 import os
+import json
 import re
 import sys
 import xml.etree.ElementTree as ET
 from os import walk
+
+# https://htmlcolorcodes.com/
 
 allExpressionMaps = []
 for (dirpath, dirnames, filenames) in walk(sys.argv[1]):
     for file in filenames:
         allExpressionMaps.append(os.path.join(dirpath, file))
 
-print allExpressionMaps
-
-print("InstrumentName,Articulation,Keyswitch,UACC")
+articulationMap = {}
+# CSV output - print("InstrumentName,Articulation,Keyswitch,UACC")
 for expressionMap in allExpressionMaps:
     # f = open(expressionMap, "r")
     # print(f.read())
@@ -42,8 +44,16 @@ for expressionMap in allExpressionMaps:
             # print('keyswitch: ' + keySwitch)
             # print('uacc: ' + uacc)
             # print('------------')
-            print(instrumentName + ',' + articulation + ',' + keySwitch + ',' + uacc)
+            # CSV output - print(instrumentName + ',' + articulation + ',' + keySwitch + ',' + uacc)
+            if (instrumentName.find('CB D') >= 0):
+                if(not instrumentName in articulationMap.keys()):
+                    articulationMap[instrumentName] = {}
+                articulationMap[instrumentName].update({articulation: {'keySwitch': keySwitch, 'UACC': uacc}})
 
     #for element in tree.iter():
     #    if (element.get('class') == "PSoundSlot"): # found an articulation
     #        print(element.attrib)
+
+# Serializing json
+json_object = json.dumps(articulationMap, indent=4)
+print(json_object);
