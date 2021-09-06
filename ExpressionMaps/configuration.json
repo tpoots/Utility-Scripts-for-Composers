@@ -1384,5 +1384,1994 @@
       "46": "FX Glissandi",
       "47": "FX Fanfare"
     }
+  },
+  "sss": {
+    "primaryColor": "#145000",
+    "secondaryColor": "#7FFF00",
+    "midiCC": 103,
+    "instruments": {
+      "0": {
+        "name": "Violins 1",
+        "articulations": {
+          "Tenuto [0.5]": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato [1.0]": {
+            "UACC": "52",
+            "keySwitch": "22"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Legato Runs": {
+            "UACC": "33",
+            "keySwitch": "19"
+          },
+          "FX": {
+            "UACC": "90",
+            "keySwitch": "32"
+          },
+          "Legato Sul G": {
+            "UACC": "37",
+            "keySwitch": "20"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "12"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "9",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Tremolo 150 CS": {
+            "UACC": "84",
+            "keySwitch": "31"
+          },
+          "Long Sul Tasto": {
+            "UACC": "17",
+            "keySwitch": "16"
+          },
+          "Trill Min3": {
+            "UACC": "72",
+            "keySwitch": "27"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "13"
+          },
+          "Tremolo 150": {
+            "UACC": "81",
+            "keySwitch": "29"
+          },
+          "Long Rachm": {
+            "UACC": "16",
+            "keySwitch": "15"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Short Harmonics": {
+            "UACC": "61",
+            "keySwitch": "25"
+          },
+          "Long Sul G": {
+            "UACC": "112",
+            "keySwitch": "33"
+          },
+          "Long CS Blend": {
+            "UACC": "5",
+            "keySwitch": "10"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Short Brushed": {
+            "UACC": "48",
+            "keySwitch": "21"
+          },
+          "Short Brushed CS": {
+            "UACC": "62",
+            "keySwitch": "26"
+          },
+          "Short CS": {
+            "UACC": "47",
+            "keySwitch": "5"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long CS Sul Pont": {
+            "UACC": "19",
+            "keySwitch": "18"
+          },
+          "Long Super Sul Tasto": {
+            "UACC": "114",
+            "keySwitch": "34"
+          },
+          "Tremolo Sul Pont": {
+            "UACC": "13",
+            "keySwitch": "14"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "17"
+          },
+          "Trill Maj3": {
+            "UACC": "73",
+            "keySwitch": "28"
+          },
+          "Tremolo 180": {
+            "UACC": "82",
+            "keySwitch": "30"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "23"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "24"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "11"
+          }
+        }
+      },
+      "1": {
+        "name": "Violins 2",
+        "articulations": {
+          "Tenuto [0.5]": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato [1.0]": {
+            "UACC": "52",
+            "keySwitch": "22"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Legato Runs": {
+            "UACC": "33",
+            "keySwitch": "19"
+          },
+          "FX": {
+            "UACC": "90",
+            "keySwitch": "29"
+          },
+          "Legato Sul G": {
+            "UACC": "37",
+            "keySwitch": "20"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "12"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "9",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "13"
+          },
+          "Tremolo 150": {
+            "UACC": "81",
+            "keySwitch": "27"
+          },
+          "Long Rachm": {
+            "UACC": "16",
+            "keySwitch": "16"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Short Harmonics": {
+            "UACC": "61",
+            "keySwitch": "25"
+          },
+          "Long Sul G": {
+            "UACC": "112",
+            "keySwitch": "30"
+          },
+          "Long CS Blend": {
+            "UACC": "5",
+            "keySwitch": "10"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Short Brushed": {
+            "UACC": "48",
+            "keySwitch": "21"
+          },
+          "Short Brushed CS": {
+            "UACC": "62",
+            "keySwitch": "26"
+          },
+          "Short CS": {
+            "UACC": "47",
+            "keySwitch": "5"
+          },
+          "Tremolo Muted": {
+            "UACC": "12",
+            "keySwitch": "14"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long CS Sul Pont": {
+            "UACC": "19",
+            "keySwitch": "18"
+          },
+          "Long Super Sul Tasto": {
+            "UACC": "114",
+            "keySwitch": "31"
+          },
+          "Tremolo Sul Pont": {
+            "UACC": "13",
+            "keySwitch": "15"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "17"
+          },
+          "Tremolo 180": {
+            "UACC": "82",
+            "keySwitch": "28"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "23"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "24"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "11"
+          }
+        }
+      },
+      "2": {
+        "name": "Violas",
+        "articulations": {
+          "Tenuto [0.5]": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato [1.0]": {
+            "UACC": "52",
+            "keySwitch": "22"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Legato Runs": {
+            "UACC": "33",
+            "keySwitch": "19"
+          },
+          "FX": {
+            "UACC": "90",
+            "keySwitch": "31"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "12"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "9",
+            "keySwitch": "2"
+          },
+          "Legato Sul C": {
+            "UACC": "37",
+            "keySwitch": "20"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Trill Min3": {
+            "UACC": "72",
+            "keySwitch": "27"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "13"
+          },
+          "Tremolo 150": {
+            "UACC": "81",
+            "keySwitch": "29"
+          },
+          "Long Rachm": {
+            "UACC": "16",
+            "keySwitch": "16"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Short Harmonics": {
+            "UACC": "61",
+            "keySwitch": "25"
+          },
+          "Long CS Blend": {
+            "UACC": "5",
+            "keySwitch": "10"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Short Brushed": {
+            "UACC": "48",
+            "keySwitch": "21"
+          },
+          "Short Brushed CS": {
+            "UACC": "62",
+            "keySwitch": "26"
+          },
+          "Short CS": {
+            "UACC": "47",
+            "keySwitch": "5"
+          },
+          "Tremolo Muted": {
+            "UACC": "12",
+            "keySwitch": "14"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long CS Sul Pont": {
+            "UACC": "19",
+            "keySwitch": "18"
+          },
+          "Long Super Sul Tasto": {
+            "UACC": "114",
+            "keySwitch": "32"
+          },
+          "Tremolo Sul Pont": {
+            "UACC": "13",
+            "keySwitch": "15"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "17"
+          },
+          "Trill Maj3": {
+            "UACC": "73",
+            "keySwitch": "28"
+          },
+          "Tremolo 180": {
+            "UACC": "82",
+            "keySwitch": "30"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "23"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "24"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "11"
+          }
+        }
+      },
+      "3": {
+        "name": "Celli",
+        "articulations": {
+          "Tenuto [0.5]": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato [1.0]": {
+            "UACC": "52",
+            "keySwitch": "22"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Legato Runs": {
+            "UACC": "33",
+            "keySwitch": "19"
+          },
+          "FX": {
+            "UACC": "90",
+            "keySwitch": "32"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "12"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "9",
+            "keySwitch": "2"
+          },
+          "Legato Sul C": {
+            "UACC": "37",
+            "keySwitch": "20"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Tremolo 150 CS": {
+            "UACC": "84",
+            "keySwitch": "31"
+          },
+          "Trill Min3": {
+            "UACC": "72",
+            "keySwitch": "27"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "13"
+          },
+          "Tremolo 150": {
+            "UACC": "81",
+            "keySwitch": "29"
+          },
+          "Long Rachm": {
+            "UACC": "16",
+            "keySwitch": "16"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Short Harmonics": {
+            "UACC": "61",
+            "keySwitch": "25"
+          },
+          "Long CS Blend": {
+            "UACC": "5",
+            "keySwitch": "10"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Short Brushed": {
+            "UACC": "48",
+            "keySwitch": "21"
+          },
+          "Short Brushed CS": {
+            "UACC": "62",
+            "keySwitch": "26"
+          },
+          "Short CS": {
+            "UACC": "47",
+            "keySwitch": "5"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long CS Sul Pont": {
+            "UACC": "19",
+            "keySwitch": "18"
+          },
+          "Long Super Sul Tasto": {
+            "UACC": "114",
+            "keySwitch": "33"
+          },
+          "Tremolo Sul Pont": {
+            "UACC": "13",
+            "keySwitch": "15"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "17"
+          },
+          "Tremolo CS": {
+            "UACC": "12",
+            "keySwitch": "14"
+          },
+          "Trill Maj3": {
+            "UACC": "73",
+            "keySwitch": "28"
+          },
+          "Tremolo 180": {
+            "UACC": "82",
+            "keySwitch": "30"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "23"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "24"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "11"
+          }
+        }
+      },
+      "4": {
+        "name": "Basses",
+        "articulations": {
+          "Tenuto [0.5]": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato [1.0]": {
+            "UACC": "52",
+            "keySwitch": "15"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Legato Runs": {
+            "UACC": "33",
+            "keySwitch": "14"
+          },
+          "FX": {
+            "UACC": "90",
+            "keySwitch": "20"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "17"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "9",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "11"
+          },
+          "Tremolo 150": {
+            "UACC": "81",
+            "keySwitch": "19"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Short Harmonics": {
+            "UACC": "61",
+            "keySwitch": "18"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Staccato Dig": {
+            "UACC": "49",
+            "keySwitch": "5"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long Super Sul Tasto": {
+            "UACC": "114",
+            "keySwitch": "21"
+          },
+          "Tremolo Sul Pont": {
+            "UACC": "13",
+            "keySwitch": "12"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "13"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "16"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "5": {
+        "name": "Ensembles",
+        "articulations": {
+          "Tenuto [0.5]": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "19"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "9",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "13"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Short Harmonics": {
+            "UACC": "61",
+            "keySwitch": "20"
+          },
+          "Long Sul G": {
+            "UACC": "112",
+            "keySwitch": "22"
+          },
+          "Tremolo Muted": {
+            "UACC": "12",
+            "keySwitch": "14"
+          },
+          "Short Brushed": {
+            "UACC": "48",
+            "keySwitch": "17"
+          },
+          "Short Brushed CS": {
+            "UACC": "62",
+            "keySwitch": "21"
+          },
+          "Short CS": {
+            "UACC": "47",
+            "keySwitch": "5"
+          },
+          "Long CS Blend": {
+            "UACC": "5",
+            "keySwitch": "10"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long Super Sul Tasto": {
+            "UACC": "114",
+            "keySwitch": "23"
+          },
+          "Tremolo Sul Pont": {
+            "UACC": "13",
+            "keySwitch": "15"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "16"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "18"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "12"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "11"
+          }
+        }
+      }
+    },
+    "articulations": {
+      "1": "Long",
+      "2": "Long Sul Pont",
+      "3": "Long Super Sul Tasto",
+      "4": "Long CS",
+      "5": "Long CS Blend",
+      "6": "Long Flautando",
+      "7": "Long CS Sul Pont",
+      "8": "Long Rachm",
+      "9": "Long Sul G",
+      "10": "Long Sul Tasto",
+      "11": "Harmonics",
+      "12": "Flautando",
+      "13": "Tremolo",
+      "14": "Tremolo 150",
+      "15": "Tremolo 150 CS",
+      "16": "Tremolo 180",
+      "17": "Tremolo Muted",
+      "18": "Tremolo CS",
+      "19": "Tremolo Sul Pont",
+      "21": "Marcato",
+      "22": "Pizzicato",
+      "23": "Spiccato",
+      "24": "Col Legno",
+      "25": "Pizzicato Bartok",
+      "26": "Short Brushed CS",
+      "27": "Short Harmonics",
+      "28": "Short Brushed",
+      "29": "Short CS",
+      "30": "Staccato Dig",
+      "31": "Short Harmonic",
+      "32": "Short Muted",
+      "33": "Short Soft",
+      "34": "Tenuto [0.5]",
+      "35": "Marcato [1.0]",
+      "41": "Legato",
+      "42": "Legato Sul G",
+      "43": "Legato Sul C",
+      "44": "Legato Runs",
+      "51": "Trill HT",
+      "52": "Trill WT",
+      "53": "FX",
+      "54": "Trill Min3",
+      "55": "Trill Maj3"
+    }
+  },
+  "scs": {
+    "primaryColor": "#717000",
+    "secondaryColor": "#FFFF00",
+    "midiCC": 104,
+    "instruments": {
+      "0": {
+        "name": "Violins 1",
+        "articulations": {
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "FX": {
+            "UACC": "90",
+            "keySwitch": "39"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "34"
+          },
+          "Trill Perf4": {
+            "UACC": "74",
+            "keySwitch": "36"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Tremolo 150Bpm": {
+            "UACC": "81",
+            "keySwitch": "37"
+          },
+          "Trill Min3": {
+            "UACC": "72",
+            "keySwitch": "35"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "12"
+          },
+          "FX Disco Fall": {
+            "UACC": "111",
+            "keySwitch": "43"
+          },
+          "Legato Flautando": {
+            "UACC": "27",
+            "keySwitch": "20"
+          },
+          "Long Sul G": {
+            "UACC": "112",
+            "keySwitch": "44"
+          },
+          "Spiccato Feathered": {
+            "UACC": "48",
+            "keySwitch": "31"
+          },
+          "Short CS": {
+            "UACC": "47",
+            "keySwitch": "30"
+          },
+          "FX Tense Longer": {
+            "UACC": "91",
+            "keySwitch": "40"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long CS Sul Pont": {
+            "UACC": "19",
+            "keySwitch": "18"
+          },
+          "Legato Fast": {
+            "UACC": "32",
+            "keySwitch": "23"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "17"
+          },
+          "Tremolo CS": {
+            "UACC": "12",
+            "keySwitch": "13"
+          },
+          "Legato CS": {
+            "UACC": "26",
+            "keySwitch": "19"
+          },
+          "Legato Sul G": {
+            "UACC": "37",
+            "keySwitch": "27"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "33"
+          },
+          "FX Slides": {
+            "UACC": "105",
+            "keySwitch": "42"
+          },
+          "Legato Tremolo": {
+            "UACC": "30",
+            "keySwitch": "21"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Legato Runs": {
+            "UACC": "33",
+            "keySwitch": "24"
+          },
+          "Legato CS Portamento": {
+            "UACC": "38",
+            "keySwitch": "28"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "11"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "9",
+            "keySwitch": "2"
+          },
+          "FX Run": {
+            "UACC": "100",
+            "keySwitch": "41"
+          },
+          "Long Sul Tasto": {
+            "UACC": "17",
+            "keySwitch": "16"
+          },
+          "Legato Flautando Port": {
+            "UACC": "39",
+            "keySwitch": "29"
+          },
+          "Tremolo 180Bpm": {
+            "UACC": "82",
+            "keySwitch": "38"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Staccato Dig": {
+            "UACC": "49",
+            "keySwitch": "32"
+          },
+          "Long Sul Pont Dist": {
+            "UACC": "113",
+            "keySwitch": "45"
+          },
+          "Tremolo CS Sul Pont": {
+            "UACC": "15",
+            "keySwitch": "15"
+          },
+          "Tremolo Sul Pont": {
+            "UACC": "13",
+            "keySwitch": "14"
+          },
+          "Legato Bowed": {
+            "UACC": "34",
+            "keySwitch": "25"
+          },
+          "Legato Sul Pont": {
+            "UACC": "36",
+            "keySwitch": "26"
+          },
+          "Legato Portamento": {
+            "UACC": "31",
+            "keySwitch": "22"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "1": {
+        "name": "Violins 2",
+        "articulations": {
+          "Legato Tremolo": {
+            "UACC": "30",
+            "keySwitch": "18"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Legato Runs": {
+            "UACC": "33",
+            "keySwitch": "21"
+          },
+          "FX": {
+            "UACC": "90",
+            "keySwitch": "31"
+          },
+          "Legato CS Portamento": {
+            "UACC": "38",
+            "keySwitch": "25"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "28"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "FX Slides": {
+            "UACC": "105",
+            "keySwitch": "34"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "FX Run": {
+            "UACC": "100",
+            "keySwitch": "33"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Sul Tasto": {
+            "UACC": "17",
+            "keySwitch": "13"
+          },
+          "Legato Sul Pont": {
+            "UACC": "36",
+            "keySwitch": "23"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "12"
+          },
+          "Legato Flautando": {
+            "UACC": "27",
+            "keySwitch": "17"
+          },
+          "Long Sul G": {
+            "UACC": "112",
+            "keySwitch": "36"
+          },
+          "Legato CS": {
+            "UACC": "26",
+            "keySwitch": "16"
+          },
+          "FX Disco Upwards": {
+            "UACC": "110",
+            "keySwitch": "35"
+          },
+          "Tremolo 180Bpm": {
+            "UACC": "82",
+            "keySwitch": "30"
+          },
+          "Short CS": {
+            "UACC": "47",
+            "keySwitch": "26"
+          },
+          "FX Tense Longer": {
+            "UACC": "91",
+            "keySwitch": "32"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long CS Sul Pont": {
+            "UACC": "19",
+            "keySwitch": "15"
+          },
+          "Legato Fast": {
+            "UACC": "32",
+            "keySwitch": "20"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "14"
+          },
+          "Tremolo 150Bpm": {
+            "UACC": "81",
+            "keySwitch": "29"
+          },
+          "Legato Bowed": {
+            "UACC": "34",
+            "keySwitch": "22"
+          },
+          "Legato Sul G": {
+            "UACC": "37",
+            "keySwitch": "24"
+          },
+          "Legato Portamento": {
+            "UACC": "31",
+            "keySwitch": "19"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "27"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "11"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "2": {
+        "name": "Violas",
+        "articulations": {
+          "Legato Tremolo": {
+            "UACC": "30",
+            "keySwitch": "19"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Legato Runs": {
+            "UACC": "33",
+            "keySwitch": "22"
+          },
+          "FX": {
+            "UACC": "90",
+            "keySwitch": "31"
+          },
+          "Legato CS Portamento": {
+            "UACC": "38",
+            "keySwitch": "25"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "28"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "FX Slides": {
+            "UACC": "105",
+            "keySwitch": "34"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "FX Run": {
+            "UACC": "100",
+            "keySwitch": "33"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Sul Tasto": {
+            "UACC": "17",
+            "keySwitch": "14"
+          },
+          "Legato Sul Pont": {
+            "UACC": "36",
+            "keySwitch": "23"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "12"
+          },
+          "FX Disco Fall": {
+            "UACC": "111",
+            "keySwitch": "35"
+          },
+          "Legato Flautando": {
+            "UACC": "27",
+            "keySwitch": "18"
+          },
+          "Long Sul G": {
+            "UACC": "112",
+            "keySwitch": "36"
+          },
+          "Tremolo 180Bpm": {
+            "UACC": "82",
+            "keySwitch": "30"
+          },
+          "Short CS": {
+            "UACC": "47",
+            "keySwitch": "26"
+          },
+          "FX Tense Longer": {
+            "UACC": "91",
+            "keySwitch": "32"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long CS Sul Pont": {
+            "UACC": "19",
+            "keySwitch": "16"
+          },
+          "Legato Fast": {
+            "UACC": "32",
+            "keySwitch": "21"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "15"
+          },
+          "Tremolo 150Bpm": {
+            "UACC": "81",
+            "keySwitch": "29"
+          },
+          "Tremolo CS": {
+            "UACC": "12",
+            "keySwitch": "13"
+          },
+          "Legato CS": {
+            "UACC": "26",
+            "keySwitch": "17"
+          },
+          "Legato Sul G": {
+            "UACC": "37",
+            "keySwitch": "24"
+          },
+          "Legato Portamento": {
+            "UACC": "31",
+            "keySwitch": "20"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "27"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "11"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "3": {
+        "name": "Celli",
+        "articulations": {
+          "Legato Tremolo": {
+            "UACC": "30",
+            "keySwitch": "21"
+          },
+          "Trill Perf4": {
+            "UACC": "74",
+            "keySwitch": "121"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Legato Runs": {
+            "UACC": "33",
+            "keySwitch": "24"
+          },
+          "FX": {
+            "UACC": "90",
+            "keySwitch": "118"
+          },
+          "FX Slides": {
+            "UACC": "105",
+            "keySwitch": "115"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "123"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "9",
+            "keySwitch": "2"
+          },
+          "Legato Sul C": {
+            "UACC": "37",
+            "keySwitch": "27"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "FX Run": {
+            "UACC": "100",
+            "keySwitch": "116"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Sul Tasto": {
+            "UACC": "17",
+            "keySwitch": "16"
+          },
+          "Legato Sul Pont": {
+            "UACC": "36",
+            "keySwitch": "26"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "12"
+          },
+          "FX Disco Fall": {
+            "UACC": "111",
+            "keySwitch": "114"
+          },
+          "Legato Flautando": {
+            "UACC": "27",
+            "keySwitch": "20"
+          },
+          "Legato Fast": {
+            "UACC": "32",
+            "keySwitch": "23"
+          },
+          "Legato CS": {
+            "UACC": "26",
+            "keySwitch": "19"
+          },
+          "Long Sul C": {
+            "UACC": "112",
+            "keySwitch": "113"
+          },
+          "Tremolo 180Bpm": {
+            "UACC": "82",
+            "keySwitch": "119"
+          },
+          "Legato CS Port": {
+            "UACC": "38",
+            "keySwitch": "126"
+          },
+          "Short CS": {
+            "UACC": "47",
+            "keySwitch": "125"
+          },
+          "FX Tense Longer": {
+            "UACC": "91",
+            "keySwitch": "117"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long CS Sul Pont": {
+            "UACC": "19",
+            "keySwitch": "18"
+          },
+          "Long Sul Pont Dist": {
+            "UACC": "113",
+            "keySwitch": "112"
+          },
+          "Tremolo CS Sul Pont": {
+            "UACC": "15",
+            "keySwitch": "15"
+          },
+          "Tremolo Sul Pont": {
+            "UACC": "13",
+            "keySwitch": "14"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "17"
+          },
+          "Tremolo 150Bpm": {
+            "UACC": "81",
+            "keySwitch": "120"
+          },
+          "Tremolo CS": {
+            "UACC": "12",
+            "keySwitch": "13"
+          },
+          "Legato Bowed": {
+            "UACC": "34",
+            "keySwitch": "25"
+          },
+          "Trill Min3": {
+            "UACC": "72",
+            "keySwitch": "122"
+          },
+          "Legato Portamento": {
+            "UACC": "31",
+            "keySwitch": "22"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "124"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "11"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "4": {
+        "name": "Basses",
+        "articulations": {
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "FX": {
+            "UACC": "90",
+            "keySwitch": "19"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "16"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "FX Run": {
+            "UACC": "100",
+            "keySwitch": "21"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Tremolo 150Bpm": {
+            "UACC": "81",
+            "keySwitch": "17"
+          },
+          "Tremolo 180Bpm": {
+            "UACC": "82",
+            "keySwitch": "18"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Staccato Dig": {
+            "UACC": "49",
+            "keySwitch": "14"
+          },
+          "FX Tense Longer": {
+            "UACC": "91",
+            "keySwitch": "20"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long Sul Pont Dist": {
+            "UACC": "113",
+            "keySwitch": "23"
+          },
+          "Tremolo Sul Pont": {
+            "UACC": "13",
+            "keySwitch": "12"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "13"
+          },
+          "FX Slides": {
+            "UACC": "105",
+            "keySwitch": "22"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "15"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "10"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "11"
+          }
+        }
+      }
+    },
+    "articulations": {
+      "1": "Long",
+      "2": "Long Flautando",
+      "3": "Long Sul Pont",
+      "4": "Long CS",
+      "5": "Long CS Sul Pont",
+      "6": "Long Sul Pont Dist",
+      "7": "Long Sul Tasto",
+      "8": "Long Sul G",
+      "9": "Long Sul C",
+      "10": "Harmonics",
+      "11": "Tremolo",
+      "12": "Tremolo 150Bpm",
+      "13": "Tremolo 180Bpm",
+      "14": "Tremolo CS",
+      "15": "Tremolo Sul Pont",
+      "16": "Tremolo CS Sul Pont",
+      "21": "Staccato",
+      "22": "Spiccato",
+      "23": "Marcato",
+      "24": "Pizzicato",
+      "25": "Pizzicato Bartok",
+      "26": "Col Legno",
+      "27": "Short CS",
+      "28": "Staccato Dig",
+      "29": "Spiccato Feathered",
+      "31": "Legato",
+      "32": "Legato CS",
+      "33": "Legato Fast",
+      "34": "Legato Flautando",
+      "35": "Legato Portamento",
+      "36": "Legato Sul Pont",
+      "37": "Legato Tremolo",
+      "38": "Legato Runs",
+      "39": "Legato Bowed",
+      "40": "Legato Sul G",
+      "41": "Legato Sul C",
+      "42": "Legato CS Port",
+      "43": "Legato Flautando Port",
+      "51": "Trill HT",
+      "52": "Trill WT",
+      "53": "Trill Min3",
+      "54": "Trill Perf4",
+      "55": "FX",
+      "56": "FX Run",
+      "57": "FX Slides",
+      "58": "FX Tense Longer",
+      "59": "FX Disco Fall",
+      "60": "FX Disco Upwards"
+    }
+  },
+  "sst": {
+    "primaryColor": "#006559",
+    "secondaryColor":  "#00FFFF",
+    "midiCC": 105,
+    "instruments": {
+      "0": {
+        "name": "Violin (Virtuoso)",
+        "articulations": {
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "15"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Spiccato Brushed CS": {
+            "UACC": "62",
+            "keySwitch": "16"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "13"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "12"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "14"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "11"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "1": {
+        "name": "Violin (1st Desk)",
+        "articulations": {
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "11"
+          },
+          "Spiccato Brushed CS": {
+            "UACC": "62",
+            "keySwitch": "15"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "12"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "13"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "14"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "2": {
+        "name": "Violin (Progressive)",
+        "articulations": {
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "11"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Long Super Sul Tasto": {
+            "UACC": "114",
+            "keySwitch": "15"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "13"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "12"
+          },
+          "Spiccato Brushed Baroque": {
+            "UACC": "62",
+            "keySwitch": "14"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "7"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "3": {
+        "name": "Viola",
+        "articulations": {
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "14"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "12"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "11"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Short Brushed Baroque CS": {
+            "UACC": "62",
+            "keySwitch": "15"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "13"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "4": {
+        "name": "Cello",
+        "articulations": {
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "15"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "13"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "12"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Short Brushed Baroque CS": {
+            "UACC": "62",
+            "keySwitch": "16"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "14"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "11"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "5": {
+        "name": "Bass",
+        "articulations": {
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "10"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "12"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "11"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Short Brushed Baroque CS": {
+            "UACC": "62",
+            "keySwitch": "15"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "13"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "14"
+          }
+        }
+      }
+    },
+    "articulations": {
+      "32": "Trill WT",
+      "1": "Long",
+      "2": "Long Flautando",
+      "3": "Long Sul Pont",
+      "4": "Long CS",
+      "5": "Long Super Sul Tasto",
+      "6": "Harmonics",
+      "7": "Tremolo",
+      "11": "Spiccato",
+      "12": "Staccato",
+      "13": "Pizzicato",
+      "14": "Pizzicato Bartok",
+      "15": "Col Legno",
+      "16": "Short Brushed Baroque CS",
+      "17": "Spiccato Brushed CS",
+      "18": "Spiccato Brushed Baroque",
+      "21": "Legato",
+      "31": "Trill HT"
+    }
   }
 }
