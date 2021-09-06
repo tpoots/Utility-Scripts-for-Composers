@@ -1,548 +1,1388 @@
 {
   "ssw": {
+    "primaryColor": "#004275",
+    "secondaryColor": "#1E90FF",
+    "midiCC": 101,
     "instruments": {
-    },
-    "articulations": {
-      "Alto Flute": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Long Overblown": {
-          "UACC": "09",
-          "keySwitch": "10"
-        },
-        "Harmonics": {
-          "UACC": "10",
-          "keySwitch": "7"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
-        },
-        "FX Flutter": {
-          "UACC": "11",
-          "keySwitch": "3"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
+      "0": {
+        "name": "Piccolo Flute",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "10"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "7"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          }
         }
       },
-      "ContraBassoon": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
+      "1": {
+        "name": "Flute Solo",
+        "articulations": {
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Long Hollow": {
+            "UACC": "08",
+            "keySwitch": "10"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Marcato Sforzando": {
+            "UACC": "54",
+            "keySwitch": "11"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "12"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "7"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          }
         }
       },
-      "Oboe Solo": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Multitongue": {
-          "UACC": "75",
-          "keySwitch": "10"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
-        },
-        "FX Flutter": {
-          "UACC": "11",
-          "keySwitch": "3"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
+      "2": {
+        "name": "Flutes a2",
+        "articulations": {
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Long Hollow": {
+            "UACC": "08",
+            "keySwitch": "10"
+          },
+          "Long Overblown": {
+            "UACC": "09",
+            "keySwitch": "11"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Marcato Sforzando": {
+            "UACC": "54",
+            "keySwitch": "14"
+          },
+          "Short Overblown": {
+            "UACC": "49",
+            "keySwitch": "13"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "15"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "7"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Legato (Detached)": {
+            "UACC": "21",
+            "keySwitch": "12"
+          }
         }
       },
-      "Flute Solo": {
-        "FX Flutter": {
-          "UACC": "11",
-          "keySwitch": "3"
-        },
-        "Long Hollow": {
-          "UACC": "08",
-          "keySwitch": "10"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
-        },
-        "Marcato Sforzando": {
-          "UACC": "54",
-          "keySwitch": "11"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
-        },
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Multitongue": {
-          "UACC": "75",
-          "keySwitch": "12"
-        },
-        "Harmonics": {
-          "UACC": "10",
-          "keySwitch": "7"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
+      "3": {
+        "name": "Alto Flute",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Overblown": {
+            "UACC": "09",
+            "keySwitch": "10"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "7"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          }
         }
       },
-      "Bassoon Solo": {
-        "FX Flutter": {
-          "UACC": "11",
-          "keySwitch": "3"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "FX Fall": {
-          "UACC": "101",
-          "keySwitch": "12"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
-        },
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Multitongue": {
-          "UACC": "75",
-          "keySwitch": "10"
-        },
-        "Harmonics": {
-          "UACC": "10",
-          "keySwitch": "7"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
-        },
-        "FX Rip": {
-          "UACC": "100",
-          "keySwitch": "11"
+      "4": {
+        "name": "Bass Flute",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Overblown": {
+            "UACC": "09",
+            "keySwitch": "10"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
         }
       },
-      "Flute a2": {
-        "FX Flutter": {
-          "UACC": "11",
-          "keySwitch": "3"
-        },
-        "Long Hollow": {
-          "UACC": "08",
-          "keySwitch": "10"
-        },
-        "Long Overblown": {
-          "UACC": "09",
-          "keySwitch": "11"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
-        },
-        "Marcato Sforzando": {
-          "UACC": "54",
-          "keySwitch": "14"
-        },
-        "Short Overblown": {
-          "UACC": "49",
-          "keySwitch": "13"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
-        },
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Multitongue": {
-          "UACC": "75",
-          "keySwitch": "15"
-        },
-        "Harmonics": {
-          "UACC": "10",
-          "keySwitch": "7"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
-        },
-        "Legato (Detached)": {
-          "UACC": "21",
-          "keySwitch": "12"
+      "5": {
+        "name": "Oboe Solo",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "10"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
         }
       },
-      "Bass Flute": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Long Overblown": {
-          "UACC": "09",
-          "keySwitch": "10"
-        },
-        "FX Flutter": {
-          "UACC": "11",
-          "keySwitch": "3"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
+      "6": {
+        "name": "Oboes a2",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
         }
       },
-      "Contrabass Clarinet": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
+      "7": {
+        "name": "Cor Anglais",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          }
         }
       },
-      "Bass Clarinet": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
+      "8": {
+        "name": "Clariet Solo",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "10"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
         }
       },
-      "Clarinet Solo": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Multitongue": {
-          "UACC": "75",
-          "keySwitch": "10"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
-        },
-        "FX Flutter": {
-          "UACC": "11",
-          "keySwitch": "3"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
+      "9": {
+        "name": "Clarinets a2",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "10"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
         }
       },
-      "Oboes a2": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
-        },
-        "FX Flutter": {
-          "UACC": "11",
-          "keySwitch": "3"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
+      "10": {
+        "name": "Bas Clarinet",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
         }
       },
-      "Cor Anglais": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
+      "11": {
+        "name": "Contrabass Clarinet",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          }
         }
       },
-      "Clarinet a2": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Multitongue": {
-          "UACC": "75",
-          "keySwitch": "10"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
+      "12": {
+        "name": "Bassoon Solo",
+        "articulations": {
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "12"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "10"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "7"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "11"
+          }
         }
       },
-      "Piccolo Flute": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Multitongue": {
-          "UACC": "75",
-          "keySwitch": "10"
-        },
-        "Harmonics": {
-          "UACC": "10",
-          "keySwitch": "7"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
-        },
-        "FX Flutter": {
-          "UACC": "11",
-          "keySwitch": "3"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
+      "13": {
+        "name": "Bassoons a2",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "10"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
         }
       },
-      "Bassoon a2": {
-        "Legato": {
-          "UACC": "20",
-          "keySwitch": "1"
-        },
-        "Staccato": {
-          "UACC": "40",
-          "keySwitch": "5"
-        },
-        "Multitongue": {
-          "UACC": "75",
-          "keySwitch": "10"
-        },
-        "Trill HT": {
-          "UACC": "70",
-          "keySwitch": "8"
-        },
-        "Tenuto": {
-          "UACC": "50",
-          "keySwitch": "6"
-        },
-        "Trill WT": {
-          "UACC": "71",
-          "keySwitch": "9"
-        },
-        "FX Flutter": {
-          "UACC": "11",
-          "keySwitch": "3"
-        },
-        "Marcato": {
-          "UACC": "52",
-          "keySwitch": "2"
-        },
-        "Long": {
-          "UACC": "01",
-          "keySwitch": "0"
+      "14": {
+        "name": "ContraBassoon",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          }
         }
       }
+    },
+    "articulations": {
+      "32": "Trill WT",
+      "1": "Long",
+      "2": "Harmonics",
+      "3": "Long Hollow",
+      "4": "Long Overblown",
+      "33": "FX Flutter",
+      "11": "Staccato",
+      "12": "Marcato",
+      "13": "Tenuto",
+      "14": "Multitongue",
+      "15": "Marcato Sforzando",
+      "16": "Short Overblown",
+      "34": "FX Fall",
+      "35": "FX Rip",
+      "21": "Legato",
+      "22": "Legato (Detached)",
+      "31": "Trill HT"
     }
   },
   "ssb": {
+    "primaryColor": "#FFA500",
+    "secondaryColor": "#FFD700",
+    "midiCC": 102,
+    "instruments": {
+      "0": {
+        "name": "Horn Solo",
+        "articulations": {
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "10"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Staccatissimo": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "7"
+          }
+        }
+      },
+      "1": {
+        "name": "Horns a2",
+        "articulations": {
+          "Marcato Bells Up": {
+            "UACC": "55",
+            "keySwitch": "14"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "17"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Long Stopped": {
+            "UACC": "07",
+            "keySwitch": "10"
+          },
+          "Staccatissimo Bells Up": {
+            "UACC": "49",
+            "keySwitch": "13"
+          },
+          "Long Cuivre": {
+            "UACC": "09",
+            "keySwitch": "11"
+          },
+          "Staccato Bells Up": {
+            "UACC": "59",
+            "keySwitch": "15"
+          },
+          "Tenuto Bells Up": {
+            "UACC": "54",
+            "keySwitch": "7"
+          },
+          "Staccatissimo": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Long Bells Up": {
+            "UACC": "17",
+            "keySwitch": "12"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "16"
+          }
+        }
+      },
+      "2": {
+        "name": "Horns a6",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Cuivre": {
+            "UACC": "09",
+            "keySwitch": "10"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "4"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "FX Fanfare": {
+            "UACC": "77",
+            "keySwitch": "7"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "11"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "3": {
+        "name": "Trumpet Solo",
+        "articulations": {
+          "Tenuto Muted": {
+            "UACC": "51",
+            "keySwitch": "13"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Short Muted": {
+            "UACC": "47",
+            "keySwitch": "12"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Marcato Muted": {
+            "UACC": "53",
+            "keySwitch": "4"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "7"
+          },
+          "Long Muted": {
+            "UACC": "07",
+            "keySwitch": "11"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "FX Glissandi": {
+            "UACC": "90",
+            "keySwitch": "14"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Long Mariachi": {
+            "UACC": "02",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "4": {
+        "name": "Trumpets a2",
+        "articulations": {
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "7"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "12"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Long Stopped": {
+            "UACC": "07",
+            "keySwitch": "11"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "4"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Long Mariachi": {
+            "UACC": "02",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "5": {
+        "name": "Trumpets a6",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Cuivre": {
+            "UACC": "09",
+            "keySwitch": "10"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "FX Fanfare": {
+            "UACC": "77",
+            "keySwitch": "4"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "7"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "6": {
+        "name": "Tenor Trombone Solo",
+        "articulations": {
+          "Tenuto Muted": {
+            "UACC": "51",
+            "keySwitch": "13"
+          },
+          "Staccato Muted": {
+            "UACC": "47",
+            "keySwitch": "12"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Marcato Muted": {
+            "UACC": "53",
+            "keySwitch": "4"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "14"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Cuivre": {
+            "UACC": "09",
+            "keySwitch": "11"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "7"
+          },
+          "Long Muted": {
+            "UACC": "07",
+            "keySwitch": "10"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          }
+        }
+      },
+      "7": {
+        "name": "Tenor Trombones a2",
+        "articulations": {
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "11"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Cuivre": {
+            "UACC": "9",
+            "keySwitch": "10"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "4"
+          },
+          "FX Glissandi": {
+            "UACC": "90",
+            "keySwitch": "7"
+          }
+        }
+      },
+      "8": {
+        "name": "Trombones a6",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Cuivre": {
+            "UACC": "09",
+            "keySwitch": "10"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "4"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "FX Fanfare": {
+            "UACC": "77",
+            "keySwitch": "7"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "11"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "9": {
+        "name": "Bass Trombone Solo",
+        "articulations": {
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Cuivre": {
+            "UACC": "09",
+            "keySwitch": "10"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "4"
+          },
+          "FX Flutter": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "7"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          }
+        }
+      },
+      "10": {
+        "name": "Bass Trombones a2",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Cuivre": {
+            "UACC": "09",
+            "keySwitch": "10"
+          },
+          "Multitongue": {
+            "UACC": "75",
+            "keySwitch": "4"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "FX Glissandi": {
+            "UACC": "90",
+            "keySwitch": "7"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "11"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "11": {
+        "name": "Cimbasso Solo",
+        "articulations": {
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Cuivre": {
+            "UACC": "09",
+            "keySwitch": "10"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "4"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "12": {
+        "name": "Cimbassi a2",
+        "articulations": {
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Cuivre": {
+            "UACC": "09",
+            "keySwitch": "10"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "4"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "13": {
+        "name": "Contra Trombone Solo",
+        "articulations": {
+          "Long Stopped": {
+            "UACC": "07",
+            "keySwitch": "10"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Cuivre": {
+            "UACC": "09",
+            "keySwitch": "11"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Staccato Muted": {
+            "UACC": "47",
+            "keySwitch": "12"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "4"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "14": {
+        "name": "Tuba Solo",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Long Stopped": {
+            "UACC": "07",
+            "keySwitch": "10"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "4"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "15": {
+        "name": "Contrabass Tuba Solo",
+        "articulations": {
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "9"
+          },
+          "Tenuto": {
+            "UACC": "50",
+            "keySwitch": "6"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "4"
+          },
+          "Long": {
+            "UACC": "01",
+            "keySwitch": "0"
+          }
+        }
+      }
+    },
+    "articulations": {
+      "1": "Long",
+      "2": "Long Cuivre",
+      "3": "Long Stopped",
+      "4": "Long Muted",
+      "5": "Long Mariachi",
+      "6": "Tremolo",
+      "7": "Long Bells Up",
+      "11": "Staccato",
+      "12": "Marcato",
+      "13": "Tenuto",
+      "14": "Multitongue",
+      "15": "Staccato Muted",
+      "16": "Marcato Muted",
+      "17": "Tenuto Muted",
+      "18": "Staccatissimo",
+      "19": "Marcato Bells Up",
+      "20": "Staccatissimo Bells Up",
+      "21": "Staccato Bells Up",
+      "22": "Tenuto Bells Up",
+      "23": "Short Muted",
+      "31": "Legato",
+      "41": "FX Fall",
+      "42": "FX Rip",
+      "43": "FX Flutter",
+      "44": "Trill HT",
+      "45": "Trill WT",
+      "46": "FX Glissandi",
+      "47": "FX Fanfare"
+    }
   }
 }
