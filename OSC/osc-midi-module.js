@@ -10,6 +10,7 @@ module.exports = {
         var {address, args, host, port} = data
 
         console.log("oscInFilter: address = " + address + ", args = " + args + ", host = " + host + ", port = " + port)
+        console.log("----")
         return {address, args, host, port}
 
     },
@@ -19,6 +20,7 @@ module.exports = {
 
         var {address, args, host, port, clientId} = data
         console.log("oscOutFilter: address = " + address + ", args = " + args + ", host = " + host + ", port = " + port)
+        console.log("----")
 
         // same as oscInFilter
 
