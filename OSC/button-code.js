@@ -44,7 +44,7 @@ var buttonIndex = id.substr(13,2)-1
 var myInstrumentName = getProp("this", "label")
 var section = get("selectedSection")
 var sectionConfig = JSON.parse(JSON.stringify(get("configuration")))[section]
-var secondaryColor = sectionConfig["secondaryColor"]
+var primaryColor = sectionConfig["primaryColor"]
 var articulations = sectionConfig["instruments"][buttonIndex]["articulations"]
 if (get(id) === 1) {
     set("art_*", 0, {sync:false, send:false}) // deselect all articulation buttons
@@ -53,7 +53,7 @@ if (get(id) === 1) {
     var buttonLabel = getVar(buttonId, "label")
     if (typeof articulations[buttonLabel] !== "undefined") {
         var keyswitch = articulations[buttonLabel]["keySwitch"]
-        setVar(buttonId, "color", secondaryColor)
+        setVar(buttonId, "color", primaryColor)
         setVar(buttonId, "enabled", 1)
         setVar(buttonId, "keyswitch", keyswitch)
     } else {
