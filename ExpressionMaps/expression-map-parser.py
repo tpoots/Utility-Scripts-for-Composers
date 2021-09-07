@@ -64,36 +64,35 @@ from os import walk
 #     'SFSB Tuba Solo CB D.expressionmap': {'name': 'Tuba Solo', 'order': 14},
 #     'SFSB Contrabass Tuba Solo CB D.expressionmap': {'name': 'Contrabass Tuba Solo', 'order': 15}
 # }
-#
 # artButtonConfig = {
-# 1: "Long",
-# 2: "Long Cuivre",
-# 3: "Long Stopped",
-# 4: "Long Muted",
-# 5: "Long Mariachi",
-# 6: "Tremolo",
-# 7: "Long Bells Up",
-# 11: "Staccato",
-# 12: "Marcato",
-# 13: "Tenuto",
-# 14: "Multitongue",
-# 15: "Staccato Muted",
-# 16: "Marcato Muted",
-# 17: "Tenuto Muted",
-# 18: "Staccatissimo",
-# 19: "Marcato Bells Up",
-# 20: "Staccatissimo Bells Up",
-# 21: "Staccato Bells Up",
-# 22: "Tenuto Bells Up",
-# 23: "Short Muted",
-# 31: "Legato",
-# 41: "FX Fall",
-# 42: "FX Rip",
-# 43: "FX Flutter",
-# 44: "Trill HT",
-# 45: "Trill WT",
-# 46: "FX Glissandi",
-# 47: "FX Fanfare",
+#    1: "Long",
+#    2: "Long Cuivre",
+#    3: "Long Stopped",
+#    4: "Long Muted",
+#    5: "Long Mariachi",
+#    6: "Tremolo",
+#    7: "Long Bells Up",
+#    11: "Staccato",
+#    12: "Marcato",
+#    13: "Tenuto",
+#    14: "Multitongue",
+#    15: "Staccato Muted",
+#    16: "Marcato Muted",
+#    17: "Tenuto Muted",
+#    18: "Staccatissimo",
+#    19: "Marcato Bells Up",
+#    20: "Staccatissimo Bells Up",
+#    21: "Staccato Bells Up",
+#    22: "Tenuto Bells Up",
+#    23: "Short Muted",
+#    31: "Legato",
+#    41: "FX Fall",
+#    42: "FX Rip",
+#    43: "FX Flutter",
+#    44: "Trill HT",
+#    45: "Trill WT",
+#    46: "FX Glissandi",
+#    47: "FX Fanfare",
 # }
 
 # SSS
@@ -106,49 +105,49 @@ from os import walk
 #     'SFSS Ensembles CB D.expressionmap': {'name': 'Ensembles', 'order': 5},
 # }
 # artButtonConfig = {
-# 1: "Long",
-# 2: "Long Sul Pont",
-# 3: "Long Super Sul Tasto",
-# 4: "Long CS",
-# 5: "Long CS Blend",
-# 6: "Long Flautando",
-# 7: "Long CS Sul Pont",
-# 8: "Long Rachm",
-# 9: "Long Sul G",
-# 10: "Long Sul Tasto",
-# 11: "Harmonics",
-# 12: "Flautando",
-# 13: "Tremolo",
-# 14: "Tremolo 150",
-# 15: "Tremolo 150 CS",
-# 16: "Tremolo 180",
-# 17: "Tremolo Muted",
-# 18: "Tremolo CS",
-# 19: "Tremolo Sul Pont",
-# 21: "Marcato",
-# 22: "Pizzicato",
-# 23: "Spiccato",
-# 24: "Col Legno",
-# 25: "Pizzicato Bartok",
-# 26: "Short Brushed CS",
-# 27: "Short Harmonics",
-# 28: "Short Brushed",
-# 29: "Short CS",
-# 30: "Staccato Dig",
-# 31: "Short Harmonic",
-# 32: "Short Muted",
-# 33: "Short Soft",
-# 34: "Tenuto [0.5]",
-# 35: "Marcato [1.0]",
-# 41: "Legato",
-# 42: "Legato Sul G",
-# 43: "Legato Sul C",
-# 44: "Legato Runs",
-# 51: "Trill HT",
-# 52: "Trill WT",
-# 53: "FX",
-# 54: "Trill Min3",
-# 55: "Trill Maj3"
+#    1: "Long",
+#    2: "Long Sul Pont",
+#    3: "Long Super Sul Tasto",
+#    4: "Long CS",
+#    5: "Long CS Blend",
+#    6: "Long Flautando",
+#    7: "Long CS Sul Pont",
+#    8: "Long Rachm",
+#    9: "Long Sul G",
+#    10: "Long Sul Tasto",
+#    11: "Harmonics",
+#    12: "Flautando",
+#    13: "Tremolo",
+#    14: "Tremolo 150",
+#    15: "Tremolo 150 CS",
+#    16: "Tremolo 180",
+#    17: "Tremolo Muted",
+#    18: "Tremolo CS",
+#    19: "Tremolo Sul Pont",
+#    21: "Marcato",
+#    22: "Pizzicato",
+#    23: "Spiccato",
+#    24: "Col Legno",
+#    25: "Pizzicato Bartok",
+#    26: "Short Brushed CS",
+#    27: "Short Harmonics",
+#    28: "Short Brushed",
+#    29: "Short CS",
+#    30: "Staccato Dig",
+#    31: "Short Harmonic",
+#    32: "Short Muted",
+#    33: "Short Soft",
+#    34: "Tenuto [0.5]",
+#    35: "Marcato [1.0]",
+#    41: "Legato",
+#    42: "Legato Sul G",
+#    43: "Legato Sul C",
+#    44: "Legato Runs",
+#    51: "Trill HT",
+#    52: "Trill WT",
+#    53: "FX",
+#    54: "Trill Min3",
+#    55: "Trill Maj3"
 # }
 
 # SCS
@@ -162,54 +161,54 @@ from os import walk
 # }
 #
 # artButtonConfig = {
-# 1: 'Long',
-# 2: 'Long Flautando',
-# 3: 'Long Sul Pont',
-# 4: 'Long CS',
-# 5: 'Long CS Sul Pont',
-# 6: 'Long Sul Pont Dist',
-# 7: 'Long Sul Tasto',
-# 8: 'Long Sul G',
-# 9: 'Long Sul C',
-# 10: 'Harmonics',
-# 11: 'Tremolo',
-# 12: 'Tremolo 150Bpm',
-# 13: 'Tremolo 180Bpm',
-# 14: 'Tremolo CS',
-# 15: 'Tremolo Sul Pont',
-# 16: 'Tremolo CS Sul Pont',
-# 21: 'Staccato',
-# 22: 'Spiccato',
-# 23: 'Marcato',
-# 24: 'Pizzicato',
-# 25: 'Pizzicato Bartok',
-# 26: 'Col Legno',
-# 27: 'Short CS',
-# 28: 'Staccato Dig',
-# 29: 'Spiccato Feathered',
-# 31: 'Legato',
-# 32: 'Legato CS',
-# 33: 'Legato Fast',
-# 34: 'Legato Flautando',
-# 35: 'Legato Portamento',
-# 36: 'Legato Sul Pont',
-# 37: 'Legato Tremolo',
-# 38: 'Legato Runs',
-# 39: 'Legato Bowed',
-# 40: 'Legato Sul G',
-# 41: 'Legato Sul C',
-# 42: 'Legato CS Port',
-# 43: 'Legato Flautando Port',
-# 51: 'Trill HT',
-# 52: 'Trill WT',
-# 53: 'Trill Min3',
-# 54: 'Trill Perf4',
-# 55: 'FX',
-# 56: 'FX Run',
-# 57: 'FX Slides',
-# 58: 'FX Tense Longer',
-# 59: 'FX Disco Fall',
-# 60: 'FX Disco Upwards'
+#    1: 'Long',
+#    2: 'Long Flautando',
+#    3: 'Long Sul Pont',
+#    4: 'Long CS',
+#    5: 'Long CS Sul Pont',
+#    6: 'Long Sul Pont Dist',
+#    7: 'Long Sul Tasto',
+#    8: 'Long Sul G',
+#    9: 'Long Sul C',
+#    10: 'Harmonics',
+#    11: 'Tremolo',
+#    12: 'Tremolo 150Bpm',
+#    13: 'Tremolo 180Bpm',
+#    14: 'Tremolo CS',
+#    15: 'Tremolo Sul Pont',
+#    16: 'Tremolo CS Sul Pont',
+#    21: 'Staccato',
+#    22: 'Spiccato',
+#    23: 'Marcato',
+#    24: 'Pizzicato',
+#    25: 'Pizzicato Bartok',
+#    26: 'Col Legno',
+#    27: 'Short CS',
+#    28: 'Staccato Dig',
+#    29: 'Spiccato Feathered',
+#    31: 'Legato',
+#    32: 'Legato CS',
+#    33: 'Legato Fast',
+#    34: 'Legato Flautando',
+#    35: 'Legato Portamento',
+#    36: 'Legato Sul Pont',
+#    37: 'Legato Tremolo',
+#    38: 'Legato Runs',
+#    39: 'Legato Bowed',
+#    40: 'Legato Sul G',
+#    41: 'Legato Sul C',
+#    42: 'Legato CS Port',
+#    43: 'Legato Flautando Port',
+#    51: 'Trill HT',
+#    52: 'Trill WT',
+#    53: 'Trill Min3',
+#    54: 'Trill Perf4',
+#    55: 'FX',
+#    56: 'FX Run',
+#    57: 'FX Slides',
+#    58: 'FX Tense Longer',
+#    59: 'FX Disco Fall',
+#    60: 'FX Disco Upwards'
 # }
 
 # Solo Strings
@@ -223,24 +222,24 @@ artMapConfig = {
 }
 
 artButtonConfig = {
-1: 'Long',
-2: 'Long Flautando',
-3: 'Long Sul Pont',
-4: 'Long CS',
-5: 'Long Super Sul Tasto',
-6: 'Harmonics',
-7: 'Tremolo',
-11: 'Spiccato',
-12: 'Staccato',
-13: 'Pizzicato',
-14: 'Pizzicato Bartok',
-15: 'Col Legno',
-16: 'Short Brushed Baroque CS',
-17: 'Spiccato Brushed CS',
-18: 'Spiccato Brushed Baroque',
-21: 'Legato',
-31: 'Trill HT',
-32: 'Trill WT',
+    1: 'Long',
+    2: 'Long Flautando',
+    3: 'Long Sul Pont',
+    4: 'Long CS',
+    5: 'Long Super Sul Tasto',
+    6: 'Harmonics',
+    7: 'Tremolo',
+    11: 'Spiccato',
+    12: 'Staccato',
+    13: 'Pizzicato',
+    14: 'Pizzicato Bartok',
+    15: 'Col Legno',
+    16: 'Short Brushed Baroque CS',
+    17: 'Spiccato Brushed CS',
+    18: 'Spiccato Brushed Baroque',
+    21: 'Legato',
+    31: 'Trill HT',
+    32: 'Trill WT',
 }
 
 allExpressionMaps = []
@@ -252,28 +251,16 @@ articulationMap = {"articulations": artButtonConfig}
 articulationMap.update({"instruments": {}})
 
 for expressionMap in allExpressionMaps:
-    # f = open(expressionMap, "r")
-    # print(f.read())
-    # print expressionMap
-
     m = re.search('.*\/(.*)', expressionMap)
     instrumentArtMapName = m.group(1)
 
     tree = ET.parse(expressionMap)
     root = tree.getroot()
 
-    lastArticulation = ''
-    lastUACC = 0
-    lastMidiKeywitch = 0
-    #for articulationElement in root.findall(".//obj[@class='PSoundSlot']"):
-    #    print(articulationElement.attrib)
-
-    # print('------------')
-
     for articulationElement in root.findall(".//obj[@class='PSoundSlot']"): # find all PSoundSlot objects
         if articulationElement.get('class') == 'PSoundSlot': # found an articulation
-            #for element in articulationElement.iter():
-            #    print(element.attrib)
+            # for element in articulationElement.iter():
+            #     print(element.attrib)
             articulation = articulationElement.find(".//*[@name='description']").get('value').strip()
             keySwitch = articulationElement.find(".//obj[@class='PSlotThruTrigger']/int[@name='data1']").get('value')
             uacc = articulationElement.find(".//obj[@class='PSlotMidiAction']/member[@name='midiMessages']//obj[@class='POutputEvent']/int[@name='data2']").get('value')
@@ -291,10 +278,6 @@ for expressionMap in allExpressionMaps:
                     articulationMap["instruments"][instrumentIndex].update({"name": instrumentName, "articulations": {}})
                     # update the list of all articulations as well so we have a full list for the section
                 articulationMap["instruments"][instrumentIndex]["articulations"].update({articulation: {'keySwitch': keySwitch, 'UACC': uacc}})
-
-    #for element in tree.iter():
-    #    if (element.get('class') == "PSoundSlot"): # found an articulation
-    #        print(element.attrib)
 
 # Serializing json
 json_object = json.dumps(articulationMap, indent=4)
