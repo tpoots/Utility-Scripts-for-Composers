@@ -5,8 +5,6 @@ var cc = sectionConfig["midiCC"]
 send("midi:ControlToCubase", "/control", 6, cc, 100)
 
 // --- section selector script --- //
-console.log('value = ' + value)
-console.log(get(id))
 var sectionName = value
 var sectionConfig = JSON.parse(JSON.stringify(get("configuration")))[sectionName]
 var instruments = sectionConfig["instruments"]

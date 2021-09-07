@@ -27,6 +27,15 @@ module.exports = {
             } else if (channel == 2) {
                 // brass section
                 receive('/SET', 'section_selector_script', 'ssb')
+            } else if (channel == 3) {
+                // symphonic strings section
+                receive('/SET', 'section_selector_script', 'sss')
+            } else if (channel == 4) {
+                // chamber strings section
+                receive('/SET', 'section_selector_script', 'scs')
+            } else if (channel == 5) {
+                // solo strings section
+                receive('/SET', 'section_selector_script', 'sst')
             }
             receive('/SET', buttonId, 1)
             return
