@@ -1,7 +1,7 @@
 {
   "ssw": {
-    "primaryColor": "#004275",
-    "secondaryColor": "#1E90FF",
+    "primaryColor": "#1E90FF",
+    "secondaryColor": "#0000FF",
     "midiCC": 101,
     "instruments": {
       "0": {
@@ -609,8 +609,8 @@
     }
   },
   "ssb": {
-    "primaryColor": "#FFA500",
-    "secondaryColor": "#FFD700",
+    "primaryColor": "#FFCA28",
+    "secondaryColor": "#FFA000",
     "midiCC": 102,
     "instruments": {
       "0": {
@@ -1386,8 +1386,8 @@
     }
   },
   "sss": {
-    "primaryColor": "#145000",
-    "secondaryColor": "#7FFF00",
+    "primaryColor": "#7FFF00",
+    "secondaryColor": "#388E3C",
     "midiCC": 103,
     "instruments": {
       "0": {
@@ -2184,8 +2184,8 @@
     }
   },
   "scs": {
-    "primaryColor": "#717000",
-    "secondaryColor": "#FFFF00",
+    "primaryColor": "#FFFF00",
+    "secondaryColor": "#FDD835",
     "midiCC": 104,
     "instruments": {
       "0": {
@@ -2982,8 +2982,8 @@
     }
   },
   "sst": {
-    "primaryColor": "#006559",
-    "secondaryColor":  "#00FFFF",
+    "primaryColor": "#00FFFF",
+    "secondaryColor":  "#00796B",
     "midiCC": 105,
     "instruments": {
       "0": {
