@@ -2928,6 +2928,71 @@
             "keySwitch": "11"
           }
         }
+      },
+      "5": {
+        "name": "Ensembles",
+        "articulations": {
+          "Short CS": {
+            "UACC": "47",
+            "keySwitch": "15"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Long Flautando": {
+            "UACC": "8",
+            "keySwitch": "11"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Long Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "14"
+          },
+          "Long Sul Tasto": {
+            "UACC": "17",
+            "keySwitch": "13"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "12"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Pizzicato Bartok": {
+            "UACC": "57",
+            "keySwitch": "16"
+          },
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "17"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "10"
+          }
+        }
       }
     },
     "articulations": {
@@ -2983,7 +3048,7 @@
   },
   "sst": {
     "primaryColor": "#00FFFF",
-    "secondaryColor":  "#00796B",
+    "secondaryColor": "#00796B",
     "midiCC": 105,
     "instruments": {
       "0": {
