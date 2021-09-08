@@ -3450,10 +3450,274 @@
     }
   },
   "6": {
-    "id": "sa7",
-    "name": "Spitfire Albion Solstice",
+    "id": "sm7",
+    "name": "Spitfire Albion Solstice Motors",
     "primaryColor": "#A569BD",
     "secondaryColor": "#5B2C6F",
-    "midiCC": 106
+    "midiCC": 106,
+    "articulations": {
+      "1": "Motor (110)",
+      "2": "Motor (90)",
+      "3": "Motor Trip (110)",
+      "4": "Motor Trip (90)",
+      "5": "Motor 1/16 (90)",
+      "6": "Motor Bend (90)",
+      "7": "Motor Bend (110)",
+      "8": "Motor 1/16 (110)",
+      "9": "Motor 4th (90)",
+      "10": "Motor 4th (110)",
+      "11": "Motor Trip Bend (90)",
+      "12": "Motor Trip Bend (110)",
+      "13": "Strum A 1/16 (110)",
+      "14": "Strum A 1/16 (90)",
+      "15": "Strum A (110)",
+      "16": "Strum A (90)",
+      "17": "Strum D 1/16 (110)",
+      "18": "Strum D 1/16 (90)",
+      "19": "Strum D (110)",
+      "20": "Strum D (90)",
+      "21": "Drone",
+      "22": "Songbath",
+      "23": "Wicken Glass",
+      "24": "Motor 16th (110)",
+      "25": "Motor 1/16 (70)"
+    },
+    "instruments": {
+      "4": {
+        "name": "Generator Trio Motors",
+        "articulations": {
+          "Motor 4th (90)": {
+            "keySwitch": "0",
+            "UACC": "82"
+          },
+          "Motor 4th (110)": {
+            "keySwitch": "1",
+            "UACC": "83"
+          },
+          "Motor (90)": {
+            "keySwitch": "2",
+            "UACC": "80"
+          },
+          "Motor (110)": {
+            "keySwitch": "3",
+            "UACC": "81"
+          },
+          "Motor Trip (90)": {
+            "keySwitch": "4",
+            "UACC": "85"
+          },
+          "Motor Trip (110)": {
+            "keySwitch": "5",
+            "UACC": "86"
+          },
+          "Motor Bend (90)": {
+            "keySwitch": "6",
+            "UACC": "87"
+          },
+          "Motor Bend (110)": {
+            "keySwitch": "7",
+            "UACC": "88"
+          },
+          "Motor Trip Bend (90)": {
+            "keySwitch": "8",
+            "UACC": "89"
+          },
+          "Motor Trip Bend (110)": {
+            "keySwitch": "9",
+            "UACC": 127
+          }
+        }
+      },
+      "0": {
+        "name": "Elders Classic Motors",
+        "articulations": {
+          "Motor (90)": {
+            "keySwitch": "0",
+            "UACC": "82"
+          },
+          "Motor (110)": {
+            "keySwitch": "1",
+            "UACC": "83"
+          },
+          "Motor 1/16 (90)": {
+            "keySwitch": "2",
+            "UACC": "80"
+          },
+          "Motor 1/16 (110)": {
+            "keySwitch": "3",
+            "UACC": "81"
+          },
+          "Motor Trip (90)": {
+            "keySwitch": "4",
+            "UACC": "84"
+          },
+          "Motor Trip (110)": {
+            "keySwitch": "5",
+            "UACC": "85"
+          }
+        }
+      },
+      "5": {
+        "name": "Gut Circle Motors",
+        "articulations": {
+          "Motor (110)": {
+            "keySwitch": "1",
+            "UACC": "81"
+          },
+          "Motor (90)": {
+            "keySwitch": "0",
+            "UACC": "80"
+          },
+          "Motor Bend (110)": {
+            "keySwitch": "5",
+            "UACC": "85"
+          },
+          "Motor Bend (90)": {
+            "keySwitch": "4",
+            "UACC": "84"
+          },
+          "Motor Trip (110)": {
+            "keySwitch": "3",
+            "UACC": "83"
+          },
+          "Motor Trip (90)": {
+            "keySwitch": "2",
+            "UACC": "82"
+          },
+          "Strum A 1/16 (110)": {
+            "keySwitch": "9",
+            "UACC": "93"
+          },
+          "Strum A 1/16 (90)": {
+            "keySwitch": "8",
+            "UACC": "92"
+          },
+          "Strum A (110)": {
+            "keySwitch": "7",
+            "UACC": "91"
+          },
+          "Strum A (90)": {
+            "keySwitch": "6",
+            "UACC": "90"
+          },
+          "Strum D 1/16 (110)": {
+            "keySwitch": "13",
+            "UACC": "97"
+          },
+          "Strum D 1/16 (90)": {
+            "keySwitch": "12",
+            "UACC": "96"
+          },
+          "Strum D (110)": {
+            "keySwitch": "11",
+            "UACC": "95"
+          },
+          "Strum D (90)": {
+            "keySwitch": "10",
+            "UACC": "94"
+          }
+        }
+      },
+      "3": {
+        "name": "Hosts Motors & FX",
+        "articulations": {
+          "Drone": {
+            "keySwitch": "3",
+            "UACC": "91"
+          },
+          "Motor (110)": {
+            "keySwitch": "1",
+            "UACC": "81"
+          },
+          "Motor (90)": {
+            "keySwitch": "0",
+            "UACC": "80"
+          },
+          "Songbath": {
+            "keySwitch": "4",
+            "UACC": "92"
+          },
+          "Wicken Glass": {
+            "keySwitch": "2",
+            "UACC": "90"
+          }
+        }
+      },
+      "1": {
+        "name": "Elders Trad Motors",
+        "articulations": {
+          "Motor (110)": {
+            "keySwitch": "0",
+            "UACC": "80"
+          },
+          "Motor 16th (110)": {
+            "keySwitch": "1",
+            "UACC": "81"
+          },
+          "Motor Trip (110)": {
+            "keySwitch": "2",
+            "UACC": "82"
+          }
+        }
+      },
+      "6": {
+        "name": "Nursery Motors",
+        "articulations": {
+          "Motor (90)": {
+            "keySwitch": "0",
+            "UACC": "90"
+          },
+          "Motor (110)": {
+            "keySwitch": "1",
+            "UACC": "91"
+          },
+          "Motor Trip (90)": {
+            "keySwitch": "2",
+            "UACC": "94"
+          },
+          "Motor Trip (110)": {
+            "keySwitch": "3",
+            "UACC": "95"
+          },
+          "Motor 1/16 (90)": {
+            "keySwitch": "4",
+            "UACC": "92"
+          },
+          "Motor 1/16 (110)": {
+            "keySwitch": "5",
+            "UACC": "93"
+          }
+        }
+      },
+      "2": {
+        "name": "Callers B&W Motors",
+        "articulations": {
+          "Motor (90)": {
+            "keySwitch": "0",
+            "UACC": "80"
+          },
+          "Motor (110)": {
+            "keySwitch": "1",
+            "UACC": "81"
+          },
+          "Motor 1/16 (70)": {
+            "keySwitch": "2",
+            "UACC": "84"
+          },
+          "Motor 1/16 (90)": {
+            "keySwitch": "3",
+            "UACC": "85"
+          },
+          "Motor Trip (90)": {
+            "keySwitch": "4",
+            "UACC": "82"
+          },
+          "Motor Trip (110)": {
+            "keySwitch": "5",
+            "UACC": "83"
+          }
+        }
+      }
+    }
   }
 }

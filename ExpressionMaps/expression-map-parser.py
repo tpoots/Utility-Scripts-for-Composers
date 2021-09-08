@@ -242,29 +242,68 @@ from os import walk
 #     32: 'Trill WT',
 # }
 
-# Albion Solstice
+# Albion Solstice Motors
+# artMapConfig = {
+#     'SA7\SFA7 b - The Elders Strings Traditional Sextet Motors CB Direction.expressionmap': {'name': 'Elders Trad Motors', 'order': 1},
+#     'SA7\SFA7 a - The Elders Strings Classic Octet Motors CB Direction.expressionmap': {'name': 'Elders Classic Motors', 'order': 3},
+#     'SA7\SFA7 The Callers Brass+Winds Motors CB D.expressionmap': {'name': 'Callers B&W Motors', 'order': 5},
+#     'SA7\SFA7 b - HOST - Motors+Effects D ~.expressionmap': {'name': 'Hosts Motors & FX', 'order': 14},
+#     'SA7\SFA7 a - Generator Trio Motors CB D.expressionmap': {'name': 'Generator Trio Motors', 'order': 16},
+#     'SA7\SFA7 b - GUT - Motors D ~.expressionmap': {'name': 'Gut Circle Motors', 'order': 18},
+#     'SA7\SFA7 b- NURS - Motors D ~.expressionmap': {'name': 'Nursery Motors', 'order': 20}
+# }
+#
+# artButtonConfig = {
+#     1: 'Motor (110)',
+#     2: 'Motor (90)',
+#     3: 'Motor Trip (110)',
+#     4: 'Motor Trip (90)',
+#     5: 'Motor 1/16 (90)',
+#     6: 'Motor Bend (90)',
+#     7: 'Motor Bend (110)',
+#     8: 'Motor 1/16 (110)',
+#     9: 'Motor 4th (90)',
+#     10: 'Motor 4th (110)',
+#     11: 'Motor Trip Bend (90)',
+#     12: 'Motor Trip Bend (110)',
+#     13: 'Strum A 1/16 (110)',
+#     14: 'Strum A 1/16 (90)',
+#     15: 'Strum A (110)',
+#     16: 'Strum A (90)',
+#     17: 'Strum D 1/16 (110)',
+#     18: 'Strum D 1/16 (90)',
+#     19: 'Strum D (110)',
+#     20: 'Strum D (90)',
+#     21: 'Drone',
+#     22: 'Songbath',
+#     23: 'Wicken Glass',
+#     24: 'Motor 16th (110)',
+#     25: 'Motor 1/16 (70)'
+# }
+
+# Albion Solstice (no Motors)
 artMapConfig = {
-    'SA7\SFA7 a - BLAG  - Main Techniques D.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 a - Generator Trio CB D.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 a - Generator Trio Motors CB D.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 a - GUT - Main Techniques D ~ -SL.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 a - HOST - Main Techniques D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 a - NURS - Main techniques D.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 a - The Elders Strings Classic Octet CB Direction - No Motors.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 a - The Elders Strings Classic Octet Motors CB Direction.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 b - BLAG  - Drones D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 b - GUT - Motors D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 b - HOST - Motors+Effects D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 b - The Elders Strings Traditional Sextet CB Direction - No Mtr.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 b - The Elders Strings Traditional Sextet Motors CB Direction.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 b- NURS - Motors D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 c - BLAG  - Drones Hurdy Gurdy D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 d - BLAG - Bellows+Strings D.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 e - BLAG - Bellows D.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 f - BLAG - Plucked D.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 The Callers Brass+Winds CB D - No Motors.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 The Callers Brass+Winds Motors CB D.expressionmap': {'name': 'Ensembles', 'order': 5},
-    'SA7\SFA7 The Mystics Pipes D.expressionmap': {'name': 'Ensembles', 'order': 5}
+    'SA7\SFA7 b - The Elders Strings Traditional Sextet CB Direction - No Mtr.expressionmap': {'name': 'Elders Trad Sextet', 'order': 0},
+    'SA7\SFA7 b - The Elders Strings Traditional Sextet Motors CB Direction.expressionmap': {'name': 'Elders Trad Motors', 'order': 1},
+    'SA7\SFA7 a - The Elders Strings Classic Octet CB Direction - No Motors.expressionmap': {'name': 'Elders Classic Octet', 'order': 2},
+    'SA7\SFA7 a - The Elders Strings Classic Octet Motors CB Direction.expressionmap': {'name': 'Elders Classic Motors', 'order': 3},
+    'SA7\SFA7 The Callers Brass+Winds CB D - No Motors.expressionmap': {'name': 'Callers Brass & Winds', 'order': 4},
+    'SA7\SFA7 The Callers Brass+Winds Motors CB D.expressionmap': {'name': 'Callers B&W Motors', 'order': 5},
+    'SA7\SFA7 The Mystics Pipes D.expressionmap': {'name': 'Mystics Pipes', 'order': 6},
+    'SA7\SFA7 a - BLAG  - Main Techniques D.expressionmap': {'name': 'Blaggards', 'order': 7},
+    'SA7\SFA7 e - BLAG - Bellows D.expressionmap': {'name': 'Blaggards Bellows', 'order': 8},
+    'SA7\SFA7 d - BLAG - Bellows+Strings D.expressionmap': {'name': 'Blaggards Bellows & Strings', 'order': 9},
+    'SA7\SFA7 b - BLAG  - Drones D ~.expressionmap': {'name': 'Blaggards Drones', 'order': 10},
+    'SA7\SFA7 c - BLAG  - Drones Hurdy Gurdy D ~.expressionmap': {'name': 'Blaggards Hurdy Gurdy Drones', 'order': 11},
+    'SA7\SFA7 f - BLAG - Plucked D.expressionmap': {'name': 'Blaggards Plucked', 'order': 12},
+    'SA7\SFA7 a - HOST - Main Techniques D ~.expressionmap': {'name': 'Hosts', 'order': 13},
+    'SA7\SFA7 b - HOST - Motors+Effects D ~.expressionmap': {'name': 'Hosts Motors & FX', 'order': 14},
+    'SA7\SFA7 a - Generator Trio CB D.expressionmap': {'name': 'Generator Trio', 'order': 15},
+    'SA7\SFA7 a - Generator Trio Motors CB D.expressionmap': {'name': 'Generator Trio Motors', 'order': 16},
+    'SA7\SFA7 a - GUT - Main Techniques D ~ -SL.expressionmap': {'name': 'Gut Circle', 'order': 17},
+    'SA7\SFA7 b - GUT - Motors D ~.expressionmap': {'name': 'Gut Circle Motors', 'order': 18},
+    'SA7\SFA7 a - NURS - Main techniques D.expressionmap': {'name': 'Nursery', 'order': 19},
+    'SA7\SFA7 b- NURS - Motors D ~.expressionmap': {'name': 'Nursery Motors', 'order': 20}
 }
 
 artButtonConfig = {
@@ -286,24 +325,28 @@ for expressionMap in allExpressionMaps:
     tree = ET.parse(expressionMap)
     root = tree.getroot()
 
+    # print("found articulation map: " + instrumentArtMapName)
     for articulationElement in root.findall(".//obj[@class='PSoundSlot']"): # find all PSoundSlot objects
         if articulationElement.get('class') == 'PSoundSlot': # found an articulation
             # for element in articulationElement.iter():
             #     print(element.attrib)
             articulation = articulationElement.find(".//*[@name='description']").get('value').strip()
-            keySwitch = articulationElement.find(".//obj[@class='PSlotThruTrigger']/int[@name='data1']").get('value')
-            uacc = articulationElement.find(".//obj[@class='PSlotMidiAction']/member[@name='midiMessages']//obj[@class='POutputEvent']/int[@name='data2']").get('value')
             # print('articulation: ' + articulation)
-            # print('keyswitch: ' + keySwitch)
-            # print('uacc: ' + uacc)
-            # print('------------')
-            # print(instrumentArtMapName + ',' + articulation + ',' + keySwitch + ',' + uacc)
 
- #           if (instrumentArtMapName.find('CB D') >= 0):
+            keySwitch = articulationElement.find(".//obj[@class='PSlotThruTrigger']/int[@name='data1']").get('value')
+            # print('keySwitch: ' + keySwitch)
+
+            uacc = 127
+            if (articulationElement.find(".//obj[@class='PSlotMidiAction']/member[@name='midiMessages']//obj[@class='POutputEvent']/int[@name='data2']")  is not None):
+                uacc = articulationElement.find(".//obj[@class='PSlotMidiAction']/member[@name='midiMessages']//obj[@class='POutputEvent']/int[@name='data2']").get('value')
+                # print('uacc: ' + uacc)
+
+            #if (instrumentArtMapName.find('Motor') >= 0 and instrumentArtMapName.find('No Motor') == -1):
             config = artMapConfig.get(instrumentArtMapName)
-            print("found articulation map: " + instrumentArtMapName)
             instrumentIndex = config.get("order")
             instrumentName = config.get("name")
+#                if (instrumentName.find('Motor') >= 0):
+#                    print(instrumentName + ',' + str(articulation) + ',' + str(keySwitch) + ',' + str(uacc))
             if (not instrumentIndex in articulationMap["instruments"].keys()):
                 articulationMap["instruments"][instrumentIndex] = {}
                 articulationMap["instruments"][instrumentIndex].update({"name": instrumentName, "articulations": {}})
