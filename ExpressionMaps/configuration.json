@@ -5,6 +5,7 @@
     "primaryColor": "#1E90FF",
     "secondaryColor": "#0000FF",
     "midiCC": 101,
+    "articulationConfig": "library",
     "instruments": {
       "0": {
         "name": "Piccolo Flute",
@@ -616,6 +617,7 @@
     "primaryColor": "#FFCA28",
     "secondaryColor": "#FFA000",
     "midiCC": 102,
+    "articulationConfig": "library",
     "instruments": {
       "0": {
         "name": "Horn Solo",
@@ -1395,6 +1397,7 @@
     "primaryColor": "#7FFF00",
     "secondaryColor": "#388E3C",
     "midiCC": 103,
+    "articulationConfig": "library",
     "instruments": {
       "0": {
         "name": "Violins 1",
@@ -2195,6 +2198,7 @@
     "primaryColor": "#FFFF00",
     "secondaryColor": "#FDD835",
     "midiCC": 104,
+    "articulationConfig": "library",
     "instruments": {
       "0": {
         "name": "Violins 1",
@@ -3060,6 +3064,7 @@
     "primaryColor": "#00FFFF",
     "secondaryColor": "#00796B",
     "midiCC": 105,
+    "articulationConfig": "library",
     "instruments": {
       "0": {
         "name": "Violin (Virtuoso)",
@@ -3450,196 +3455,119 @@
     }
   },
   "6": {
-    "id": "sm7",
-    "name": "Spitfire Albion Solstice Motors",
+    "id": "sa7",
+    "name": "Spitfire Albion Solstice",
     "primaryColor": "#A569BD",
     "secondaryColor": "#5B2C6F",
     "midiCC": 106,
-    "articulations": {
-      "1": "Motor (110)",
-      "2": "Motor (90)",
-      "3": "Motor Trip (110)",
-      "4": "Motor Trip (90)",
-      "5": "Motor 1/16 (90)",
-      "6": "Motor Bend (90)",
-      "7": "Motor Bend (110)",
-      "8": "Motor 1/16 (110)",
-      "9": "Motor 4th (90)",
-      "10": "Motor 4th (110)",
-      "11": "Motor Trip Bend (90)",
-      "12": "Motor Trip Bend (110)",
-      "13": "Strum A 1/16 (110)",
-      "14": "Strum A 1/16 (90)",
-      "15": "Strum A (110)",
-      "16": "Strum A (90)",
-      "17": "Strum D 1/16 (110)",
-      "18": "Strum D 1/16 (90)",
-      "19": "Strum D (110)",
-      "20": "Strum D (90)",
-      "21": "Drone",
-      "22": "Songbath",
-      "23": "Wicken Glass",
-      "24": "Motor 16th (110)",
-      "25": "Motor 1/16 (70)"
-    },
+    "articulationConfig": "perInstrument",
     "instruments": {
-      "4": {
-        "name": "Generator Trio Motors",
-        "articulations": {
-          "Motor 4th (90)": {
-            "keySwitch": "0",
-            "UACC": "82"
-          },
-          "Motor 4th (110)": {
-            "keySwitch": "1",
-            "UACC": "83"
-          },
-          "Motor (90)": {
-            "keySwitch": "2",
-            "UACC": "80"
-          },
-          "Motor (110)": {
-            "keySwitch": "3",
-            "UACC": "81"
-          },
-          "Motor Trip (90)": {
-            "keySwitch": "4",
-            "UACC": "85"
-          },
-          "Motor Trip (110)": {
-            "keySwitch": "5",
-            "UACC": "86"
-          },
-          "Motor Bend (90)": {
-            "keySwitch": "6",
-            "UACC": "87"
-          },
-          "Motor Bend (110)": {
-            "keySwitch": "7",
-            "UACC": "88"
-          },
-          "Motor Trip Bend (90)": {
-            "keySwitch": "8",
-            "UACC": "89"
-          },
-          "Motor Trip Bend (110)": {
-            "keySwitch": "9",
-            "UACC": 127
-          }
-        }
-      },
       "0": {
-        "name": "Elders Classic Motors",
+        "name": "Elders Trad Sextet",
         "articulations": {
-          "Motor (90)": {
-            "keySwitch": "0",
-            "UACC": "82"
+          "Flautando Warm": {
+            "UACC": "9",
+            "keySwitch": "14"
           },
-          "Motor (110)": {
-            "keySwitch": "1",
-            "UACC": "83"
+          "Long Artisan": {
+            "UACC": "3",
+            "keySwitch": "11"
           },
-          "Motor 1/16 (90)": {
-            "keySwitch": "2",
-            "UACC": "80"
+          "Col Legno": {
+            "UACC": "58",
+            "keySwitch": "23"
           },
-          "Motor 1/16 (110)": {
-            "keySwitch": "3",
-            "UACC": "81"
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
           },
-          "Motor Trip (90)": {
-            "keySwitch": "4",
-            "UACC": "84"
+          "Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "18"
           },
-          "Motor Trip (110)": {
-            "keySwitch": "5",
-            "UACC": "85"
-          }
-        }
-      },
-      "5": {
-        "name": "Gut Circle Motors",
-        "articulations": {
-          "Motor (110)": {
-            "keySwitch": "1",
-            "UACC": "81"
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
           },
-          "Motor (90)": {
-            "keySwitch": "0",
-            "UACC": "80"
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
           },
-          "Motor Bend (110)": {
-            "keySwitch": "5",
-            "UACC": "85"
+          "FX Glissando Up (5Th)": {
+            "UACC": "90",
+            "keySwitch": "28"
           },
-          "Motor Bend (90)": {
-            "keySwitch": "4",
-            "UACC": "84"
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "15"
           },
-          "Motor Trip (110)": {
-            "keySwitch": "3",
-            "UACC": "83"
+          "Sul Tasto": {
+            "UACC": "17",
+            "keySwitch": "17"
           },
-          "Motor Trip (90)": {
-            "keySwitch": "2",
-            "UACC": "82"
+          "Long (Combo)": {
+            "UACC": "2",
+            "keySwitch": "10"
           },
-          "Strum A 1/16 (110)": {
-            "keySwitch": "9",
-            "UACC": "93"
+          "Pizzicato Torn": {
+            "UACC": "57",
+            "keySwitch": "22"
           },
-          "Strum A 1/16 (90)": {
-            "keySwitch": "8",
-            "UACC": "92"
+          "Pizzicato Loose": {
+            "UACC": "59",
+            "keySwitch": "24"
           },
-          "Strum A (110)": {
-            "keySwitch": "7",
-            "UACC": "91"
+          "Crescendo": {
+            "UACC": "102",
+            "keySwitch": "31"
           },
-          "Strum A (90)": {
-            "keySwitch": "6",
-            "UACC": "90"
+          "FX Glissando Up": {
+            "UACC": "105",
+            "keySwitch": "32"
           },
-          "Strum D 1/16 (110)": {
-            "keySwitch": "13",
-            "UACC": "97"
+          "FX Glissando Up (Octave)": {
+            "UACC": "91",
+            "keySwitch": "29"
           },
-          "Strum D 1/16 (90)": {
-            "keySwitch": "12",
-            "UACC": "96"
+          "Long Artisan Infinite": {
+            "UACC": "4",
+            "keySwitch": "12"
           },
-          "Strum D (110)": {
-            "keySwitch": "11",
-            "UACC": "95"
+          "Rosin": {
+            "UACC": "112",
+            "keySwitch": "33"
           },
-          "Strum D (90)": {
-            "keySwitch": "10",
-            "UACC": "94"
-          }
-        }
-      },
-      "3": {
-        "name": "Hosts Motors & FX",
-        "articulations": {
-          "Drone": {
-            "keySwitch": "3",
-            "UACC": "91"
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
           },
-          "Motor (110)": {
-            "keySwitch": "1",
-            "UACC": "81"
+          "Spiccato Ricochet": {
+            "UACC": "44",
+            "keySwitch": "19"
           },
-          "Motor (90)": {
-            "keySwitch": "0",
-            "UACC": "80"
+          "Spiccato Brushed": {
+            "UACC": "48",
+            "keySwitch": "20"
           },
-          "Songbath": {
-            "keySwitch": "4",
-            "UACC": "92"
+          "Flautando Cold": {
+            "UACC": "8",
+            "keySwitch": "13"
           },
-          "Wicken Glass": {
-            "keySwitch": "2",
-            "UACC": "90"
+          "Tremolo Scattered": {
+            "UACC": "13",
+            "keySwitch": "16"
+          },
+          "Spiccato Pointed": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "FX Cluster": {
+            "UACC": "92",
+            "keySwitch": "30"
+          },
+          "Sforzando": {
+            "UACC": "55",
+            "keySwitch": "21"
           }
         }
       },
@@ -3647,74 +3575,763 @@
         "name": "Elders Trad Motors",
         "articulations": {
           "Motor (110)": {
-            "keySwitch": "0",
-            "UACC": "80"
+            "UACC": "80",
+            "keySwitch": "0"
+          },
+          "Motor Trip (110)": {
+            "UACC": "82",
+            "keySwitch": "2"
           },
           "Motor 16th (110)": {
-            "keySwitch": "1",
-            "UACC": "81"
-          },
-          "Motor Trip (110)": {
-            "keySwitch": "2",
-            "UACC": "82"
-          }
-        }
-      },
-      "6": {
-        "name": "Nursery Motors",
-        "articulations": {
-          "Motor (90)": {
-            "keySwitch": "0",
-            "UACC": "90"
-          },
-          "Motor (110)": {
-            "keySwitch": "1",
-            "UACC": "91"
-          },
-          "Motor Trip (90)": {
-            "keySwitch": "2",
-            "UACC": "94"
-          },
-          "Motor Trip (110)": {
-            "keySwitch": "3",
-            "UACC": "95"
-          },
-          "Motor 1/16 (90)": {
-            "keySwitch": "4",
-            "UACC": "92"
-          },
-          "Motor 1/16 (110)": {
-            "keySwitch": "5",
-            "UACC": "93"
+            "UACC": "81",
+            "keySwitch": "1"
           }
         }
       },
       "2": {
-        "name": "Callers B&W Motors",
+        "name": "Elders Classic Octet",
+        "articulations": {
+          "FX Glissando Up": {
+            "UACC": "93",
+            "keySwitch": "25"
+          },
+          "Staccato CS": {
+            "UACC": "47",
+            "keySwitch": "5"
+          },
+          "Sul Tasto": {
+            "UACC": "17",
+            "keySwitch": "13"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Marcato": {
+            "UACC": "53",
+            "keySwitch": "2"
+          },
+          "Sinister": {
+            "UACC": "113",
+            "keySwitch": "26"
+          },
+          "Pizzicato": {
+            "UACC": "56",
+            "keySwitch": "7"
+          },
+          "Sul Pont": {
+            "UACC": "18",
+            "keySwitch": "14"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "FX Bends Maj3": {
+            "UACC": "90",
+            "keySwitch": "22"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "FX Glissando Down": {
+            "UACC": "92",
+            "keySwitch": "24"
+          },
+          "Cool Legno": {
+            "UACC": "58",
+            "keySwitch": "15"
+          },
+          "Long CS": {
+            "UACC": "7",
+            "keySwitch": "11"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Malevolent": {
+            "UACC": "114",
+            "keySwitch": "27"
+          },
+          "Circular": {
+            "UACC": "8",
+            "keySwitch": "12"
+          },
+          "FX Cluster": {
+            "UACC": "91",
+            "keySwitch": "23"
+          },
+          "Long Hairpin": {
+            "UACC": "2",
+            "keySwitch": "10"
+          }
+        }
+      },
+      "3": {
+        "name": "Elders Classic Motors",
         "articulations": {
           "Motor (90)": {
-            "keySwitch": "0",
-            "UACC": "80"
+            "UACC": "82",
+            "keySwitch": "0"
+          },
+          "Motor 1/16 (110)": {
+            "UACC": "81",
+            "keySwitch": "3"
           },
           "Motor (110)": {
-            "keySwitch": "1",
-            "UACC": "81"
-          },
-          "Motor 1/16 (70)": {
-            "keySwitch": "2",
-            "UACC": "84"
-          },
-          "Motor 1/16 (90)": {
-            "keySwitch": "3",
-            "UACC": "85"
-          },
-          "Motor Trip (90)": {
-            "keySwitch": "4",
-            "UACC": "82"
+            "UACC": "83",
+            "keySwitch": "1"
           },
           "Motor Trip (110)": {
-            "keySwitch": "5",
-            "UACC": "83"
+            "UACC": "85",
+            "keySwitch": "5"
+          },
+          "Motor Trip (90)": {
+            "UACC": "84",
+            "keySwitch": "4"
+          },
+          "Motor 1/16 (90)": {
+            "UACC": "80",
+            "keySwitch": "2"
+          }
+        }
+      },
+      "4": {
+        "name": "Callers Brass & Winds",
+        "articulations": {
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "FX Glilssando Down": {
+            "UACC": "107",
+            "keySwitch": "30"
+          },
+          "FX Whispers": {
+            "UACC": "91",
+            "keySwitch": "23"
+          },
+          "FX Rip": {
+            "UACC": "100",
+            "keySwitch": "26"
+          },
+          "Long Glissando Ornament WT": {
+            "UACC": "71",
+            "keySwitch": "15"
+          },
+          "Spoken": {
+            "UACC": "8",
+            "keySwitch": "11"
+          },
+          "FX Chatter": {
+            "UACC": "92",
+            "keySwitch": "24"
+          },
+          "Marcato": {
+            "UACC": "52",
+            "keySwitch": "2"
+          },
+          "Overblown": {
+            "UACC": "9",
+            "keySwitch": "12"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "FX Glissando Up Fast": {
+            "UACC": "106",
+            "keySwitch": "29"
+          },
+          "Flutter Tongue": {
+            "UACC": "11",
+            "keySwitch": "13"
+          },
+          "FX Fall": {
+            "UACC": "101",
+            "keySwitch": "27"
+          },
+          "FX Glissando Up Slow": {
+            "UACC": "105",
+            "keySwitch": "28"
+          },
+          "Staccatissimo": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Combo": {
+            "UACC": "2",
+            "keySwitch": "10"
+          },
+          "Tremolo Scattered": {
+            "UACC": "13",
+            "keySwitch": "3"
+          },
+          "FX Key Noise": {
+            "UACC": "93",
+            "keySwitch": "25"
+          },
+          "Long Glissando Ornament HT": {
+            "UACC": "70",
+            "keySwitch": "14"
+          },
+          "FX Air": {
+            "UACC": "90",
+            "keySwitch": "22"
+          }
+        }
+      },
+      "5": {
+        "name": "Callers B&W Motors",
+        "articulations": {
+          "Motor 1/16 (70)": {
+            "UACC": "84",
+            "keySwitch": "2"
+          },
+          "Motor (90)": {
+            "UACC": "80",
+            "keySwitch": "0"
+          },
+          "Motor (110)": {
+            "UACC": "81",
+            "keySwitch": "1"
+          },
+          "Motor Trip (110)": {
+            "UACC": "83",
+            "keySwitch": "5"
+          },
+          "Motor Trip (90)": {
+            "UACC": "82",
+            "keySwitch": "4"
+          },
+          "Motor 1/16 (90)": {
+            "UACC": "85",
+            "keySwitch": "3"
+          }
+        }
+      },
+      "6": {
+        "name": "Mystics Pipes",
+        "articulations": {
+          "Long Glissando Ornament": {
+            "UACC": "75",
+            "keySwitch": "14"
+          },
+          "Trill HT": {
+            "UACC": "70",
+            "keySwitch": "8"
+          },
+          "Flicker": {
+            "UACC": "9",
+            "keySwitch": "12"
+          },
+          "Overblown": {
+            "UACC": "41",
+            "keySwitch": "13"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Legato": {
+            "UACC": "20",
+            "keySwitch": "1"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long (Combo)": {
+            "UACC": "2",
+            "keySwitch": "10"
+          },
+          "Staccatissimo": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Trill WT": {
+            "UACC": "71",
+            "keySwitch": "9"
+          },
+          "Wavering": {
+            "UACC": "8",
+            "keySwitch": "11"
+          }
+        }
+      },
+      "7": {
+        "name": "Blaggards",
+        "articulations": {
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long Glissando Ornament": {
+            "UACC": "90",
+            "keySwitch": "11"
+          },
+          "Long (Combo)": {
+            "UACC": "2",
+            "keySwitch": "10"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "8": {
+        "name": "Blaggards Bellows",
+        "articulations": {
+          "Staccatissimo": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "9": {
+        "name": "Blaggards Bellows & Strings",
+        "articulations": {
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Staccatissimo": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "10": {
+        "name": "Blaggards Drones",
+        "articulations": {
+          "Drone 1": {
+            "UACC": "91",
+            "keySwitch": "1"
+          },
+          "Drone 3": {
+            "UACC": "93",
+            "keySwitch": "3"
+          },
+          "Drone 2": {
+            "UACC": "92",
+            "keySwitch": "2"
+          },
+          "Drone 5": {
+            "UACC": "95",
+            "keySwitch": "5"
+          },
+          "Drone 4": {
+            "UACC": "94",
+            "keySwitch": "4"
+          },
+          "Drone 7": {
+            "UACC": "97",
+            "keySwitch": "7"
+          },
+          "Drone 6": {
+            "UACC": "96",
+            "keySwitch": "6"
+          },
+          "Drone Menu": {
+            "UACC": "90",
+            "keySwitch": "0"
+          },
+          "Drone 8": {
+            "UACC": "98",
+            "keySwitch": "8"
+          }
+        }
+      },
+      "11": {
+        "name": "Blaggards Hurdy Gurdy Drones",
+        "articulations": {
+          "Drone 1": {
+            "UACC": "91",
+            "keySwitch": "1"
+          },
+          "Drone 3": {
+            "UACC": "93",
+            "keySwitch": "3"
+          },
+          "Drone 2": {
+            "UACC": "92",
+            "keySwitch": "2"
+          },
+          "Drone 5": {
+            "UACC": "95",
+            "keySwitch": "5"
+          },
+          "Drone 4": {
+            "UACC": "94",
+            "keySwitch": "4"
+          },
+          "Drone 7": {
+            "UACC": "97",
+            "keySwitch": "7"
+          },
+          "Drone 6": {
+            "UACC": "96",
+            "keySwitch": "6"
+          },
+          "Drone Menu": {
+            "UACC": "90",
+            "keySwitch": "0"
+          },
+          "Drone 8": {
+            "UACC": "98",
+            "keySwitch": "8"
+          }
+        }
+      },
+      "12": {
+        "name": "Blaggards Plucked",
+        "articulations": {
+          "Tremolo": {
+            "UACC": "11",
+            "keySwitch": "3"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "10"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "13": {
+        "name": "Hosts",
+        "articulations": {
+          "Long Ah Natural": {
+            "UACC": "94",
+            "keySwitch": "6"
+          },
+          "Long Oh Natural": {
+            "UACC": "97",
+            "keySwitch": "9"
+          },
+          "Long Mm Natural": {
+            "UACC": "96",
+            "keySwitch": "8"
+          },
+          "Long Eh Natural": {
+            "UACC": "95",
+            "keySwitch": "7"
+          },
+          "Long Eh Infinite": {
+            "UACC": "91",
+            "keySwitch": "3"
+          },
+          "Long Mm Infinite": {
+            "UACC": "92",
+            "keySwitch": "4"
+          },
+          "Long Oh Infinite": {
+            "UACC": "93",
+            "keySwitch": "5"
+          },
+          "Long Ah Infinite": {
+            "UACC": "90",
+            "keySwitch": "2"
+          },
+          "Wavering": {
+            "UACC": "8",
+            "keySwitch": "0"
+          },
+          "Circular": {
+            "UACC": "9",
+            "keySwitch": "1"
+          }
+        }
+      },
+      "14": {
+        "name": "Hosts Motors & FX",
+        "articulations": {
+          "Motor (90)": {
+            "UACC": "80",
+            "keySwitch": "0"
+          },
+          "Drone": {
+            "UACC": "91",
+            "keySwitch": "3"
+          },
+          "Songbath": {
+            "UACC": "92",
+            "keySwitch": "4"
+          },
+          "Motor (110)": {
+            "UACC": "81",
+            "keySwitch": "1"
+          },
+          "Wicken Glass": {
+            "UACC": "90",
+            "keySwitch": "2"
+          }
+        }
+      },
+      "15": {
+        "name": "Generator Trio",
+        "articulations": {
+          "Overdriven Bow": {
+            "UACC": "104",
+            "keySwitch": "27"
+          },
+          "Harmonics": {
+            "UACC": "10",
+            "keySwitch": "10"
+          },
+          "Spiccato": {
+            "UACC": "42",
+            "keySwitch": "4"
+          },
+          "Tremolo Fast": {
+            "UACC": "14",
+            "keySwitch": "11"
+          },
+          "Wave": {
+            "UACC": "102",
+            "keySwitch": "26"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "Tremolo Slow": {
+            "UACC": "13",
+            "keySwitch": "3"
+          }
+        }
+      },
+      "16": {
+        "name": "Generator Trio Motors",
+        "articulations": {
+          "Motor 4th (90)": {
+            "UACC": "82",
+            "keySwitch": "0"
+          },
+          "Motor Trip Bend (90)": {
+            "UACC": "89",
+            "keySwitch": "8"
+          },
+          "Motor (90)": {
+            "UACC": "80",
+            "keySwitch": "2"
+          },
+          "Motor Trip Bend (110)": {
+            "UACC": 127,
+            "keySwitch": "9"
+          },
+          "Motor (110)": {
+            "UACC": "81",
+            "keySwitch": "3"
+          },
+          "Motor 4th (110)": {
+            "UACC": "83",
+            "keySwitch": "1"
+          },
+          "Motor Bend (90)": {
+            "UACC": "87",
+            "keySwitch": "6"
+          },
+          "Motor Trip (90)": {
+            "UACC": "85",
+            "keySwitch": "4"
+          },
+          "Motor Bend (110)": {
+            "UACC": "88",
+            "keySwitch": "7"
+          },
+          "Motor Trip (110)": {
+            "UACC": "86",
+            "keySwitch": "5"
+          }
+        }
+      },
+      "17": {
+        "name": "Gut Circle",
+        "articulations": {
+          "Tremolo Fast": {
+            "UACC": "14",
+            "keySwitch": "2"
+          },
+          "Tremolo Slow": {
+            "UACC": "13",
+            "keySwitch": "1"
+          },
+          "Scattered": {
+            "UACC": "90",
+            "keySwitch": "3"
+          },
+          "Plucked": {
+            "UACC": "1",
+            "keySwitch": "0"
+          }
+        }
+      },
+      "18": {
+        "name": "Gut Circle Motors",
+        "articulations": {
+          "Strum D (90)": {
+            "UACC": "94",
+            "keySwitch": "10"
+          },
+          "Motor (90)": {
+            "UACC": "80",
+            "keySwitch": "0"
+          },
+          "Strum D 1/16 (110)": {
+            "UACC": "97",
+            "keySwitch": "13"
+          },
+          "Motor Bend (90)": {
+            "UACC": "84",
+            "keySwitch": "4"
+          },
+          "Motor Bend (110)": {
+            "UACC": "85",
+            "keySwitch": "5"
+          },
+          "Motor Trip (110)": {
+            "UACC": "83",
+            "keySwitch": "3"
+          },
+          "Strum A (110)": {
+            "UACC": "91",
+            "keySwitch": "7"
+          },
+          "Strum A (90)": {
+            "UACC": "90",
+            "keySwitch": "6"
+          },
+          "Motor (110)": {
+            "UACC": "81",
+            "keySwitch": "1"
+          },
+          "Strum A 1/16 (90)": {
+            "UACC": "92",
+            "keySwitch": "8"
+          },
+          "Strum D (110)": {
+            "UACC": "95",
+            "keySwitch": "11"
+          },
+          "Motor Trip (90)": {
+            "UACC": "82",
+            "keySwitch": "2"
+          },
+          "Strum D 1/16 (90)": {
+            "UACC": "96",
+            "keySwitch": "12"
+          },
+          "Strum A 1/16 (110)": {
+            "UACC": "93",
+            "keySwitch": "9"
+          }
+        }
+      },
+      "19": {
+        "name": "Nursery",
+        "articulations": {
+          "FX Chatter Octaves Nt": {
+            "UACC": "91",
+            "keySwitch": "15"
+          },
+          "Bowed": {
+            "UACC": "10",
+            "keySwitch": "10"
+          },
+          "Long": {
+            "UACC": "1",
+            "keySwitch": "0"
+          },
+          "FX Chatter": {
+            "UACC": "92",
+            "keySwitch": "16"
+          },
+          "Tremolo Soft": {
+            "UACC": "13",
+            "keySwitch": "12"
+          },
+          "Tremolo Fast": {
+            "UACC": "14",
+            "keySwitch": "13"
+          },
+          "Tremolo": {
+            "UACC": "12",
+            "keySwitch": "3"
+          },
+          "FX Chatter Octaves": {
+            "UACC": "90",
+            "keySwitch": "14"
+          },
+          "Staccato": {
+            "UACC": "40",
+            "keySwitch": "5"
+          },
+          "Tremolo Bowed": {
+            "UACC": "11",
+            "keySwitch": "11"
+          }
+        }
+      },
+      "20": {
+        "name": "Nursery Motors",
+        "articulations": {
+          "Motor (90)": {
+            "UACC": "90",
+            "keySwitch": "0"
+          },
+          "Motor (110)": {
+            "UACC": "91",
+            "keySwitch": "1"
+          },
+          "Motor Trip (110)": {
+            "UACC": "95",
+            "keySwitch": "3"
+          },
+          "Motor 1/16 (110)": {
+            "UACC": "93",
+            "keySwitch": "5"
+          },
+          "Motor Trip (90)": {
+            "UACC": "94",
+            "keySwitch": "2"
+          },
+          "Motor 1/16 (90)": {
+            "UACC": "92",
+            "keySwitch": "4"
           }
         }
       }
