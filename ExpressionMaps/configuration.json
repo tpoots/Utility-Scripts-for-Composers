@@ -1,5 +1,7 @@
 {
-  "ssw": {
+  "1": {
+    "id": "ssw",
+    "name": "Spitfire Symphonic Woodwinds",
     "primaryColor": "#1E90FF",
     "secondaryColor": "#0000FF",
     "midiCC": 101,
@@ -608,7 +610,9 @@
       "31": "Trill HT"
     }
   },
-  "ssb": {
+  "2": {
+    "id": "ssb",
+    "name": "Spitfire Symphonic Brass",
     "primaryColor": "#FFCA28",
     "secondaryColor": "#FFA000",
     "midiCC": 102,
@@ -1385,7 +1389,9 @@
       "47": "FX Fanfare"
     }
   },
-  "sss": {
+  "3": {
+    "id": "sss",
+    "name": "Spitfire Symphonic Strings",
     "primaryColor": "#7FFF00",
     "secondaryColor": "#388E3C",
     "midiCC": 103,
@@ -2183,7 +2189,9 @@
       "55": "Trill Maj3"
     }
   },
-  "scs": {
+  "4": {
+    "id": "scs",
+    "name": "Spitfire Chamber Strings",
     "primaryColor": "#FFFF00",
     "secondaryColor": "#FDD835",
     "midiCC": 104,
@@ -3046,7 +3054,9 @@
       "60": "FX Disco Upwards"
     }
   },
-  "sst": {
+  "5": {
+    "id": "sst",
+    "name": "Spitfire Solo Strings",
     "primaryColor": "#00FFFF",
     "secondaryColor": "#00796B",
     "midiCC": 105,
@@ -3438,5 +3448,12 @@
       "21": "Legato",
       "31": "Trill HT"
     }
+  },
+  "6": {
+    "id": "sa7",
+    "name": "Spitfire Albion Solstice",
+    "primaryColor": "#A569BD",
+    "secondaryColor": "#5B2C6F",
+    "midiCC": 106
   }
 }

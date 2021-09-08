@@ -1,3 +1,23 @@
+// --- section setup script --- //
+var config = JSON.parse(JSON.stringify(get("configuration")))
+console.log(config)
+for (let i = 1; i <= 6; i++) {
+    var sectionConfig = config[i]
+    var sectionId = sectionConfig["id"]
+    var buttonId = "button_section_" + i
+    setVar(buttonId, "label", sectionConfig["name"])
+    setVar(buttonId, "color", sectionConfig["primaryColor"])
+}
+// clear the buttons and articulation sections since nothing is selected yet
+for (let i = 1; i <= 19; i++) {
+    setVar("button_instr_" + i, "visible", 0)
+}
+for (let i = 1; i <= 60; i++) {
+        setVar("art_" + i, "visible", 0)
+}
+// --- end section setup script --- //
+
+// --- section selector buttons --- //
 var sectionName = id.substr(15,3)
 set('section_selector_script', sectionName)
 var sectionConfig = JSON.parse(JSON.stringify(get("configuration")))[sectionName]

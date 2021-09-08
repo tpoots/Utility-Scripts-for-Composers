@@ -1,3 +1,8 @@
+app.on('open', (data, client) => {
+    console.log("Client connected...")
+    receive('/SET', 'section_setup_script', 0)
+})
+
 module.exports = {
 
     init: function(){
@@ -47,10 +52,8 @@ module.exports = {
 
     oscOutFilter:function(data){
         // Filter outgoing osc messages
-        console.log("detected outgoing osc message")
-
         var {address, args, host, port, clientId} = data
-        console.log("address: " + address + " host: " + host + " port: " + port)
+        // console.log("address: " + address + " host: " + host + " port: " + port)
 
         // same as oscInFilter
 
