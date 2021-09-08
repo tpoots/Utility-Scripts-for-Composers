@@ -151,65 +151,65 @@ from os import walk
 # }
 
 # SCS
-artMapConfig = {
-    'SFCS Violins 1 CB D.expressionmap': {'name': 'Violins 1', 'order': 0},
-    'SFCS Violins 2 CB D.expressionmap': {'name': 'Violins 2', 'order': 1},
-    'SFCS Violas CB D.expressionmap': {'name': 'Violas', 'order': 2},
-    'SFCS Celli CB D.expressionmap': {'name': 'Celli', 'order': 3},
-    'SFCS Basses CB D.expressionmap': {'name': 'Basses', 'order': 4},
-    'SFCS Ensembles CB D.expressionmap': {'name': 'Ensembles', 'order': 5},
-}
+# artMapConfig = {
+#     'SFCS Violins 1 CB D.expressionmap': {'name': 'Violins 1', 'order': 0},
+#     'SFCS Violins 2 CB D.expressionmap': {'name': 'Violins 2', 'order': 1},
+#     'SFCS Violas CB D.expressionmap': {'name': 'Violas', 'order': 2},
+#     'SFCS Celli CB D.expressionmap': {'name': 'Celli', 'order': 3},
+#     'SFCS Basses CB D.expressionmap': {'name': 'Basses', 'order': 4},
+#     'SFCS Ensembles CB D.expressionmap': {'name': 'Ensembles', 'order': 5},
+# }
 
-artButtonConfig = {
-   1: 'Long',
-   2: 'Long Flautando',
-   3: 'Long Sul Pont',
-   4: 'Long CS',
-   5: 'Long CS Sul Pont',
-   6: 'Long Sul Pont Dist',
-   7: 'Long Sul Tasto',
-   8: 'Long Sul G',
-   9: 'Long Sul C',
-   10: 'Harmonics',
-   11: 'Tremolo',
-   12: 'Tremolo 150Bpm',
-   13: 'Tremolo 180Bpm',
-   14: 'Tremolo CS',
-   15: 'Tremolo Sul Pont',
-   16: 'Tremolo CS Sul Pont',
-   21: 'Staccato',
-   22: 'Spiccato',
-   23: 'Marcato',
-   24: 'Pizzicato',
-   25: 'Pizzicato Bartok',
-   26: 'Col Legno',
-   27: 'Short CS',
-   28: 'Staccato Dig',
-   29: 'Spiccato Feathered',
-   31: 'Legato',
-   32: 'Legato CS',
-   33: 'Legato Fast',
-   34: 'Legato Flautando',
-   35: 'Legato Portamento',
-   36: 'Legato Sul Pont',
-   37: 'Legato Tremolo',
-   38: 'Legato Runs',
-   39: 'Legato Bowed',
-   40: 'Legato Sul G',
-   41: 'Legato Sul C',
-   42: 'Legato CS Port',
-   43: 'Legato Flautando Port',
-   51: 'Trill HT',
-   52: 'Trill WT',
-   53: 'Trill Min3',
-   54: 'Trill Perf4',
-   55: 'FX',
-   56: 'FX Run',
-   57: 'FX Slides',
-   58: 'FX Tense Longer',
-   59: 'FX Disco Fall',
-   60: 'FX Disco Upwards'
-}
+# artButtonConfig = {
+#    1: 'Long',
+#    2: 'Long Flautando',
+#    3: 'Long Sul Pont',
+#    4: 'Long CS',
+#    5: 'Long CS Sul Pont',
+#    6: 'Long Sul Pont Dist',
+#    7: 'Long Sul Tasto',
+#    8: 'Long Sul G',
+#    9: 'Long Sul C',
+#    10: 'Harmonics',
+#    11: 'Tremolo',
+#    12: 'Tremolo 150Bpm',
+#    13: 'Tremolo 180Bpm',
+#    14: 'Tremolo CS',
+#    15: 'Tremolo Sul Pont',
+#    16: 'Tremolo CS Sul Pont',
+#    21: 'Staccato',
+#    22: 'Spiccato',
+#    23: 'Marcato',
+#    24: 'Pizzicato',
+#    25: 'Pizzicato Bartok',
+#    26: 'Col Legno',
+#    27: 'Short CS',
+#    28: 'Staccato Dig',
+#    29: 'Spiccato Feathered',
+#    31: 'Legato',
+#    32: 'Legato CS',
+#    33: 'Legato Fast',
+#    34: 'Legato Flautando',
+#    35: 'Legato Portamento',
+#    36: 'Legato Sul Pont',
+#    37: 'Legato Tremolo',
+#    38: 'Legato Runs',
+#    39: 'Legato Bowed',
+#    40: 'Legato Sul G',
+#    41: 'Legato Sul C',
+#    42: 'Legato CS Port',
+#    43: 'Legato Flautando Port',
+#    51: 'Trill HT',
+#    52: 'Trill WT',
+#    53: 'Trill Min3',
+#    54: 'Trill Perf4',
+#    55: 'FX',
+#    56: 'FX Run',
+#    57: 'FX Slides',
+#    58: 'FX Tense Longer',
+#    59: 'FX Disco Fall',
+#    60: 'FX Disco Upwards'
+# }
 
 # Solo Strings
 # artMapConfig = {
@@ -242,6 +242,35 @@ artButtonConfig = {
 #     32: 'Trill WT',
 # }
 
+# Albion Solstice
+artMapConfig = {
+    'SA7\SFA7 a - BLAG  - Main Techniques D.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 a - Generator Trio CB D.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 a - Generator Trio Motors CB D.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 a - GUT - Main Techniques D ~ -SL.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 a - HOST - Main Techniques D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 a - NURS - Main techniques D.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 a - The Elders Strings Classic Octet CB Direction - No Motors.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 a - The Elders Strings Classic Octet Motors CB Direction.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 b - BLAG  - Drones D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 b - GUT - Motors D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 b - HOST - Motors+Effects D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 b - The Elders Strings Traditional Sextet CB Direction - No Mtr.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 b - The Elders Strings Traditional Sextet Motors CB Direction.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 b- NURS - Motors D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 c - BLAG  - Drones Hurdy Gurdy D ~.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 d - BLAG - Bellows+Strings D.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 e - BLAG - Bellows D.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 f - BLAG - Plucked D.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 The Callers Brass+Winds CB D - No Motors.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 The Callers Brass+Winds Motors CB D.expressionmap': {'name': 'Ensembles', 'order': 5},
+    'SA7\SFA7 The Mystics Pipes D.expressionmap': {'name': 'Ensembles', 'order': 5}
+}
+
+artButtonConfig = {
+
+}
+
 allExpressionMaps = []
 for (dirpath, dirnames, filenames) in walk(sys.argv[1]):
     for file in filenames:
@@ -269,15 +298,17 @@ for expressionMap in allExpressionMaps:
             # print('uacc: ' + uacc)
             # print('------------')
             # print(instrumentArtMapName + ',' + articulation + ',' + keySwitch + ',' + uacc)
-            if (instrumentArtMapName.find('CB D') >= 0):
-                config = artMapConfig.get(instrumentArtMapName)
-                instrumentIndex = config.get("order")
-                instrumentName = config.get("name")
-                if (not instrumentIndex in articulationMap["instruments"].keys()):
-                    articulationMap["instruments"][instrumentIndex] = {}
-                    articulationMap["instruments"][instrumentIndex].update({"name": instrumentName, "articulations": {}})
-                    # update the list of all articulations as well so we have a full list for the section
-                articulationMap["instruments"][instrumentIndex]["articulations"].update({articulation: {'keySwitch': keySwitch, 'UACC': uacc}})
+
+ #           if (instrumentArtMapName.find('CB D') >= 0):
+            config = artMapConfig.get(instrumentArtMapName)
+            print("found articulation map: " + instrumentArtMapName)
+            instrumentIndex = config.get("order")
+            instrumentName = config.get("name")
+            if (not instrumentIndex in articulationMap["instruments"].keys()):
+                articulationMap["instruments"][instrumentIndex] = {}
+                articulationMap["instruments"][instrumentIndex].update({"name": instrumentName, "articulations": {}})
+                # update the list of all articulations as well so we have a full list for the section
+            articulationMap["instruments"][instrumentIndex]["articulations"].update({articulation: {'keySwitch': keySwitch, 'UACC': uacc}})
 
 # Serializing json
 json_object = json.dumps(articulationMap, indent=4)
