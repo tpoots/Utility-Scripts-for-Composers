@@ -26,22 +26,8 @@ module.exports = {
             var pressure = args[2].value
             var buttonId = "button_instr_" + note
             // use channel information to select the correct instruments
-            if (channel == 1) {
-                // woodwinds section
-                receive('/SET', 'section_selector_script', 'ssw')
-            } else if (channel == 2) {
-                // brass section
-                receive('/SET', 'section_selector_script', 'ssb')
-            } else if (channel == 3) {
-                // symphonic strings section
-                receive('/SET', 'section_selector_script', 'sss')
-            } else if (channel == 4) {
-                // chamber strings section
-                receive('/SET', 'section_selector_script', 'scs')
-            } else if (channel == 5) {
-                // solo strings section
-                receive('/SET', 'section_selector_script', 'sst')
-            }
+            receive('/SET', 'section_selector_script', channel)
+            // select the button corresponding to the section
             receive('/SET', buttonId, 1)
             return
         }
