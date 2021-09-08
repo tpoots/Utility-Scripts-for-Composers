@@ -71,7 +71,6 @@ for (let i = 1; i <= 25; i++) {
 // --- instrument selector buttons --- //
 set("button_instr_*", 0, {sync:false, send:false})
 var buttonIndex = id.substr(13,2)-1
-var myInstrumentName = getProp("this", "label")
 var section = get("selectedSection")
 var sectionConfig = JSON.parse(JSON.stringify(get("configuration")))[section]
 var primaryColor = sectionConfig["primaryColor"]
@@ -79,7 +78,20 @@ var articulations = sectionConfig["instruments"][buttonIndex]["articulations"]
 var articulationConfig = sectionConfig["articulationConfig"]
 if (get(id) === 1) {
     if (articulationConfig == "perInstrument") {
-
+        // clear all articulation buttons first
+        for (let i = 1; i <= 60; i++) {
+            setVar("art_" + i, "visible", 0)
+        }
+        var index = 1
+        for (var art in articulations) {
+            var buttonId = "art_" + index
+            setVar(buttonId, "label", art)
+            setVar(buttonId, "color", primaryColor)
+            setVar(buttonId, "enabled", 1)
+            setVar(buttonId, "keyswitch", articulations[art])
+            setVar(buttonId, "visible", 1)
+            index += 1
+         }
     } else {
         set("art_*", 0, {sync:false, send:false}) // deselect all articulation buttons
         for (let i = 0; i < 60; i++) {
@@ -98,12 +110,18 @@ if (get(id) === 1) {
         }
     }
 } else {
-    set("art_*", 0, {sync:false, send:false}) // deselect all articulation buttons
-    for (let i = 0; i < 60; i++) {
-        var buttonId = "art_" + i
-        setVar(buttonId, "color", "#C0C0C0")
-        setVar(buttonId, "enabled", 0)
-        setVar(buttonId, "keyswitch", 0)
+    if (articulationConfig == "perInstrument") {
+        for (let i = 1; i <= 60; i++) {
+            setVar("art_" + i, "visible", 0)
+        }
+    } else {
+        set("art_*", 0, {sync:false, send:false}) // deselect all visible articulation buttons
+        for (let i = 0; i < 60; i++) {
+            var buttonId = "art_" + i
+            setVar(buttonId, "color", "#C0C0C0")
+            setVar(buttonId, "enabled", 0)
+            setVar(buttonId, "keyswitch", 0)
+        }
     }
 }
 // --- end instrument selector buttons --- //
