@@ -1,7 +1,7 @@
 // --- section setup script --- //
 var config = JSON.parse(JSON.stringify(get("configuration")))
 console.log(config)
-for (let i = 1; i <= 6; i++) {
+for (let i = 1; i <= 7; i++) {
     var sectionConfig = config[i]
     var sectionId = sectionConfig["id"]
     var buttonId = "button_section_" + i

@@ -3457,8 +3457,8 @@
   "6": {
     "id": "sa1",
     "name": "Spitfire Albion One",
-    "primaryColor": "#A569BD",
-    "secondaryColor": "#5B2C6F",
+    "primaryColor": "#28B463",
+    "secondaryColor": "#196F3D",
     "midiCC": 106,
     "articulationConfig": "perInstrument",
     "instruments": {
