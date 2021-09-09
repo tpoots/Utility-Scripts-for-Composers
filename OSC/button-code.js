@@ -88,7 +88,7 @@ if (get(id) === 1) {
             setVar(buttonId, "label", art)
             setVar(buttonId, "color", primaryColor)
             setVar(buttonId, "enabled", 1)
-            setVar(buttonId, "keyswitch", articulations[art])
+            setVar(buttonId, "keyswitch", articulations[art]["keySwitch"])
             setVar(buttonId, "visible", 1)
             index += 1
          }

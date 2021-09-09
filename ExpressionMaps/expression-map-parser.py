@@ -306,6 +306,18 @@ artMapConfig = {
     'SFA7 b- NURS - Motors D ~.expressionmap': {'name': 'Nursery Motors', 'order': 20}
 }
 
+# artMapConfig = {
+#     'SFA1 Wood High CB D.expressionmap': {'name': 'Woods High', 'order': 0},
+#     'SFA1 Wood Low CB D.expressionmap': {'name': 'Woods Low', 'order': 1},
+#     'SFA1 Brass High CB D.expressionmap': {'name': 'Brass High', 'order': 2},
+#     'SFA1 Brass Mid CB D.expressionmap': {'name': 'Brass Mid', 'order': 3},
+#     'SFA1 Brass Low CB D.expressionmap': {'name': 'Brass Low', 'order': 4},
+#     'SFA1 Strings CB D.expressionmap': {'name': 'Strings', 'order': 5},
+#     'SFA1 Strings CS legato D.expressionmap': {'name': 'Strings CS Legato', 'order': 6},
+#     'SFA1 Strings High Runs D ~.expressionmap': {'name': 'Strings High Runs', 'order': 7},
+#     'SFA1 Strings Low Runs D ~.expressionmap': {'name': 'Strings Low Runs', 'order': 8}
+# }
+
 artButtonConfig = {
 
 }
