@@ -3805,7 +3805,7 @@
     "midiCC": 107,
     "articulationConfig": "perInstrument",
     "instruments": {
-      "7": {
+      "8": {
         "name": "Blaggards",
         "articulations": {
           "Long": {
@@ -3834,7 +3834,7 @@
           }
         }
       },
-      "15": {
+      "16": {
         "name": "Generator Trio",
         "articulations": {
           "Long": {
@@ -3871,7 +3871,7 @@
           }
         }
       },
-      "16": {
+      "17": {
         "name": "Generator Trio Motors",
         "articulations": {
           "Motor 4th (90)": {
@@ -3916,7 +3916,7 @@
           }
         }
       },
-      "17": {
+      "18": {
         "name": "Gut Circle",
         "articulations": {
           "Plucked": {
@@ -3937,7 +3937,7 @@
           }
         }
       },
-      "13": {
+      "14": {
         "name": "Hosts",
         "articulations": {
           "Long Ah Infinite": {
@@ -3982,7 +3982,7 @@
           }
         }
       },
-      "19": {
+      "20": {
         "name": "Nursery",
         "articulations": {
           "Long": {
@@ -4038,7 +4038,7 @@
             "keySwitch": "12",
             "UACC": "8"
           },
-          "Cool Legno": {
+          "Col Legno": {
             "keySwitch": "15",
             "UACC": "58"
           },
@@ -4141,7 +4141,7 @@
           }
         }
       },
-      "10": {
+      "11": {
         "name": "Blaggards Drones",
         "articulations": {
           "Drone Menu": {
@@ -4182,7 +4182,7 @@
           }
         }
       },
-      "18": {
+      "19": {
         "name": "Gut Circle Motors",
         "articulations": {
           "Motor (110)": {
@@ -4243,7 +4243,7 @@
           }
         }
       },
-      "14": {
+      "15": {
         "name": "Hosts Motors & FX",
         "articulations": {
           "Drone": {
@@ -4394,7 +4394,7 @@
           }
         }
       },
-      "20": {
+      "21": {
         "name": "Nursery Motors",
         "articulations": {
           "Motor (90)": {
@@ -4423,7 +4423,7 @@
           }
         }
       },
-      "11": {
+      "12": {
         "name": "Blaggards Hurdy Gurdy Drones",
         "articulations": {
           "Drone Menu": {
@@ -4464,7 +4464,52 @@
           }
         }
       },
-      "9": {
+      "4": {
+        "name": "Elders Bass",
+        "articulations": {
+          "Long": {
+            "keySwitch": "0",
+            "UACC": "1"
+          },
+          "Col Legno": {
+            "keySwitch": "15",
+            "UACC": "58"
+          },
+          "Harmonic": {
+            "keySwitch": "11",
+            "UACC": "10"
+          },
+          "Legato": {
+            "keySwitch": "1",
+            "UACC": "20"
+          },
+          "Pizzicato": {
+            "keySwitch": "7",
+            "UACC": "56"
+          },
+          "Pizzicato Bartok": {
+            "keySwitch": "14",
+            "UACC": "57"
+          },
+          "Rosin": {
+            "keySwitch": "10",
+            "UACC": "8"
+          },
+          "Staccato": {
+            "keySwitch": "5",
+            "UACC": "40"
+          },
+          "Sul Pont": {
+            "keySwitch": "13",
+            "UACC": "18"
+          },
+          "Sul Tasto": {
+            "keySwitch": "12",
+            "UACC": "17"
+          }
+        }
+      },
+      "10": {
         "name": "Blaggards Bellows & Strings",
         "articulations": {
           "Long": {
@@ -4485,7 +4530,7 @@
           }
         }
       },
-      "8": {
+      "9": {
         "name": "Blaggards Bellows",
         "articulations": {
           "Long": {
@@ -4498,7 +4543,7 @@
           }
         }
       },
-      "12": {
+      "13": {
         "name": "Blaggards Plucked",
         "articulations": {
           "Long": {
@@ -4515,7 +4560,7 @@
           }
         }
       },
-      "4": {
+      "5": {
         "name": "Callers Brass & Winds",
         "articulations": {
           "Long": {
@@ -4600,7 +4645,7 @@
           }
         }
       },
-      "5": {
+      "6": {
         "name": "Callers B&W Motors",
         "articulations": {
           "Motor (90)": {
@@ -4629,7 +4674,7 @@
           }
         }
       },
-      "6": {
+      "7": {
         "name": "Mystics Pipes",
         "articulations": {
           "Long": {
@@ -4675,6 +4720,265 @@
           "Wavering": {
             "keySwitch": "11",
             "UACC": "8"
+          }
+        }
+      }
+    }
+  },
+  "8": {
+    "id": "ar1",
+    "name": "Abbey Road One",
+    "primaryColor": "#E74C3C",
+    "secondaryColor": "#B03A2E",
+    "midiCC": 108,
+    "articulationsConfig": "library",
+    "articulations": {
+      "1": "Long",
+      "2": "Long CS",
+      "3": "Tremolo",
+      "11": "Marcato",
+      "12": "Staccato",
+      "13": "Staccatissimo",
+      "14": "Spiccato",
+      "15": "Tenuto",
+      "21": "Swell Shorter",
+      "22": "Swell Med",
+      "23": "Swell Longer"
+    },
+    "instruments": {
+      "5": {
+        "name": "High Strings",
+        "articulations": {
+          "Long": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Long CS": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Pizzicato": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Spiccato": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Tremolo": {
+            "keySwitch": "3",
+            "UACC": "120"
+          }
+        }
+      },
+      "0": {
+        "name": "High Woods",
+        "articulations": {
+          "Long": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Marcato": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Staccatissimo": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Swell Longer": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Swell Med": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Swell Shorter": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Tenuto": {
+            "keySwitch": "6",
+            "UACC": "120"
+          }
+        }
+      },
+      "2": {
+        "name": "Horns",
+        "articulations": {
+          "Long": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Marcato": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Staccatissimo": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Swell Longer": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Swell Med": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Swell Shorter": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Tenuto": {
+            "keySwitch": "6",
+            "UACC": "120"
+          }
+        }
+      },
+      "4": {
+        "name": "Low Brass",
+        "articulations": {
+          "Long": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Marcato": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Staccatissimo": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Swell Longer": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Swell Med": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Swell Shorter": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Tenuto": {
+            "keySwitch": "6",
+            "UACC": "120"
+          }
+        }
+      },
+      "6": {
+        "name": "Low Strings",
+        "articulations": {
+          "Long": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Long CS": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Pizzicato": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Spiccato": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Tremolo": {
+            "keySwitch": "3",
+            "UACC": "120"
+          }
+        }
+      },
+      "1": {
+        "name": "Low Woods",
+        "articulations": {
+          "Long": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Marcato": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Staccatissimo": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Swell Longer": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Swell Med": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Swell Shorter": {
+            "keySwitch": "10",
+            "UACC": "120"
+          }
+        }
+      },
+      "7": {
+        "name": "Orchestra",
+        "articulations": {
+          "Long": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Staccato": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Swell Longer": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Swell Med": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Swell Shorter": {
+            "keySwitch": "10",
+            "UACC": "120"
+          }
+        }
+      },
+      "3": {
+        "name": "Trumpets",
+        "articulations": {
+          "Long": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Marcato": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Staccatissimo": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Swell Longer": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Swell Med": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Swell Shorter": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Tenuto": {
+            "keySwitch": "6",
+            "UACC": "120"
           }
         }
       }

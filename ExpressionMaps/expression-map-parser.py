@@ -282,30 +282,32 @@ from os import walk
 # }
 
 # Albion Solstice
-artMapConfig = {
-    'SFA7 b - The Elders Strings Traditional Sextet CB Direction - No Mtr.expressionmap': {'name': 'Elders Trad Sextet', 'order': 0},
-    'SFA7 b - The Elders Strings Traditional Sextet Motors CB Direction.expressionmap': {'name': 'Elders Trad Motors', 'order': 1},
-    'SFA7 a - The Elders Strings Classic Octet CB Direction - No Motors.expressionmap': {'name': 'Elders Classic Octet', 'order': 2},
-    'SFA7 a - The Elders Strings Classic Octet Motors CB Direction.expressionmap': {'name': 'Elders Classic Motors', 'order': 3},
-    'SFA7 The Callers Brass+Winds CB D - No Motors.expressionmap': {'name': 'Callers Brass & Winds', 'order': 4},
-    'SFA7 The Callers Brass+Winds Motors CB D.expressionmap': {'name': 'Callers B&W Motors', 'order': 5},
-    'SFA7 The Mystics Pipes D.expressionmap': {'name': 'Mystics Pipes', 'order': 6},
-    'SFA7 a - BLAG  - Main Techniques D.expressionmap': {'name': 'Blaggards', 'order': 7},
-    'SFA7 e - BLAG - Bellows D.expressionmap': {'name': 'Blaggards Bellows', 'order': 8},
-    'SFA7 d - BLAG - Bellows+Strings D.expressionmap': {'name': 'Blaggards Bellows & Strings', 'order': 9},
-    'SFA7 b - BLAG  - Drones D ~.expressionmap': {'name': 'Blaggards Drones', 'order': 10},
-    'SFA7 c - BLAG  - Drones Hurdy Gurdy D ~.expressionmap': {'name': 'Blaggards Hurdy Gurdy Drones', 'order': 11},
-    'SFA7 f - BLAG - Plucked D.expressionmap': {'name': 'Blaggards Plucked', 'order': 12},
-    'SFA7 a - HOST - Main Techniques D ~.expressionmap': {'name': 'Hosts', 'order': 13},
-    'SFA7 b - HOST - Motors+Effects D ~.expressionmap': {'name': 'Hosts Motors & FX', 'order': 14},
-    'SFA7 a - Generator Trio CB D.expressionmap': {'name': 'Generator Trio', 'order': 15},
-    'SFA7 a - Generator Trio Motors CB D.expressionmap': {'name': 'Generator Trio Motors', 'order': 16},
-    'SFA7 a - GUT - Main Techniques D ~ -SL.expressionmap': {'name': 'Gut Circle', 'order': 17},
-    'SFA7 b - GUT - Motors D ~.expressionmap': {'name': 'Gut Circle Motors', 'order': 18},
-    'SFA7 a - NURS - Main techniques D.expressionmap': {'name': 'Nursery', 'order': 19},
-    'SFA7 b- NURS - Motors D ~.expressionmap': {'name': 'Nursery Motors', 'order': 20}
-}
+# artMapConfig = {
+#     'SFA7 b - The Elders Strings Traditional Sextet CB Direction - No Mtr.expressionmap': {'name': 'Elders Trad Sextet', 'order': 0},
+#     'SFA7 b - The Elders Strings Traditional Sextet Motors CB Direction.expressionmap': {'name': 'Elders Trad Motors', 'order': 1},
+#     'SFA7 a - The Elders Strings Classic Octet CB Direction - No Motors.expressionmap': {'name': 'Elders Classic Octet', 'order': 2},
+#     'SFA7 a - The Elders Strings Classic Octet Motors CB Direction.expressionmap': {'name': 'Elders Classic Motors', 'order': 3},
+#     'SFA7 c - The Elders Strings Bass D.expressionmap': {'name': 'Elders Bass', 'order': 4},
+#     'SFA7 The Callers Brass+Winds CB D - No Motors.expressionmap': {'name': 'Callers Brass & Winds', 'order': 5},
+#     'SFA7 The Callers Brass+Winds Motors CB D.expressionmap': {'name': 'Callers B&W Motors', 'order': 6},
+#     'SFA7 The Mystics Pipes D.expressionmap': {'name': 'Mystics Pipes', 'order': 7},
+#     'SFA7 a - BLAG  - Main Techniques D.expressionmap': {'name': 'Blaggards', 'order': 8},
+#     'SFA7 e - BLAG - Bellows D.expressionmap': {'name': 'Blaggards Bellows', 'order': 9},
+#     'SFA7 d - BLAG - Bellows+Strings D.expressionmap': {'name': 'Blaggards Bellows & Strings', 'order': 10},
+#     'SFA7 b - BLAG  - Drones D ~.expressionmap': {'name': 'Blaggards Drones', 'order': 11},
+#     'SFA7 c - BLAG  - Drones Hurdy Gurdy D ~.expressionmap': {'name': 'Blaggards Hurdy Gurdy Drones', 'order': 12},
+#     'SFA7 f - BLAG - Plucked D.expressionmap': {'name': 'Blaggards Plucked', 'order': 13},
+#     'SFA7 a - HOST - Main Techniques D ~.expressionmap': {'name': 'Hosts', 'order': 14},
+#     'SFA7 b - HOST - Motors+Effects D ~.expressionmap': {'name': 'Hosts Motors & FX', 'order': 15},
+#     'SFA7 a - Generator Trio CB D.expressionmap': {'name': 'Generator Trio', 'order': 16},
+#     'SFA7 a - Generator Trio Motors CB D.expressionmap': {'name': 'Generator Trio Motors', 'order': 17},
+#     'SFA7 a - GUT - Main Techniques D ~ -SL.expressionmap': {'name': 'Gut Circle', 'order': 18},
+#     'SFA7 b - GUT - Motors D ~.expressionmap': {'name': 'Gut Circle Motors', 'order': 19},
+#     'SFA7 a - NURS - Main techniques D.expressionmap': {'name': 'Nursery', 'order': 20},
+#     'SFA7 b- NURS - Motors D ~.expressionmap': {'name': 'Nursery Motors', 'order': 21}
+# }
 
+# Albion One
 # artMapConfig = {
 #     'SFA1 Wood High CB D.expressionmap': {'name': 'Woods High', 'order': 0},
 #     'SFA1 Wood Low CB D.expressionmap': {'name': 'Woods Low', 'order': 1},
@@ -318,8 +320,30 @@ artMapConfig = {
 #     'SFA1 Strings Low Runs D ~.expressionmap': {'name': 'Strings Low Runs', 'order': 8}
 # }
 
-artButtonConfig = {
+# Abbey Road Orchestral Foundations
+artMapConfig = {
+    'SFARF High Woods D.expressionmap': {'name': 'High Woods', 'order': 0},
+    'SFARF Low Woods D.expressionmap': {'name': 'Low Woods', 'order': 1},
+    'SFARF Horns D.expressionmap': {'name': 'Horns', 'order': 2},
+    'SFARF Trumpets D.expressionmap': {'name': 'Trumpets', 'order': 3},
+    'SFARF Low Brass D.expressionmap': {'name': 'Low Brass', 'order': 4},
+    'SFARF High Strings D.expressionmap': {'name': 'High Strings', 'order': 5},
+    'SFARF Low Strings D.expressionmap': {'name': 'Low Strings', 'order': 6},
+    'SFARF Orchestra D.expressionmap': {'name': 'Orchestra', 'order': 7}
+}
 
+artButtonConfig = {
+    1: 'Long',
+    2: 'Long CS',
+    3: 'Tremolo',
+    11: 'Marcato',
+    12: 'Staccato',
+    13: 'Staccatissimo',
+    14: 'Spiccato',
+    15: 'Tenuto',
+    21: 'Swell Shorter',
+    22: 'Swell Med',
+    23: 'Swell Longer'
 }
 
 allExpressionMaps = []

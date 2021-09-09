@@ -1,7 +1,7 @@
 // --- section setup script --- //
 var config = JSON.parse(JSON.stringify(get("configuration")))
 console.log(config)
-for (let i = 1; i <= 7; i++) {
+for (let i = 1; i <= 8; i++) {
     var sectionConfig = config[i]
     var sectionId = sectionConfig["id"]
     var buttonId = "button_section_" + i
@@ -28,7 +28,9 @@ send("midi:ControlToCubase", "/control", 6, cc, 100)
 
 // --- section selector script --- //
 var sectionId = value
+console.log("Section selector got value " + value)
 var sectionConfig = JSON.parse(JSON.stringify(get("configuration")))[sectionId]
+console.log(sectionConfig)
 var instruments = sectionConfig["instruments"]
 var articulations = sectionConfig["articulations"]
 var primaryColor = sectionConfig["primaryColor"]
