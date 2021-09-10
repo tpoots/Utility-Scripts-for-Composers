@@ -321,29 +321,49 @@ from os import walk
 # }
 
 # Abbey Road Orchestral Foundations
+# artMapConfig = {
+#     'SFARF High Woods D.expressionmap': {'name': 'High Woods', 'order': 0},
+#     'SFARF Low Woods D.expressionmap': {'name': 'Low Woods', 'order': 1},
+#     'SFARF Horns D.expressionmap': {'name': 'Horns', 'order': 2},
+#     'SFARF Trumpets D.expressionmap': {'name': 'Trumpets', 'order': 3},
+#     'SFARF Low Brass D.expressionmap': {'name': 'Low Brass', 'order': 4},
+#     'SFARF High Strings D.expressionmap': {'name': 'High Strings', 'order': 5},
+#     'SFARF Low Strings D.expressionmap': {'name': 'Low Strings', 'order': 6},
+#     'SFARF Orchestra D.expressionmap': {'name': 'Orchestra', 'order': 7}
+# }
+#
+# artButtonConfig = {
+#     1: 'Long',
+#     2: 'Long CS',
+#     3: 'Tremolo',
+#     11: 'Marcato',
+#     12: 'Staccato',
+#     13: 'Staccatissimo',
+#     14: 'Spiccato',
+#     15: 'Tenuto',
+#     21: 'Swell Shorter',
+#     22: 'Swell Med',
+#     23: 'Swell Longer'
+# }
+
+# Eric Whitacre Choir
 artMapConfig = {
-    'SFARF High Woods D.expressionmap': {'name': 'High Woods', 'order': 0},
-    'SFARF Low Woods D.expressionmap': {'name': 'Low Woods', 'order': 1},
-    'SFARF Horns D.expressionmap': {'name': 'Horns', 'order': 2},
-    'SFARF Trumpets D.expressionmap': {'name': 'Trumpets', 'order': 3},
-    'SFARF Low Brass D.expressionmap': {'name': 'Low Brass', 'order': 4},
-    'SFARF High Strings D.expressionmap': {'name': 'High Strings', 'order': 5},
-    'SFARF Low Strings D.expressionmap': {'name': 'Low Strings', 'order': 6},
-    'SFARF Orchestra D.expressionmap': {'name': 'Orchestra', 'order': 7}
+    'SFEWC Soprano All In One D ~.expressionmap': {'name': 'Sopranos', 'order': 0},
+    'SFEWC Alto All In One D ~.expressionmap': {'name': 'Altos', 'order': 1},
+    'SFEWC Tenor All In One D ~.expressionmap': {'name': 'Tenors', 'order': 2},
+    'SFEWC Bass All In One D ~.expressionmap': {'name': 'Basses', 'order': 3},
+    'SFEWC Tutti All In One D ~.expressionmap': {'name': 'Tutti', 'order': 4},
+
+    'SFEWC Tutti All Evolutions Simple D ~.expressionmap': {'name': 'Tutti Evos Simple', 'order': 5},
+    'SFEWC Tutti All Evolutions Rhythmic D ~.expressionmap': {'name': 'Tutti Evos Rhythmic', 'order': 6},
+    'SFEWC Tutti All Evolutions Clashes D ~.expressionmap': {'name': 'Tutti Evos Clashes', 'order': 7},
+    'SFEWC Tutti All Evolutions Dynamic D ~.expressionmap': {'name': 'Tutti Evos Dynamic', 'order': 8},
+    'SFEWC Tutti All Evolutions Special D ~.expressionmap': {'name': 'Tutti Evos Special', 'order': 9}
+
 }
 
 artButtonConfig = {
-    1: 'Long',
-    2: 'Long CS',
-    3: 'Tremolo',
-    11: 'Marcato',
-    12: 'Staccato',
-    13: 'Staccatissimo',
-    14: 'Spiccato',
-    15: 'Tenuto',
-    21: 'Swell Shorter',
-    22: 'Swell Med',
-    23: 'Swell Longer'
+
 }
 
 allExpressionMaps = []
@@ -377,12 +397,14 @@ for expressionMap in allExpressionMaps:
                 uacc = articulationElement.find(".//obj[@class='PSlotMidiAction']/member[@name='midiMessages']//obj[@class='POutputEvent']/int[@name='data2']").get('value')
                 # print('uacc: ' + uacc)
 
+            # --- CSV output ---
+            # print(instrumentArtMapName + ',' + str(articulation) + ',' + str(keySwitch) + ',' + str(uacc))
+            # --- CSV Output ---
+
             #if (instrumentArtMapName.find('Motor') >= 0 and instrumentArtMapName.find('No Motor') == -1):
             config = artMapConfig.get(instrumentArtMapName)
             instrumentIndex = config.get("order")
             instrumentName = config.get("name")
-#                if (instrumentName.find('Motor') >= 0):
-#                    print(instrumentName + ',' + str(articulation) + ',' + str(keySwitch) + ',' + str(uacc))
             if (not instrumentIndex in articulationMap["instruments"].keys()):
                 articulationMap["instruments"][instrumentIndex] = {}
                 articulationMap["instruments"][instrumentIndex].update({"name": instrumentName, "articulations": {}})

@@ -1,7 +1,7 @@
 // --- section setup script --- //
 var config = JSON.parse(JSON.stringify(get("configuration")))
-console.log(config)
-for (let i = 1; i <= 8; i++) {
+for (var i in config) {
+    console.log(i)
     var sectionConfig = config[i]
     var sectionId = sectionConfig["id"]
     var buttonId = "button_section_" + i
@@ -76,6 +76,7 @@ var buttonIndex = id.substr(13,2)-1
 var section = get("selectedSection")
 var sectionConfig = JSON.parse(JSON.stringify(get("configuration")))[section]
 var primaryColor = sectionConfig["primaryColor"]
+console.log(section)
 var articulations = sectionConfig["instruments"][buttonIndex]["articulations"]
 var articulationConfig = sectionConfig["articulationConfig"]
 if (get(id) === 1) {
@@ -96,7 +97,7 @@ if (get(id) === 1) {
          }
     } else {
         set("art_*", 0, {sync:false, send:false}) // deselect all articulation buttons
-        for (let i = 0; i < 60; i++) {
+        for (let i = 1; i <= 60; i++) {
             var buttonId = "art_" + i
             var buttonLabel = getVar(buttonId, "label")
             if (typeof articulations[buttonLabel] !== "undefined") {
@@ -118,7 +119,7 @@ if (get(id) === 1) {
         }
     } else {
         set("art_*", 0, {sync:false, send:false}) // deselect all visible articulation buttons
-        for (let i = 0; i < 60; i++) {
+        for (let i = 1; i <= 60; i++) {
             var buttonId = "art_" + i
             setVar(buttonId, "color", "#C0C0C0")
             setVar(buttonId, "enabled", 0)

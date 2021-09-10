@@ -614,7 +614,7 @@
   "2": {
     "id": "ssb",
     "name": "Spitfire Symphonic Brass",
-    "primaryColor": "#FFCA28",
+    "primaryColor": "#FFA726",
     "secondaryColor": "#FFA000",
     "midiCC": 102,
     "articulationConfig": "library",
@@ -3061,8 +3061,8 @@
   "5": {
     "id": "sst",
     "name": "Spitfire Solo Strings",
-    "primaryColor": "#00FFFF",
-    "secondaryColor": "#00796B",
+    "primaryColor": "#28B463",
+    "secondaryColor": "#196F3D",
     "midiCC": 105,
     "articulationConfig": "library",
     "instruments": {
@@ -3457,8 +3457,8 @@
   "6": {
     "id": "sa1",
     "name": "Spitfire Albion One",
-    "primaryColor": "#28B463",
-    "secondaryColor": "#196F3D",
+    "primaryColor": "#00FFFF",
+    "secondaryColor": "#00796B",
     "midiCC": 106,
     "articulationConfig": "perInstrument",
     "instruments": {
@@ -4728,7 +4728,7 @@
   "8": {
     "id": "ar1",
     "name": "Abbey Road One",
-    "primaryColor": "#E74C3C",
+    "primaryColor": "#D71E0B",
     "secondaryColor": "#B03A2E",
     "midiCC": 108,
     "articulationsConfig": "library",
@@ -4978,6 +4978,778 @@
           },
           "Tenuto": {
             "keySwitch": "6",
+            "UACC": "120"
+          }
+        }
+      }
+    }
+  },
+  "9": {
+    "id": "ewc",
+    "name": "Eric Whitacre Choir",
+    "primaryColor": "#FA8072",
+    "secondaryColor": "#CD5C5C",
+    "midiCC": 109,
+    "articulationConfig": "perInstrument",
+    "instruments": {
+      "1": {
+        "name": "Altos",
+        "articulations": {
+          "Long Aah": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Dynamic Swell Aah": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Dynamic Swell Eh": {
+            "keySwitch": "18",
+            "UACC": "120"
+          },
+          "Dynamic Swell Mmm": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Dynamic Swell Ooh": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Episodic Aah Dah": {
+            "keySwitch": "19",
+            "UACC": "120"
+          },
+          "Episodic Ahh Nah": {
+            "keySwitch": "20",
+            "UACC": "120"
+          },
+          "Episodic Mmm Hyah": {
+            "keySwitch": "21",
+            "UACC": "120"
+          },
+          "Episodic Ooh Nah": {
+            "keySwitch": "22",
+            "UACC": "120"
+          },
+          "Legato Ahh": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Legato Mmm": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Legato Oh": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Legato Ooh": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Long Mmm": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Long Nanana": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Long Oh": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Long Ooh": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Long Soft Breathy Aah": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah HT": {
+            "keySwitch": "23",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah HT Static": {
+            "keySwitch": "25",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah WT": {
+            "keySwitch": "24",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah WT Static": {
+            "keySwitch": "26",
+            "UACC": "120"
+          },
+          "Short Ahh": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Short Mmm": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Short Oh": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Short Ooh": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Short Soft Breathy Aah": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "FX Longer": {
+            "keySwitch": "27",
+            "UACC": "120"
+          },
+          "FX Shorter": {
+            "keySwitch": "28",
+            "UACC": "120"
+          }
+        }
+      },
+      "3": {
+        "name": "Basses",
+        "articulations": {
+          "Long Aah": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Dynamic Swell Aah": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Dynamic Swell Eh": {
+            "keySwitch": "18",
+            "UACC": "120"
+          },
+          "Dynamic Swell Mmm": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Dynamic Swell Ooh": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Episodic Aah Dah": {
+            "keySwitch": "19",
+            "UACC": "120"
+          },
+          "Episodic Ahh Nah": {
+            "keySwitch": "20",
+            "UACC": "120"
+          },
+          "Episodic Mmm Hyah": {
+            "keySwitch": "21",
+            "UACC": "120"
+          },
+          "Episodic Ooh Nah": {
+            "keySwitch": "22",
+            "UACC": "120"
+          },
+          "Legato Ahh": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Legato Mmm": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Legato Oh": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Legato Ooh": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Long Mmm": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Long Nanana": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Long Oh": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Long Ooh": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Long Soft Breathy Aah": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah HT": {
+            "keySwitch": "23",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah HT Static": {
+            "keySwitch": "25",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah WT": {
+            "keySwitch": "24",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah WT Static": {
+            "keySwitch": "26",
+            "UACC": "120"
+          },
+          "Short Ahh": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Short Mmm": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Short Oh": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Short Ooh": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Short Soft Breathy Aah": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "FX Longer": {
+            "keySwitch": "27",
+            "UACC": "120"
+          },
+          "FX Shorter": {
+            "keySwitch": "28",
+            "UACC": "120"
+          }
+        }
+      },
+      "0": {
+        "name": "Sopranos",
+        "articulations": {
+          "Long Aah": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Dynamic Swell Aah": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Dynamic Swell Eh": {
+            "keySwitch": "18",
+            "UACC": "120"
+          },
+          "Dynamic Swell Mmm": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Dynamic Swell Ooh": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Episodic Aah Dah": {
+            "keySwitch": "19",
+            "UACC": "120"
+          },
+          "Episodic Ahh Nah": {
+            "keySwitch": "20",
+            "UACC": "120"
+          },
+          "Episodic Mmm Hyah": {
+            "keySwitch": "21",
+            "UACC": "120"
+          },
+          "Episodic Ooh Nah": {
+            "keySwitch": "22",
+            "UACC": "120"
+          },
+          "Legato Ahh": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Legato Mmm": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Legato Oh": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Legato Ooh": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Long Mmm": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Long Nanana": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Long Oh": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Long Ooh": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Long Soft Breathy Aah": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah HT": {
+            "keySwitch": "23",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah HT Static": {
+            "keySwitch": "25",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah WT": {
+            "keySwitch": "24",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah WT Static": {
+            "keySwitch": "26",
+            "UACC": "120"
+          },
+          "Short Ahh": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Short Mmm": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Short Oh": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Short Ooh": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Short Soft Breathy Aah": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "FX Longer": {
+            "keySwitch": "27",
+            "UACC": "120"
+          },
+          "FX Shorter": {
+            "keySwitch": "28",
+            "UACC": "120"
+          }
+        }
+      },
+      "2": {
+        "name": "Tenors",
+        "articulations": {
+          "Long Aah": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Dynamic Swell Aah": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Dynamic Swell Eh": {
+            "keySwitch": "18",
+            "UACC": "120"
+          },
+          "Dynamic Swell Mmm": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Dynamic Swell Ooh": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Episodic Aah Dah": {
+            "keySwitch": "19",
+            "UACC": "120"
+          },
+          "Episodic Ahh Nah": {
+            "keySwitch": "20",
+            "UACC": "120"
+          },
+          "Episodic Mmm Hyah": {
+            "keySwitch": "21",
+            "UACC": "120"
+          },
+          "Episodic Ooh Nah": {
+            "keySwitch": "22",
+            "UACC": "120"
+          },
+          "Legato Ahh": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Legato Mmm": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Legato Oh": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Legato Ooh": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Long Mmm": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Long Nanana": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Long Oh": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Long Ooh": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Long Soft Breathy Aah": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah HT": {
+            "keySwitch": "23",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah HT Static": {
+            "keySwitch": "25",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah WT": {
+            "keySwitch": "24",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah WT Static": {
+            "keySwitch": "26",
+            "UACC": "120"
+          },
+          "Short Ahh": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Short Mmm": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Short Oh": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Short Ooh": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Short Soft Breathy Aah": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "FX Longer": {
+            "keySwitch": "27",
+            "UACC": "120"
+          },
+          "FX Shorter": {
+            "keySwitch": "28",
+            "UACC": "120"
+          }
+        }
+      },
+      "7": {
+        "name": "Tutti Evos Clashes",
+        "articulations": {
+          "Cloud Grace Ahh HT": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Cloud Grace Ahh WT": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Microtonal Bending Ahh": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Microtonal Cluster Pitch Ahh": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Microtonal Oscillating Ahh": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Microtonal Shift": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Pitch Clash Aah HT": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh Maj3": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh Min3": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh Perf4": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh Perf5": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh Static HT": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh Static Maj3": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh Static Min3": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh Static WT": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh WT": {
+            "keySwitch": "1",
+            "UACC": "120"
+          }
+        }
+      },
+      "8": {
+        "name": "Tutti Evos Dynamic",
+        "articulations": {
+          "Dynamic Swell Aah": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Dynamic Swell Eh": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Dynamic Swell Mmm": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Dynamic Swell Ooh": {
+            "keySwitch": "2",
+            "UACC": "120"
+          }
+        }
+      },
+      "6": {
+        "name": "Tutti Evos Rhythmic",
+        "articulations": {
+          "Rhythmic Evo Dee": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Rhythmic Evo Lah": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Rhythmic Evo Nah": {
+            "keySwitch": "2",
+            "UACC": "120"
+          }
+        }
+      },
+      "5": {
+        "name": "Tutti Evos Simple",
+        "articulations": {
+          "Long Aah Evo": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Breathy Mmm": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Long Aah Eh Aah": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Long Aah Full Out": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Long Eeh Evo": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Long Mmm Aah Mmm": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Long Mmm Evo": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Long Ooh Aah Ooh": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Long Ooh Evo": {
+            "keySwitch": "2",
+            "UACC": "120"
+          }
+        }
+      },
+      "9": {
+        "name": "Tutti Evos Special",
+        "articulations": {
+          "Aleatoric Aah": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Breathy Ohh": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Bubbling": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Cyclical": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Erupting Hums": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Fluctuating Oohs": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Fortepiano": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Harminic": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Nz": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Pitched Air": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Ricochet Aah Nng": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Whistle Mmm Bend": {
+            "keySwitch": "10",
+            "UACC": "120"
+          }
+        }
+      },
+      "4": {
+        "name": "Tutti",
+        "articulations": {
+          "Long Aah Evo": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Dynamic Swell Ahh": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Dynamic Swell Eh": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Dynamic Swell Mmm": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Dynamic Swell Ooh": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Episodic Aah Nah": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Episodic Ahh Dah": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Episodic Mmm Hyah": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Episodic Ooh Nah": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Long Mmm Evo": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Long Ooh Evo": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh HT": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Pitch Clash Ahh WT": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Pitch Clash Static Aah HT": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Pitch Clash Static Aah WT": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Short Aah Full Out": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "FX Longer": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "FX Shorter": {
+            "keySwitch": "17",
             "UACC": "120"
           }
         }
