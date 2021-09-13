@@ -1,11 +1,15 @@
 import os
 import json
+import platform
 import re
 import sys
 import xml.etree.ElementTree as ET
 from os import walk
 
-# https://htmlcolorcodes.com/
+# useful html color lookup https://htmlcolorcodes.com/
+
+# sample expression map configurations:
+# -----------------------------------------------------------------------------
 
 # SSW
 # artMapConfig = {
@@ -44,6 +48,7 @@ from os import walk
 #     34: "FX Fall",
 #     35: "FX Rip"
 # }
+# -----------------------------------------------------------------------------
 
 # SSB
 # artMapConfig = {
@@ -94,6 +99,7 @@ from os import walk
 #    46: "FX Glissandi",
 #    47: "FX Fanfare",
 # }
+# -----------------------------------------------------------------------------
 
 # SSS
 # artMapConfig = {
@@ -149,6 +155,7 @@ from os import walk
 #    54: "Trill Min3",
 #    55: "Trill Maj3"
 # }
+# -----------------------------------------------------------------------------
 
 # SCS
 # artMapConfig = {
@@ -210,6 +217,7 @@ from os import walk
 #    59: 'FX Disco Fall',
 #    60: 'FX Disco Upwards'
 # }
+# -----------------------------------------------------------------------------
 
 # Solo Strings
 # artMapConfig = {
@@ -241,45 +249,7 @@ from os import walk
 #     31: 'Trill HT',
 #     32: 'Trill WT',
 # }
-
-# Albion Solstice Motors
-# artMapConfig = {
-#     'SA7\SFA7 b - The Elders Strings Traditional Sextet Motors CB Direction.expressionmap': {'name': 'Elders Trad Motors', 'order': 1},
-#     'SA7\SFA7 a - The Elders Strings Classic Octet Motors CB Direction.expressionmap': {'name': 'Elders Classic Motors', 'order': 3},
-#     'SA7\SFA7 The Callers Brass+Winds Motors CB D.expressionmap': {'name': 'Callers B&W Motors', 'order': 5},
-#     'SA7\SFA7 b - HOST - Motors+Effects D ~.expressionmap': {'name': 'Hosts Motors & FX', 'order': 14},
-#     'SA7\SFA7 a - Generator Trio Motors CB D.expressionmap': {'name': 'Generator Trio Motors', 'order': 16},
-#     'SA7\SFA7 b - GUT - Motors D ~.expressionmap': {'name': 'Gut Circle Motors', 'order': 18},
-#     'SA7\SFA7 b- NURS - Motors D ~.expressionmap': {'name': 'Nursery Motors', 'order': 20}
-# }
-#
-# artButtonConfig = {
-#     1: 'Motor (110)',
-#     2: 'Motor (90)',
-#     3: 'Motor Trip (110)',
-#     4: 'Motor Trip (90)',
-#     5: 'Motor 1/16 (90)',
-#     6: 'Motor Bend (90)',
-#     7: 'Motor Bend (110)',
-#     8: 'Motor 1/16 (110)',
-#     9: 'Motor 4th (90)',
-#     10: 'Motor 4th (110)',
-#     11: 'Motor Trip Bend (90)',
-#     12: 'Motor Trip Bend (110)',
-#     13: 'Strum A 1/16 (110)',
-#     14: 'Strum A 1/16 (90)',
-#     15: 'Strum A (110)',
-#     16: 'Strum A (90)',
-#     17: 'Strum D 1/16 (110)',
-#     18: 'Strum D 1/16 (90)',
-#     19: 'Strum D (110)',
-#     20: 'Strum D (90)',
-#     21: 'Drone',
-#     22: 'Songbath',
-#     23: 'Wicken Glass',
-#     24: 'Motor 16th (110)',
-#     25: 'Motor 1/16 (70)'
-# }
+# -----------------------------------------------------------------------------
 
 # Albion Solstice
 # artMapConfig = {
@@ -306,6 +276,7 @@ from os import walk
 #     'SFA7 a - NURS - Main techniques D.expressionmap': {'name': 'Nursery', 'order': 20},
 #     'SFA7 b- NURS - Motors D ~.expressionmap': {'name': 'Nursery Motors', 'order': 21}
 # }
+# -----------------------------------------------------------------------------
 
 # Albion One
 # artMapConfig = {
@@ -319,6 +290,7 @@ from os import walk
 #     'SFA1 Strings High Runs D ~.expressionmap': {'name': 'Strings High Runs', 'order': 7},
 #     'SFA1 Strings Low Runs D ~.expressionmap': {'name': 'Strings Low Runs', 'order': 8}
 # }
+# -----------------------------------------------------------------------------
 
 # Abbey Road Orchestral Foundations
 # artMapConfig = {
@@ -345,6 +317,7 @@ from os import walk
 #     22: 'Swell Med',
 #     23: 'Swell Longer'
 # }
+# -----------------------------------------------------------------------------
 
 # Eric Whitacre Choir
 artMapConfig = {
@@ -362,55 +335,64 @@ artMapConfig = {
 
 }
 
-artButtonConfig = {
-
-}
+# -----------------------------------------------------------------------------
 
 allExpressionMaps = []
-for (dirpath, dirnames, filenames) in walk(sys.argv[1]):
+articulationMap = {}
+
+expressionMapsPath = sys.argv[1]
+csvFlag = False
+if len(sys.argv) > 2:
+    if sys.argv[2] == "--csv":
+        csvFlag = True
+
+
+pathRegex = ""
+if (platform.system() == 'Windows'):
+    pathRegex = '.*\\\(.*)'
+else:
+    pathRegex = '.*\/(.*)'
+
+for (dirpath, dirnames, filenames) in walk(expressionMapsPath):
     for file in filenames:
         allExpressionMaps.append(os.path.join(dirpath, file))
 
-articulationMap = {"articulations": artButtonConfig}
+if "artButtonConfig" in globals():
+    articulationMap = {"articulations": artButtonConfig}
+
 articulationMap.update({"instruments": {}})
 
 for expressionMap in allExpressionMaps:
-    m = re.search('.*\/(.*)', expressionMap)
+    m = re.search(pathRegex, expressionMap)
     instrumentArtMapName = m.group(1)
 
     tree = ET.parse(expressionMap)
     root = tree.getroot()
 
-    # print("found articulation map: " + instrumentArtMapName)
     for articulationElement in root.findall(".//obj[@class='PSoundSlot']"): # find all PSoundSlot objects
         if articulationElement.get('class') == 'PSoundSlot': # found an articulation
-            # for element in articulationElement.iter():
-            #     print(element.attrib)
             articulation = articulationElement.find(".//*[@name='description']").get('value').strip()
-            # print('articulation: ' + articulation)
-
             keySwitch = articulationElement.find(".//obj[@class='PSlotThruTrigger']/int[@name='data1']").get('value')
-            # print('keySwitch: ' + keySwitch)
-
             uacc = 127
             if (articulationElement.find(".//obj[@class='PSlotMidiAction']/member[@name='midiMessages']//obj[@class='POutputEvent']/int[@name='data2']")  is not None):
                 uacc = articulationElement.find(".//obj[@class='PSlotMidiAction']/member[@name='midiMessages']//obj[@class='POutputEvent']/int[@name='data2']").get('value')
-                # print('uacc: ' + uacc)
 
             # --- CSV output ---
-            # print(instrumentArtMapName + ',' + str(articulation) + ',' + str(keySwitch) + ',' + str(uacc))
+            if csvFlag:
+                print(instrumentArtMapName + ',' + str(articulation) + ',' + str(keySwitch) + ',' + str(uacc))
             # --- CSV Output ---
 
             #if (instrumentArtMapName.find('Motor') >= 0 and instrumentArtMapName.find('No Motor') == -1):
             config = artMapConfig.get(instrumentArtMapName)
             instrumentIndex = config.get("order")
             instrumentName = config.get("name")
-            if (not instrumentIndex in articulationMap["instruments"].keys()):
+            if not instrumentIndex in articulationMap["instruments"].keys():
                 articulationMap["instruments"][instrumentIndex] = {}
                 articulationMap["instruments"][instrumentIndex].update({"name": instrumentName, "articulations": {}})
                 # update the list of all articulations as well so we have a full list for the section
             articulationMap["instruments"][instrumentIndex]["articulations"].update({articulation: {'keySwitch': keySwitch, 'UACC': uacc}})
 
-# Serializing json
-json_object = json.dumps(articulationMap, indent=4)
-print(json_object);
+# Serializing json, only output if CSV Flag is off
+if not csvFlag:
+    json_object = json.dumps(articulationMap, indent=4)
+    print(json_object);
