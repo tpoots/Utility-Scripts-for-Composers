@@ -389,7 +389,7 @@ for expressionMap in allExpressionMaps:
             if not instrumentIndex in articulationMap["instruments"].keys():
                 articulationMap["instruments"][instrumentIndex] = {}
                 articulationMap["instruments"][instrumentIndex].update({"name": instrumentName, "articulations": {}})
-                # update the list of all articulations as well so we have a full list for the section
+                # update the list of all articulations as well so we have a full list for the library
             articulationMap["instruments"][instrumentIndex]["articulations"].update({articulation: {'keySwitch': keySwitch, 'UACC': uacc}})
 
 # Serializing json, only output if CSV Flag is off

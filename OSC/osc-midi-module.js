@@ -1,6 +1,6 @@
 app.on('open', (data, client) => {
     console.log("Client connected...")
-    receive('/SET', 'section_setup_script', 0)
+    receive('/SET', 'library_setup_script', 0)
 })
 
 module.exports = {
@@ -26,8 +26,8 @@ module.exports = {
             var pressure = args[2].value
             var buttonId = "button_instr_" + note
             // use channel information to select the correct instruments
-            receive('/SET', 'section_selector_script', channel)
-            // select the button corresponding to the section
+            receive('/SET', 'library_selector_script', channel)
+            // select the button corresponding to the library
             receive('/SET', buttonId, 1)
             return
         }

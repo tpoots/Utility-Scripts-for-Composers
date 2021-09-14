@@ -1,43 +1,41 @@
-// --- section setup script --- //
+// --- library setup script --- //
 var config = JSON.parse(JSON.stringify(get("configuration")))
 for (var i in config) {
     console.log(i)
-    var sectionConfig = config[i]
-    var sectionId = sectionConfig["id"]
-    var buttonId = "button_section_" + i
-    setVar(buttonId, "label", sectionConfig["name"])
-    setVar(buttonId, "color", sectionConfig["primaryColor"])
+    var libraryConfig = config[i]
+    var libraryId = libraryConfig["id"]
+    var buttonId = "button_library_" + i
+    setVar(buttonId, "label", libraryConfig["name"])
+    setVar(buttonId, "color", libraryConfig["primaryColor"])
 }
-// clear the buttons and articulation sections since nothing is selected yet
+// clear the buttons and articulation panels since nothing is selected yet
 for (let i = 1; i <= 25; i++) {
     setVar("button_instr_" + i, "visible", 0)
 }
 for (let i = 1; i <= 60; i++) {
         setVar("art_" + i, "visible", 0)
 }
-// --- end section setup script --- //
+// --- end library setup script --- //
 
-// --- section selector buttons --- //
-var sectionId = id.substr(15,1)
-set('section_selector_script', sectionId)
-var sectionConfig = JSON.parse(JSON.stringify(get("configuration")))[sectionId]
-var cc = sectionConfig["midiCC"]
+// --- library selector buttons --- //
+var libraryId = id.substr(15,1)
+set('library_selector_script', libraryId)
+var libraryConfig = JSON.parse(JSON.stringify(get("configuration")))[libraryId]
+var cc = libraryConfig["midiCC"]
 send("midi:ControlToCubase", "/control", 6, cc, 100)
-// --- end section selector buttons --- //
+// --- end library selector buttons --- //
 
 
-// --- section selector script --- //
-var sectionId = value
-console.log("Section selector got value " + value)
-var sectionConfig = JSON.parse(JSON.stringify(get("configuration")))[sectionId]
-console.log(sectionConfig)
-var instruments = sectionConfig["instruments"]
-var articulations = sectionConfig["articulations"]
-var primaryColor = sectionConfig["primaryColor"]
-var articulationConfig = sectionConfig["articulationConfig"]
+// --- library selector script --- //
+var libraryId = value
+var libraryConfig = JSON.parse(JSON.stringify(get("configuration")))[libraryId]
+var instruments = libraryConfig["instruments"]
+var articulations = libraryConfig["articulations"]
+var primaryColor = libraryConfig["primaryColor"]
+var articulationConfig = libraryConfig["articulationConfig"]
 set("button_instr_*", 0, {sync:false, send:false})
-set("selectedSection", sectionId)
-set("button_section_*", 0, {sync:false, send:false})
+set("selectedLibrary", libraryId)
+set("button_library_*", 0, {sync:false, send:false})
 setVar("button_instr_*", "visible", 1)
 if (articulationConfig == "perInstrument") {
     // set up articulation selector buttons only when the instrument is selected
@@ -67,18 +65,17 @@ for (let i = 1; i <= 25; i++) {
         setVar("button_instr_" + i, "visible", 0)
     }
 }
-// --- end section selector script --- //
+// --- end library selector script --- //
 
 
 // --- instrument selector buttons --- //
 set("button_instr_*", 0, {sync:false, send:false})
 var buttonIndex = id.substr(13,2)-1
-var section = get("selectedSection")
-var sectionConfig = JSON.parse(JSON.stringify(get("configuration")))[section]
-var primaryColor = sectionConfig["primaryColor"]
-console.log(section)
-var articulations = sectionConfig["instruments"][buttonIndex]["articulations"]
-var articulationConfig = sectionConfig["articulationConfig"]
+var library = get("selectedLibrary")
+var libraryConfig = JSON.parse(JSON.stringify(get("configuration")))[library]
+var primaryColor = libraryConfig["primaryColor"]
+var articulations = libraryConfig["instruments"][buttonIndex]["articulations"]
+var articulationConfig = libraryConfig["articulationConfig"]
 if (get(id) === 1) {
     if (articulationConfig == "perInstrument") {
         // clear all articulation buttons first
@@ -140,8 +137,3 @@ if (get(id) === 1) {
 } else {
 }
 // --- end articulation selector buttons --- //
-
-
-// --- scratchpad --- //
-send("midi:VirtualMidi", "/note", 1, 50, 100)
-send("midi:VirtualMidi", "/note", 1, 50, 0)
