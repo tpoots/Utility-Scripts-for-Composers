@@ -346,6 +346,8 @@ if len(sys.argv) > 2:
     if sys.argv[2] == "--csv":
         csvFlag = True
 
+if csvFlag:
+    print("ExpressionMapName, Articulation, Keyswitch, UACC")
 
 pathRegex = ""
 if (platform.system() == 'Windows'):
@@ -381,18 +383,14 @@ for expressionMap in allExpressionMaps:
             if csvFlag:
                 print(instrumentArtMapName + ',' + str(articulation) + ',' + str(keySwitch) + ',' + str(uacc))
             # --- CSV Output ---
-
-            #if (instrumentArtMapName.find('Motor') >= 0 and instrumentArtMapName.find('No Motor') == -1):
-            config = artMapConfig.get(instrumentArtMapName)
-            instrumentIndex = config.get("order")
-            instrumentName = config.get("name")
-            if not instrumentIndex in articulationMap["instruments"].keys():
-                articulationMap["instruments"][instrumentIndex] = {}
-                articulationMap["instruments"][instrumentIndex].update({"name": instrumentName, "articulations": {}})
-                # update the list of all articulations as well so we have a full list for the library
-            articulationMap["instruments"][instrumentIndex]["articulations"].update({articulation: {'keySwitch': keySwitch, 'UACC': uacc}})
-
-# Serializing json, only output if CSV Flag is off
-if not csvFlag:
-    json_object = json.dumps(articulationMap, indent=4)
-    print(json_object);
+            else:
+                config = artMapConfig.get(instrumentArtMapName)
+                instrumentIndex = config.get("order")
+                instrumentName = config.get("name")
+                if not instrumentIndex in articulationMap["instruments"].keys():
+                    articulationMap["instruments"][instrumentIndex] = {}
+                    articulationMap["instruments"][instrumentIndex].update({"name": instrumentName, "articulations": {}})
+                    # update the list of all articulations as well so we have a full list for the library
+                articulationMap["instruments"][instrumentIndex]["articulations"].update({articulation: {'keySwitch': keySwitch, 'UACC': uacc}})
+                json_object = json.dumps(articulationMap, indent=4)
+                print(json_object)
