@@ -373,7 +373,9 @@ for expressionMap in allExpressionMaps:
 
     for articulationElement in root.findall(".//obj[@class='PSoundSlot']"): # find all PSoundSlot objects
         if articulationElement.get('class') == 'PSoundSlot': # found an articulation
-            articulation = articulationElement.find(".//*[@name='description']").get('value').strip()
+            articulation = articulationElement.find(".//*[@name='s']").get('value').strip()
+            # this is less general: articulation = articulationElement.find(".//*[@name='description']").get('value').strip()
+            
             keySwitch = articulationElement.find(".//obj[@class='PSlotThruTrigger']/int[@name='data1']").get('value')
             uacc = 127
             if (articulationElement.find(".//obj[@class='PSlotMidiAction']/member[@name='midiMessages']//obj[@class='POutputEvent']/int[@name='data2']")  is not None):
