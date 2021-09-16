@@ -33,7 +33,7 @@ from os import walk
 #
 # The first file is useful for analyzing the contents of a set of Cubase Expression
 # maps. The purpose of the second two are to be provided as input to the subsequent
-# script (generate-osc-json-configuration.py) which takes the expression maps
+# script (generate-osc-json-config.py) which takes the expression maps
 # plus the user-provided map-config.csv and articulations.csv and generates the
 # json configuration needed by the OSC cubase controller.
 #

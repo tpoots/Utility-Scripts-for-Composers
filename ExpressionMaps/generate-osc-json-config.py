@@ -9,7 +9,7 @@ from os import walk
 
 # -----------------------------------------------------------------------------
 # Usage:
-#   python generate-osc-json-configuration.py {directory-containing-expression-maps |individual-expression-map}
+#   python generate-osc-json-config.py {directory-containing-expression-maps |individual-expression-map}
 #
 # This script parses directories (or individual files) containing Cubase
 # expression maps and generates two JSON objects that can be used by the OSC
@@ -40,7 +40,7 @@ else:
 if len(sys.argv) != 3:
     print("Incorrect # of parameters provided")
     print("Usage:")
-    print("python generate-osc-json-configuration.py {directory-containing-expression-maps |individual-expression-map} {articulation button style: either \"perInstrument\" or \"library\"}")
+    print("python generate-osc-json-config.py {directory-containing-expression-maps |individual-expression-map} {articulation button style: either \"perInstrument\" or \"library\"}")
     exit(1)
 
 expressionMapsPath = sys.argv[1]
@@ -49,7 +49,7 @@ articulationStyle = sys.argv[2]
 if articulationStyle != 'library' and articulationStyle != 'perInstrument':
     print("You must define an articulation button style, either \"library\" or \"perInstrument\"")
     print("Usage:")
-    print("python generate-osc-json-configuration.py {directory-containing-expression-maps |individual-expression-map} {articulation button style: either \"perInstrument\" or \"library\"}")
+    print("python generate-osc-json-config.py {directory-containing-expression-maps |individual-expression-map} {articulation button style: either \"perInstrument\" or \"library\"}")
     exit(1)
 
 if os.path.isdir(expressionMapsPath):
