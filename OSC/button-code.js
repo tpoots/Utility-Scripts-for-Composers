@@ -74,8 +74,11 @@ var buttonIndex = id.substr(13,2)-1
 var library = get("selectedLibrary")
 var libraryConfig = JSON.parse(JSON.stringify(get("configuration")))[library]
 var primaryColor = libraryConfig["primaryColor"]
-var articulations = libraryConfig["instruments"][buttonIndex]["articulations"]
 var articulationConfig = libraryConfig["articulationConfig"]
+var articulations
+if (articulationConfig == "library") {
+    articulations = libraryConfig["instruments"][buttonIndex]["articulations"]
+}
 if (get(id) === 1) {
     if (articulationConfig == "perInstrument") {
         // clear all articulation buttons first
