@@ -31,13 +31,13 @@ module.exports = {
             // select the button corresponding to the library
             receive('/SET', buttonId, 1)
             return
-        } else if (port == 'ControlToOSC' && address == '/control' && args[0].value == 8 && args[1].value == 127) {
+        } else if (port == 'ControlToOSC' && address == '/control' && args[0].value == 8 && args[1].value == 127 && args[2].value != 0) {
             console.log("Got library select")
             // Instrument track library select
             var library = args[2].value
             console.log("Library value = " + library)
             receive('/SET', 'library_selector_script', library)
-        } else if (port == 'ControlToOSC' && address == '/control' && args[0].value == 9 && args[1].value == 127) {
+        } else if (port == 'ControlToOSC' && address == '/control' && args[0].value == 9 && args[1].value == 127 && args[2].value != 0) {
             // Instrument track select
             var instrument = args[2].value
             var buttonId = "button_instr_" + instrument

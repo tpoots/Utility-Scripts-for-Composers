@@ -18,7 +18,7 @@ for (let i = 1; i <= 60; i++) {
 // --- end library setup script --- //
 
 // --- library selector buttons --- //
-var libraryId = id.substr(15,1)
+var libraryId = id.substr(15,2)
 set('library_selector_script', libraryId)
 var libraryConfig = JSON.parse(JSON.stringify(get("configuration")))[libraryId]
 var cc = libraryConfig["midiCC"]
@@ -65,6 +65,8 @@ for (let i = 1; i <= 25; i++) {
         setVar("button_instr_" + i, "visible", 0)
     }
 }
+// set default selected articulation to first slot
+set("art_1", 1)
 // --- end library selector script --- //
 
 
@@ -74,11 +76,8 @@ var buttonIndex = id.substr(13,2)-1
 var library = get("selectedLibrary")
 var libraryConfig = JSON.parse(JSON.stringify(get("configuration")))[library]
 var primaryColor = libraryConfig["primaryColor"]
+var articulations = libraryConfig["instruments"][buttonIndex]["articulations"]
 var articulationConfig = libraryConfig["articulationConfig"]
-var articulations
-if (articulationConfig == "library") {
-    articulations = libraryConfig["instruments"][buttonIndex]["articulations"]
-}
 if (get(id) === 1) {
     if (articulationConfig == "perInstrument") {
         // clear all articulation buttons first
@@ -127,6 +126,8 @@ if (get(id) === 1) {
         }
     }
 }
+// set default selected articulation to first slot
+set("art_1", 1)
 // --- end instrument selector buttons --- //
 
 
