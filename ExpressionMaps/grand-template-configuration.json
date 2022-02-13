@@ -3455,7 +3455,7 @@
     }
   },
   "6": {
-    "id": "bbw",
+    "id": "sbw",
     "name": "BBCSO Woodwinds",
     "primaryColor": "#0224C1",
     "secondaryColor": "#0000FF",
@@ -4000,7 +4000,7 @@
     }
   },
   "7": {
-    "id": "bbb",
+    "id": "sbb",
     "name": "BBCSO Brass",
     "primaryColor": "#FF7307",
     "secondaryColor": "#FFA000",
@@ -4520,7 +4520,7 @@
     }
   },
   "8": {
-    "id": "bbs",
+    "id": "sbs",
     "name": "BBCSO Strings",
     "primaryColor": "#2C8200",
     "secondaryColor": "#388E3C",
@@ -5322,7 +5322,7 @@
     }
   },
   "9": {
-    "id": "bbp",
+    "id": "sbp",
     "name": "BBCSO Percussion",
     "primaryColor": "#7E0000",
     "secondaryColor": "#B03A2E",

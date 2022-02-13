@@ -5,8 +5,10 @@ for (var i in config) {
     var libraryConfig = config[i]
     var libraryId = libraryConfig["id"]
     var buttonId = "button_library_" + i
+    var hideButtonId = "hide_lib_" + i
     setVar(buttonId, "label", libraryConfig["name"])
     setVar(buttonId, "color", libraryConfig["primaryColor"])
+    setVar(hideButtonId, "color", libraryConfig["primaryColor"])
 }
 // clear the buttons and articulation panels since nothing is selected yet
 for (let i = 1; i <= 25; i++) {
@@ -17,6 +19,14 @@ for (let i = 1; i <= 60; i++) {
 }
 // --- end library setup script --- //
 
+// -- show all button -- //
+send("midi:ControlToCubase", "/control", 6, 99, 100)
+// -- end show all button -- //
+
+// -- hide all button -- //
+send("midi:ControlToCubase", "/control", 7, 99, 100)
+// -- end hide all button --//
+
 // --- library selector buttons --- //
 var libraryId = id.substr(15,2)
 set('library_selector_script', libraryId)
@@ -25,6 +35,16 @@ var cc = libraryConfig["midiCC"]
 send("midi:ControlToCubase", "/control", 6, cc, 100)
 // --- end library selector buttons --- //
 
+// --- library hide buttons --- //
+var libraryId = id.substr(9,2)
+var libraryConfig = JSON.parse(JSON.stringify(get("configuration")))[libraryId]
+var cc = libraryConfig["midiCC"]
+set("button_instr_*", 0, {sync:false, send:false})
+set("button_library_*", 0, {sync:false, send:false})
+setVar("button_instr_*", "visible", 0)
+setVar("art_*", "visible", 0)
+send("midi:ControlToCubase", "/control", 7, cc, 100)
+// --- end library selector buttons --- //
 
 // --- library selector script --- //
 var libraryId = value
