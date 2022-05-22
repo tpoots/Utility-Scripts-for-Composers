@@ -17,7 +17,7 @@ from os import walk
 #    combination of expression map and articulation, with keyswitch trigger and
 #    UACC value (UACC defaults to 127 if not available)
 #
-# 2. library-config.csv - a file containing just the unique expression map
+# 2. map-config.csv - a file containing just the unique expression map
 #    names, allowing the user to define a custom name and order in which the
 #    instrument should appear in the UI (by filling in the second and third
 #    columns).

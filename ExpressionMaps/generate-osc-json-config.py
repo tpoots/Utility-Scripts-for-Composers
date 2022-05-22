@@ -63,7 +63,7 @@ else:
 reader = csv.reader(open('map-config.csv', 'r'))
 headers = next(reader)
 for row in reader:
-    insName, mapName, order = row[0].strip(), row[1].strip(), int(row[2].strip())
+    insName, mapName, order = row[0].strip(), row[1].strip(), int(row[2].strip())-1
     insMapConfig[insName] = {'name': mapName, 'order': order}
 
 print(insMapConfig)

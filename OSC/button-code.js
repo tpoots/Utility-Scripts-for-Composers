@@ -147,7 +147,7 @@ if (get(id) === 1) {
     }
 }
 // set default selected articulation to first slot
-set("art_1", 1)
+set("art_1", 1, {sync:false, send:false})
 // --- end instrument selector buttons --- //
 
 
