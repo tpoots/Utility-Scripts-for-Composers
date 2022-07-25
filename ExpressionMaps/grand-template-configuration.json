@@ -12040,16 +12040,8 @@
             "keySwitch": "2",
             "UACC": "120"
           },
-          "Tremolo Half RangeGlissando Up MW": {
-            "keySwitch": "4",
-            "UACC": "120"
-          },
           "Tremolo Quarter RangeGlissando Down MW": {
             "keySwitch": "3",
-            "UACC": "120"
-          },
-          "Tremolo Quarter RangeGlissando Up MW": {
-            "keySwitch": "5",
             "UACC": "120"
           }
         }
