@@ -86,7 +86,7 @@ for (let i = 1; i <= 25; i++) {
     }
 }
 // set default selected articulation to first slot
-set("art_1", 1)
+set("art_1", 1, {sync:true, send:false})
 // --- end library selector script --- //
 
 
