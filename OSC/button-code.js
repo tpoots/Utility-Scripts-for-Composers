@@ -44,7 +44,7 @@ set("button_library_*", 0, {sync:false, send:false})
 setVar("button_instr_*", "visible", 0)
 setVar("art_*", "visible", 0)
 send("midi:ControlToCubase", "/control", 7, cc, 100)
-// --- end library selector buttons --- //
+// --- end library hide buttons --- //
 
 // --- library selector script --- //
 var libraryId = value
@@ -53,10 +53,11 @@ var instruments = libraryConfig["instruments"]
 var articulations = libraryConfig["articulations"]
 var primaryColor = libraryConfig["primaryColor"]
 var articulationConfig = libraryConfig["articulationConfig"]
-set("button_instr_*", 0, {sync:false, send:false})
+console.log("libraryId = " + value)
+set("button_instr_*", 0, {sync:false, script: false, send:false})
 set("selectedLibrary", libraryId)
-set("button_library_*", 0, {sync:false, send:false})
-setVar("button_instr_*", "visible", 1)
+set("button_library_*", 0, {sync:false, script: false, send:false})
+//setVar("button_instr_*", "visible", 1)
 if (articulationConfig == "perInstrument") {
     // set up articulation selector buttons only when the instrument is selected
     for (let i = 1; i <= 60; i++) {
@@ -86,12 +87,12 @@ for (let i = 1; i <= 25; i++) {
     }
 }
 // set default selected articulation to first slot
-set("art_1", 1, {sync:true, send:false})
+// set("art_1", 1, {sync:true, send:true})
 // --- end library selector script --- //
 
 
 // --- instrument selector buttons --- //
-set("button_instr_*", 0, {sync:false, send:false})
+set("button_instr_*", 0, {sync:false, script: false, send:false})
 var buttonIndex = id.substr(13,2)-1
 var library = get("selectedLibrary")
 var libraryConfig = JSON.parse(JSON.stringify(get("configuration")))[library]
@@ -99,6 +100,7 @@ var primaryColor = libraryConfig["primaryColor"]
 var articulations = libraryConfig["instruments"][buttonIndex]["articulations"]
 var articulationConfig = libraryConfig["articulationConfig"]
 if (get(id) === 1) {
+    // instrument button is selected
     if (articulationConfig == "perInstrument") {
         // clear all articulation buttons first
         for (let i = 1; i <= 60; i++) {
@@ -115,7 +117,7 @@ if (get(id) === 1) {
             index += 1
          }
     } else {
-        set("art_*", 0, {sync:false, send:false}) // deselect all articulation buttons
+        set("art_*", 0, {sync:false, script: false, send:false}) // deselect all articulation buttons
         for (let i = 1; i <= 60; i++) {
             var buttonId = "art_" + i
             var buttonLabel = getVar(buttonId, "label")
@@ -132,6 +134,7 @@ if (get(id) === 1) {
         }
     }
 } else {
+    // instrument button is un-selected
     if (articulationConfig == "perInstrument") {
         for (let i = 1; i <= 60; i++) {
             setVar("art_" + i, "visible", 0)
@@ -146,18 +149,19 @@ if (get(id) === 1) {
         }
     }
 }
-// set default selected articulation to first slot
-set("art_1", 1, {sync:false, send:false})
 // --- end instrument selector buttons --- //
 
 
 // --- articulation selector buttons --- //
-set("art_*", 0, {sync:false, send:false})
-if (get(id) === 1) {
+set("art_*", 0, {sync:false, script: false, send:false})
+var myId = getProp("this", "id")
+if (get(myId) === 1) {
     let keyswitch = getVar(id, "keyswitch")
-    console.log("Sending " + keyswitch)
-    send("midi:VirtualMidi", "/note", 1, keyswitch, 100) // sends note "on" to channel 1, note defined by the variable, and velocity = 100
-    send("midi:VirtualMidi", "/note", 1, keyswitch, 0) // sends note "off" using velocity = 0
+    if (typeof(keyswitch) !== "undefined") {
+        console.log("Sending KS: " + keyswitch)
+        send("midi:VirtualMidi", "/note", 1, keyswitch, 100) // sends note "on" to channel 1, note defined by the variable, and velocity = 100
+        send("midi:VirtualMidi", "/note", 1, keyswitch, 0) // sends note "off" using velocity = 0
+    }
 } else {
 }
 // --- end articulation selector buttons --- //
