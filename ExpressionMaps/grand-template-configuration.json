@@ -6891,7 +6891,7 @@
   "12": {
     "id": "ar1",
     "name": "Abbey Road One",
-    "primaryColor": "#D71E0B",
+    "primaryColor": "#990e9c",
     "midiCC": 112,
     "articulationsConfig": "library",
     "articulations": {
