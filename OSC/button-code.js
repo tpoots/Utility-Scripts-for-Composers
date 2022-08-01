@@ -52,6 +52,7 @@ var libraryConfig = JSON.parse(JSON.stringify(get("configuration")))[libraryId]
 var instruments = libraryConfig["instruments"]
 var articulations = libraryConfig["articulations"]
 var primaryColor = libraryConfig["primaryColor"]
+var ccConfig = libraryConfig["ccConfig"]
 var articulationConfig = libraryConfig["articulationConfig"]
 console.log("libraryId = " + value)
 set("button_instr_*", 0, {sync:false, script: false, send:false})
@@ -84,6 +85,46 @@ for (let i = 1; i <= 25; i++) {
         setVar("button_instr_" + i, "label", instruments[i-1]["name"])
     } else {
         setVar("button_instr_" + i, "visible", 0)
+    }
+}
+// set up CC faders
+if (typeof ccConfig !== "undefined") {
+    // hide all CC UI elements
+    setVar("cc_max_*", "visible", 0)
+    setVar("cc_fader_*", "visible", 0)
+    setVar("cc_min_*", "visible", 0)
+    setVar("cc_only_*", "visible", 0)
+    setVar("cc_id_*", "visible", 0)
+    setVar("cc_label_*", "visible", 0)
+    // show only those set up for the library
+    for (let i = 1; i <= 20; i++) {
+        if (typeof ccConfig[i] !== "undefined") {
+            setVar("cc_fader_" + i, "cc", ccConfig[i].cc)
+            setVar("cc_id_" + i, "name", "CC " + ccConfig[i].cc)
+            setVar("cc_label_" + i, "name", ccConfig[i].name)
+            // show CC UI element
+             setVar("cc_max_" + i, "visible", 1)
+             setVar("cc_fader_" + i, "visible", 1)
+             setVar("cc_min_" + i, "visible", 1)
+             setVar("cc_only_" + i, "visible", 1)
+             setVar("cc_id_" + i, "visible", 1)
+             setVar("cc_label_" + i, "visible", 1)
+        }
+    }
+} else {
+    console.log("setting up default CC faders")
+    // show all CC UI elements
+    setVar("cc_max_*", "visible", 1)
+    setVar("cc_fader_*", "visible", 1)
+    setVar("cc_min_*", "visible", 1)
+    setVar("cc_only_*", "visible", 1)
+    setVar("cc_id_*", "visible", 1)
+    setVar("cc_label_*", "visible", 1)
+    for (let i = 1; i<= 20; i++) {
+        var cc = 20+i
+        setVar("cc_fader_" + i, "cc", cc)
+        setVar("cc_id_" + i, "name", "CC " + cc)
+        setVar("cc_label_" + i, "name", "CC " + cc)
     }
 }
 // set default selected articulation to first slot
@@ -165,3 +206,20 @@ if (get(myId) === 1) {
 } else {
 }
 // --- end articulation selector buttons --- //
+
+// --- cc faders (onValue) --- //
+var mic_level = Math.round(value)
+var cc =  getVar("this", "cc")
+console.log("Sending " + mic_level + " to CC " + cc)
+send("midi:ControlToCubase", "/control", 1, cc, mic_level)
+// --- end cc faders --- //
+
+// --- cc max buttons --- //
+var buttonIndex = id.substr(7,2)
+set("cc_fader_" + buttonIndex, 127)
+// --- end cc max buttons ---//
+
+// --- cc min buttons --- //
+var buttonIndex = id.substr(7,2)
+set("cc_fader_" + buttonIndex, 0)
+// --- end cc min buttons ---//

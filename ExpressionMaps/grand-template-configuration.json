@@ -608,6 +608,20 @@
       "21": "Legato",
       "22": "Legato (Detached)",
       "31": "Trill HT"
+    },
+    "ccConfig": {
+      "1": {
+        "cc": 29,
+        "name": "Fine"
+      },
+      "2": {
+        "cc": 30,
+        "name": "Medium"
+      },
+      "3": {
+        "cc": 31,
+        "name": "Broad"
+      }
     }
   },
   "2": {
@@ -1387,6 +1401,20 @@
       "45": "Trill WT",
       "46": "FX Glissandi",
       "47": "FX Fanfare"
+    },
+    "ccConfig": {
+      "1": {
+        "cc": 29,
+        "name": "Fine"
+      },
+      "2": {
+        "cc": 30,
+        "name": "Medium"
+      },
+      "3": {
+        "cc": 31,
+        "name": "Broad"
+      }
     }
   },
   "3": {
@@ -2187,6 +2215,20 @@
       "53": "FX",
       "54": "Trill Min3",
       "55": "Trill Maj3"
+    },
+    "ccConfig": {
+      "1": {
+        "cc": 29,
+        "name": "Fine"
+      },
+      "2": {
+        "cc": 30,
+        "name": "Medium"
+      },
+      "3": {
+        "cc": 31,
+        "name": "Broad"
+      }
     }
   },
   "4": {
@@ -3052,6 +3094,20 @@
       "58": "FX Tense Longer",
       "59": "FX Disco Fall",
       "60": "FX Disco Upwards"
+    },
+    "ccConfig": {
+      "1": {
+        "cc": 29,
+        "name": "Fine"
+      },
+      "2": {
+        "cc": 30,
+        "name": "Medium"
+      },
+      "3": {
+        "cc": 31,
+        "name": "Broad"
+      }
     }
   },
   "5": {
@@ -3447,6 +3503,20 @@
       "18": "Spiccato Brushed Baroque",
       "21": "Legato",
       "31": "Trill HT"
+    },
+    "ccConfig": {
+      "1": {
+        "cc": 22,
+        "name": "Close"
+      },
+      "2": {
+        "cc": 23,
+        "name": "Tree"
+      },
+      "3": {
+        "cc": 24,
+        "name": "Ambient"
+      }
     }
   },
   "6": {
@@ -8878,1304 +8948,1304 @@
     "midiCC": 116,
     "articulationConfig": "perInstrument",
     "instruments": {
-        "0": {
-            "name": "Woods Hi Long Notes Tonal",
-            "articulations": {
-                "Chromatic Cluster": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Harsh Multiphonics": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Moving Longer": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Multiphonics": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Pulsing Rhythm Into Slur": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Quarter Chromatic Cluster": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                },
-                "Residual Tones": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Rough Multiphonics": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Shrill Multiphonics": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Slow Quarter Tone Vibrato": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Slurinto Pulsing Rhythm": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Soft Clarinet Multiphonic": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Soft Flute Multiphonic": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Soft Multiphonics": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Soft Oboe Multiphonic": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Soft Piccolo Multiphonic": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Wild Flutter Bursts": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                }
-            }
-        },
-        "1": {
-            "name": "Woods Hi Phrases Atonal 1",
-            "articulations": {
-                "Random Legato To Semi Trill": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Falling Chromatics": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Falling Flurry": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                },
-                "Falling Flutter": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Falling Staccato": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Flourish Down": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Pulising Slide Down": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Pulsing Slide Up": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "QuasiGlissando Ascending Cresc": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "QuasiGlissando Decrecending Cresc": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Random Cascade Of Whistle Tones": {
-                    "keySwitch": "17",
-                    "UACC": "120"
-                },
-                "Rising Chromatics": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Rising Flurry": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Rising Flutter": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Rising Marcato": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Rising Staccato": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Short Marcato Down": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Short Marcato Up": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                }
-            }
-        },
-        "2": {
-            "name": "Woods Hi Phrases Tonal",
-            "articulations": {
-                "Falling Quarter Tones": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Flutter Fall And Rise": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Flutter Falling To Trill": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Flutter Falling To Trill 2": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Flutter Rise And Fall": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Marcato Uni To Cluster Down": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Marcato Uni To Cluster Up": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Pulsing Crescendo And Dim": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Rising Quarter Tones": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "SlowGlissando": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Soft Falling And Rising": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Soft Rising And Falling": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Trill In To Rise": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                }
-            }
-        },
-        "3": {
-            "name": "Woods Hi Stabs Tonal 1",
-            "articulations": {
-                "Air Only": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Chromatic Falls": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Chromatic Rises": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                },
-                "Compound Chromatic Falls": {
-                    "keySwitch": "17",
-                    "UACC": "120"
-                },
-                "Falls Quarter Range": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Flutter Tenuto": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Messy Rapid Falls": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Messy Rapid Rises": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Rises Quarter Range": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Short Tremolo": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Tenuto Cluster 1": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Tenuto Cluster 2": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Tenuto Cluster Bend Down": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Tenuto Cluster Bend Up": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Triplet Cluster Down": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Triplet Cluster Up": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Triplet Jump Clusters Down": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Triplet Jump Clusters Up": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                }
-            }
-        },
-        "4": {
-            "name": "Woods Hi Stabs Tonal 2",
-            "articulations": {
-                "Compound Chromatic Rises": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                }
-            }
-        },
-        "5": {
-            "name": "Woods Hi Sting Tonal 1",
-            "articulations": {
-                "Long Dim": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Dim Free SmallGlissando": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Diminuendo Trill": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "ErraticGlissando": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Falling Chromatic Patterns": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Falling QuasiGlissando Semitone": {
-                    "keySwitch": "17",
-                    "UACC": "120"
-                },
-                "Gliss Down To Forte Piano": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Gliss Up To Forte Piano": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Jet Whistle": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Long Dim Flutter": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Long Quarter Note Movement Dim": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Marcato Chromatic Dim": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "QuasiGlissando Falls": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Quick Flourish": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Rapid To Slow Dim": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Rising Semi Tone Trill": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                },
-                "Semi Trill Chromatic Movement": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Tremolo Chromatic Movement": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                }
-            }
-        },
-        "6": {
-            "name": "Woods Hi Sting Tonal 2",
-            "articulations": {
-                "Accent Semi Trill Dim": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Fadeout": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Falling Marcato": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Forte Piano Tremolo Dim": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Overblown": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Quart Trill Dim": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Quarter Trill Crescendo": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Quick Dim Fall": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Quick Dim Flurry": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Quick Dim Rise": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Quick Marcato Dims": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Randomized Movements": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Run Up To Quick Dim Flurry": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Staccato Bursts": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                }
-            }
-        },
-        "7": {
-            "name": "Woods Hi Textures Tonal 1",
-            "articulations": {
-                "Random Chroamatic Legato Bursts MW": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Chaotic Chromatic Patter MW": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Cluster Down MW": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Cluster Up MW": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Constant Falling MW": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Constant Rising MW": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Fast Legato Chromatic Notes MW": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Intense Chromatic Chatter MW": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Quarter Tone Trill": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                },
-                "Quasi Glissempre": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Random Burst Semi Trill MW": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Random Chromatic Bursts MW": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Random Single Note MW": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Repeated Falling Flurries MW": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Repeated Rising Flurries MW": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Slow Quarter Note Bends": {
-                    "keySwitch": "17",
-                    "UACC": "120"
-                },
-                "Slowly Rising Legato Pattern MW": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Slowly Rising Legato Trill MW": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                }
-            }
-        },
-        "8": {
-            "name": "Woods Hi Textures Tonal 2",
-            "articulations": {
-                "Marcato High Long": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "High Whistle Tones": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                }
-            }
-        },
-        "9": {
-            "name": "Woods Low Long Notes Atonal",
-            "articulations": {
-                "Harsh Bass Clarinet Multiphonics": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Harsh Bassoon Multiphonics": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Harsh Multiphonics": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "High Random Overtones": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "High Random Overtones Bassoon": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Quarter Tone Cluster MW": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Soft Bass Multiphonics": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Soft Bassoon Multiphonics": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Soft Multiphonics": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                }
-            }
-        },
-        "10": {
-            "name": "Woods Low Long Notes Tonal",
-            "articulations": {
-                "Moving Long Clari And Bassoon": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Accelerating Pulsing Rhythm Clari And Bassoon": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Moving Long": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Moving Quarter Tone Cluster": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Moving Quarter Tone Cluster Clari And Bassoon": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Multiphonics": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Pulsing Rhythm Into Slur": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Pulsing Rhythm Into Slur Clari And Bassoon": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Quarter Tone Cluster Clari And Bassoon": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Slow Quarter Tone Vibrato": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Slow Quarter Tone Vibrato Clari And Bassoon": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Slur Into Pulsing Rhythm": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Slur Into Pulsing Rhythm Clari And Bassoon": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Wild Flutter Bursts": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Wild Flutter Bursts Clari And Bassoon": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                }
-            }
-        },
-        "11": {
-            "name": "Woods Low Phrases Atonal 1",
-            "articulations": {
-                "Random Legato HT Trill": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Falling Chromatics Clarinet And Bassoon": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Falling Flutter": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Falling Staccato": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Falling Staccato Clarinet And Bassoon": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Flourish Down": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Flourish Up": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Pulsing Slide Down": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Pulsing Slide Up": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Random Compound Movement": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Rising Chromatics Clarinet And Bassoon": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Rising Flutter": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Rising Marcato": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Rising Staccato": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Short Marcato Down": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                },
-                "Short Marcato Down Clarinet And Bassoon": {
-                    "keySwitch": "17",
-                    "UACC": "120"
-                },
-                "Short Marcato Up": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Short Marcato Up Clarinet And Bassoon": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                }
-            }
-        },
-        "12": {
-            "name": "Woods Low Phrases Atonal 2",
-            "articulations": {
-                "Fall Into Trill Clarinet And Bassoon": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Falling Flurry": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Falling Flurry Clarinet And Bassoon": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Falling Quarter Tones Clarinet And Bassoon": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Flutter Fall And Rise Clarinet And Bassoon": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Flutter Rise And Fall Clarinet And Bassoon": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Random Cascade Of Whistle Tones": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Rising Flurry": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Rising Flurry Clarinet And Bassoon": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Rising Quarter Tones Clarinet And Bassoon": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Trill To Rise Clarinet And Bassoon": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                }
-            }
-        },
-        "13": {
-            "name": "Woods Low Phrases Tonal",
-            "articulations": {
-                "Fall Into Trill": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Falling Chromatic": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Falling Quarter Tones": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Flutter Fall To Rise": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Flutter Rise To Fall": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Marcato Unison To Cluster Down": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Marcato Unison To Cluster Up": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Pulsing Crescendo And Diminuendo": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "QuasiGlissando Ascending Crescendo": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "QuasiGlissando Decrescending Crescendo": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Rising Chromatic": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Rising Quarter Tones": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "SlowGlissando": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Soft Falling And Rising Phrases": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Soft Rising And Falling Phrases": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Trill Into Rise": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                }
-            }
-        },
-        "14": {
-            "name": "Woods Low Stabs Tonal 1",
-            "articulations": {
-                "Falls Quarter Range": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Falls Quarter Range Clarinet And Bassoon": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Flutter Tenuto": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Flutter Tenuto Clarinet And Bassoon": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Messy Rapid Falls": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Messy Rapid Falls Clarinet And Bassoon": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Messy Rapid Rises": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Messy Rapid Rises Clarinet And Bassoon": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Rises Quarter Range": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Tenuto Cluster Bend Down": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Tenuto Cluster Bend Up": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Tenuto Cluster Clarinet And Bassoon": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Triplet Cluster Down": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Triplet Cluster Down Clarinet And Bassoon": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Triplet Cluster Up": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Triplet Cluster Up Clarinet And Bassoon": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Triplet Jump Cluster Down": {
-                    "keySwitch": "17",
-                    "UACC": "120"
-                },
-                "Triplet Jump Cluster Up": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                }
-            }
-        },
-        "15": {
-            "name": "Woods Low Stabs Tonal 2",
-            "articulations": {
-                "Chromatic Falls": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Chromatic Falls Clarinet And Bassoon": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Chromatic Rises": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Chromatic Rises Clarinet And Bassoon": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Compound Chromatic Falls": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Compound Chromatic Rises": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Short Tremolo": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Tenuto Trill Clarinet And Bassoon": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                }
-            }
-        },
-        "16": {
-            "name": "Woods Low Stings Tonal 1",
-            "articulations": {
-                "Long Diminuendo Clarinet And Bassoon": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Diminuendo Free SmallGlissando": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                },
-                "Diminuendo Trill": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Diminuendo Trill Clarinet And Bassoon": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Long Diminuendo": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Long Diminuendo Flutter": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Long Diminuendo Flutter Clarinet And Bassoon": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Long Quarter Tone Movement Dim": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Long Quarter Tone Movement Dim Clarinet And Bassoon": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Marcato Chromatic Diminuendo": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Marcato Chromatic Diminuendo Clarinet And Bassoon": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "QuasiGlissando Falls": {
-                    "keySwitch": "17",
-                    "UACC": "120"
-                },
-                "Rapid To Slow Diminuendo": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Rapid To Slow Diminuendo Clarinet And Bassoon": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Semitone Trill Chromatic Movement": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Semitone Trill Chromatic Movement Clarinet And Bassoon": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Tremolo Chromatic Movement": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Tremolo Chromatic Movement Clarinet And Bassoon": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                }
-            }
-        },
-        "17": {
-            "name": "Woods Low Stings Tonal 2",
-            "articulations": {
-                "ErracicGlissando Decrescendo": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "ErraticGlissando Crescendo": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Falling Chromatic Patterns": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Falling Chromatic Patterns Clarinet And Bassoon": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Falling QuasiGlissando HT": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Falling QuasiGlissando HT Clarinet And Bassoon": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Quick Ascending And Decending Flourish": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Quick Ascending And Decending Flourish C+B": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Quick Marcatos Diminuendo": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Quick Marcatos Diminuendo Clarinet And Bassoon": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                },
-                "Randominsed Movement Clarinet And Bassoon": {
-                    "keySwitch": "17",
-                    "UACC": "120"
-                },
-                "Rising HT Trill": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Rising HT Trill Clarinet And Bassoon": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Run Down To ffGlissando Clarinet And Bassoon": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Run Down Tp ffGlissando": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Run Up To ffGlissando Clarinet And Bassoon": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Run Up Tp ffGlissando": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                }
-            }
-        },
-        "18": {
-            "name": "Woods Low Stings Tonal 3",
-            "articulations": {
-                "Accent Semi Trill Clarinet And Bassoon": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Accent Semi Trill Dim": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Falling Marcato": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Fp Tremolo Crescendo": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Fp Tremolo Diminuendo": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Quarter Tone Trill Crescendo": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Quarter Tone Trill Diminuendo": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Quick Dim Falls": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Quick Dim Falls Clarinet And Bassoon": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Quick Dim Flurry": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Quick Dim Flurry Clarinet And Bassoon": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Quick Dim Rises": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Quick Dim Rises Clarinet And Bassoon": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Randomized Movements": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Run Up To Quick Dim Flurry": {
-                    "keySwitch": "17",
-                    "UACC": "120"
-                },
-                "Run Up To Quick Dim Flurry C+B": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                },
-                "Staccato Bursts": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Staccato Bursts Clarinet And Bassoon": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                }
-            }
-        },
-        "19": {
-            "name": "Woods Low Stings Tonal 4",
-            "articulations": {
-                "Fade Out": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                }
-            }
-        },
-        "20": {
-            "name": "Woods Low Textures Atonal 1",
-            "articulations": {
-                "Random Chromatic Legato Movement C+B": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Cluster Down MW": {
-                    "keySwitch": "16",
-                    "UACC": "120"
-                },
-                "Cluster Up MW": {
-                    "keySwitch": "15",
-                    "UACC": "120"
-                },
-                "Cluster Upo Clarinet + Bassoon": {
-                    "keySwitch": "14",
-                    "UACC": "120"
-                },
-                "Constant Falling Clarinet + Bassoon": {
-                    "keySwitch": "11",
-                    "UACC": "120"
-                },
-                "Constant Falling MW": {
-                    "keySwitch": "12",
-                    "UACC": "120"
-                },
-                "Constant Rising Clarinet + Bassoon": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Constant Rising MW": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Fast Legato Chromatic Notes C+B": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Fast Legato Chromatic Notes MW": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Intense Chromatic Chatter MW": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "QuasiGlissando Sempre": {
-                    "keySwitch": "13",
-                    "UACC": "120"
-                },
-                "Random Bursts Semi Trill MW": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Random Chromatic Bursts Clarinet + Bassoon": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Random Chromatic Bursts MW": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                },
-                "Random Chromatic Movement": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Random Single Note Attacks MW": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "Repeated Falling Flurries Clarinet + Bassoon": {
-                    "keySwitch": "17",
-                    "UACC": "120"
-                }
-            }
-        },
-        "21": {
-            "name": "Woods Low Textures Atonal 2",
-            "articulations": {
-                "Marcato High Long": {
-                    "keySwitch": "8",
-                    "UACC": "120"
-                },
-                "Chaotic Chromatic Pattern": {
-                    "keySwitch": "5",
-                    "UACC": "120"
-                },
-                "High Whistle Tones": {
-                    "keySwitch": "9",
-                    "UACC": "120"
-                },
-                "Intense Chromatic Chatter Clarinet + Bassoon": {
-                    "keySwitch": "10",
-                    "UACC": "120"
-                },
-                "Quarter Tone Trill": {
-                    "keySwitch": "6",
-                    "UACC": "120"
-                },
-                "Repeated Falling Flurries MW": {
-                    "keySwitch": "0",
-                    "UACC": "120"
-                },
-                "Repeated Rising Flurries Clarinet + Bassoon": {
-                    "keySwitch": "1",
-                    "UACC": "120"
-                },
-                "Repeated Rising Flurries MW": {
-                    "keySwitch": "2",
-                    "UACC": "120"
-                },
-                "Slow Quater Tone Bends": {
-                    "keySwitch": "7",
-                    "UACC": "120"
-                },
-                "Slowly Moving Legato Trill MW": {
-                    "keySwitch": "3",
-                    "UACC": "120"
-                },
-                "Slowly Moving Legato Trill MW 2": {
-                    "keySwitch": "4",
-                    "UACC": "120"
-                }
-            }
+      "0": {
+        "name": "Woods Hi Long Notes Tonal",
+        "articulations": {
+          "Chromatic Cluster": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Harsh Multiphonics": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Moving Longer": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Multiphonics": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Pulsing Rhythm Into Slur": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Quarter Chromatic Cluster": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "Residual Tones": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Rough Multiphonics": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Shrill Multiphonics": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Slow Quarter Tone Vibrato": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Slurinto Pulsing Rhythm": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Soft Clarinet Multiphonic": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Soft Flute Multiphonic": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Soft Multiphonics": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Soft Oboe Multiphonic": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Soft Piccolo Multiphonic": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Wild Flutter Bursts": {
+            "keySwitch": "13",
+            "UACC": "120"
+          }
         }
+      },
+      "1": {
+        "name": "Woods Hi Phrases Atonal 1",
+        "articulations": {
+          "Random Legato To Semi Trill": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Falling Chromatics": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Falling Flurry": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "Falling Flutter": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Falling Staccato": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Flourish Down": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Pulising Slide Down": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Pulsing Slide Up": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "QuasiGlissando Ascending Cresc": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "QuasiGlissando Decrecending Cresc": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Random Cascade Of Whistle Tones": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Rising Chromatics": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Rising Flurry": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Rising Flutter": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Rising Marcato": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Rising Staccato": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Short Marcato Down": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Short Marcato Up": {
+            "keySwitch": "13",
+            "UACC": "120"
+          }
+        }
+      },
+      "2": {
+        "name": "Woods Hi Phrases Tonal",
+        "articulations": {
+          "Falling Quarter Tones": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Flutter Fall And Rise": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Flutter Falling To Trill": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Flutter Falling To Trill 2": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Flutter Rise And Fall": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Marcato Uni To Cluster Down": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Marcato Uni To Cluster Up": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Pulsing Crescendo And Dim": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Rising Quarter Tones": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "SlowGlissando": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Soft Falling And Rising": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Soft Rising And Falling": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Trill In To Rise": {
+            "keySwitch": "12",
+            "UACC": "120"
+          }
+        }
+      },
+      "3": {
+        "name": "Woods Hi Stabs Tonal 1",
+        "articulations": {
+          "Air Only": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Chromatic Falls": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Chromatic Rises": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "Compound Chromatic Falls": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Falls Quarter Range": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Flutter Tenuto": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Messy Rapid Falls": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Messy Rapid Rises": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Rises Quarter Range": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Short Tremolo": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Tenuto Cluster 1": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Tenuto Cluster 2": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Tenuto Cluster Bend Down": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Tenuto Cluster Bend Up": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Triplet Cluster Down": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Triplet Cluster Up": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Triplet Jump Clusters Down": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Triplet Jump Clusters Up": {
+            "keySwitch": "12",
+            "UACC": "120"
+          }
+        }
+      },
+      "4": {
+        "name": "Woods Hi Stabs Tonal 2",
+        "articulations": {
+          "Compound Chromatic Rises": {
+            "keySwitch": "0",
+            "UACC": "120"
+          }
+        }
+      },
+      "5": {
+        "name": "Woods Hi Sting Tonal 1",
+        "articulations": {
+          "Long Dim": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Dim Free SmallGlissando": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Diminuendo Trill": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "ErraticGlissando": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Falling Chromatic Patterns": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Falling QuasiGlissando Semitone": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Gliss Down To Forte Piano": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Gliss Up To Forte Piano": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Jet Whistle": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Long Dim Flutter": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Long Quarter Note Movement Dim": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Marcato Chromatic Dim": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "QuasiGlissando Falls": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Quick Flourish": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Rapid To Slow Dim": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Rising Semi Tone Trill": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "Semi Trill Chromatic Movement": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Tremolo Chromatic Movement": {
+            "keySwitch": "5",
+            "UACC": "120"
+          }
+        }
+      },
+      "6": {
+        "name": "Woods Hi Sting Tonal 2",
+        "articulations": {
+          "Accent Semi Trill Dim": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Fadeout": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Falling Marcato": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Forte Piano Tremolo Dim": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Overblown": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Quart Trill Dim": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Quarter Trill Crescendo": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Quick Dim Fall": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Quick Dim Flurry": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Quick Dim Rise": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Quick Marcato Dims": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Randomized Movements": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Run Up To Quick Dim Flurry": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Staccato Bursts": {
+            "keySwitch": "2",
+            "UACC": "120"
+          }
+        }
+      },
+      "7": {
+        "name": "Woods Hi Textures Tonal 1",
+        "articulations": {
+          "Random Chroamatic Legato Bursts MW": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Chaotic Chromatic Patter MW": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Cluster Down MW": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Cluster Up MW": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Constant Falling MW": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Constant Rising MW": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Fast Legato Chromatic Notes MW": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Intense Chromatic Chatter MW": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Quarter Tone Trill": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "Quasi Glissempre": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Random Burst Semi Trill MW": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Random Chromatic Bursts MW": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Random Single Note MW": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Repeated Falling Flurries MW": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Repeated Rising Flurries MW": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Slow Quarter Note Bends": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Slowly Rising Legato Pattern MW": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Slowly Rising Legato Trill MW": {
+            "keySwitch": "13",
+            "UACC": "120"
+          }
+        }
+      },
+      "8": {
+        "name": "Woods Hi Textures Tonal 2",
+        "articulations": {
+          "Marcato High Long": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "High Whistle Tones": {
+            "keySwitch": "1",
+            "UACC": "120"
+          }
+        }
+      },
+      "9": {
+        "name": "Woods Low Long Notes Atonal",
+        "articulations": {
+          "Harsh Bass Clarinet Multiphonics": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Harsh Bassoon Multiphonics": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Harsh Multiphonics": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "High Random Overtones": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "High Random Overtones Bassoon": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Quarter Tone Cluster MW": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Soft Bass Multiphonics": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Soft Bassoon Multiphonics": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Soft Multiphonics": {
+            "keySwitch": "5",
+            "UACC": "120"
+          }
+        }
+      },
+      "10": {
+        "name": "Woods Low Long Notes Tonal",
+        "articulations": {
+          "Moving Long Clari And Bassoon": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Accelerating Pulsing Rhythm Clari And Bassoon": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Moving Long": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Moving Quarter Tone Cluster": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Moving Quarter Tone Cluster Clari And Bassoon": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Multiphonics": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Pulsing Rhythm Into Slur": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Pulsing Rhythm Into Slur Clari And Bassoon": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Quarter Tone Cluster Clari And Bassoon": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Slow Quarter Tone Vibrato": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Slow Quarter Tone Vibrato Clari And Bassoon": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Slur Into Pulsing Rhythm": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Slur Into Pulsing Rhythm Clari And Bassoon": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Wild Flutter Bursts": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Wild Flutter Bursts Clari And Bassoon": {
+            "keySwitch": "10",
+            "UACC": "120"
+          }
+        }
+      },
+      "11": {
+        "name": "Woods Low Phrases Atonal 1",
+        "articulations": {
+          "Random Legato HT Trill": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Falling Chromatics Clarinet And Bassoon": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Falling Flutter": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Falling Staccato": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Falling Staccato Clarinet And Bassoon": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Flourish Down": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Flourish Up": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Pulsing Slide Down": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Pulsing Slide Up": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Random Compound Movement": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Rising Chromatics Clarinet And Bassoon": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Rising Flutter": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Rising Marcato": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Rising Staccato": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Short Marcato Down": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "Short Marcato Down Clarinet And Bassoon": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Short Marcato Up": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Short Marcato Up Clarinet And Bassoon": {
+            "keySwitch": "15",
+            "UACC": "120"
+          }
+        }
+      },
+      "12": {
+        "name": "Woods Low Phrases Atonal 2",
+        "articulations": {
+          "Fall Into Trill Clarinet And Bassoon": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Falling Flurry": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Falling Flurry Clarinet And Bassoon": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Falling Quarter Tones Clarinet And Bassoon": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Flutter Fall And Rise Clarinet And Bassoon": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Flutter Rise And Fall Clarinet And Bassoon": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Random Cascade Of Whistle Tones": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Rising Flurry": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Rising Flurry Clarinet And Bassoon": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Rising Quarter Tones Clarinet And Bassoon": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Trill To Rise Clarinet And Bassoon": {
+            "keySwitch": "10",
+            "UACC": "120"
+          }
+        }
+      },
+      "13": {
+        "name": "Woods Low Phrases Tonal",
+        "articulations": {
+          "Fall Into Trill": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Falling Chromatic": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Falling Quarter Tones": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Flutter Fall To Rise": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Flutter Rise To Fall": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Marcato Unison To Cluster Down": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Marcato Unison To Cluster Up": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Pulsing Crescendo And Diminuendo": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "QuasiGlissando Ascending Crescendo": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "QuasiGlissando Decrescending Crescendo": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Rising Chromatic": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Rising Quarter Tones": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "SlowGlissando": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Soft Falling And Rising Phrases": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Soft Rising And Falling Phrases": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Trill Into Rise": {
+            "keySwitch": "16",
+            "UACC": "120"
+          }
+        }
+      },
+      "14": {
+        "name": "Woods Low Stabs Tonal 1",
+        "articulations": {
+          "Falls Quarter Range": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Falls Quarter Range Clarinet And Bassoon": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Flutter Tenuto": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Flutter Tenuto Clarinet And Bassoon": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Messy Rapid Falls": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Messy Rapid Falls Clarinet And Bassoon": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Messy Rapid Rises": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Messy Rapid Rises Clarinet And Bassoon": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Rises Quarter Range": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Tenuto Cluster Bend Down": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Tenuto Cluster Bend Up": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Tenuto Cluster Clarinet And Bassoon": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Triplet Cluster Down": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Triplet Cluster Down Clarinet And Bassoon": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Triplet Cluster Up": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Triplet Cluster Up Clarinet And Bassoon": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Triplet Jump Cluster Down": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Triplet Jump Cluster Up": {
+            "keySwitch": "16",
+            "UACC": "120"
+          }
+        }
+      },
+      "15": {
+        "name": "Woods Low Stabs Tonal 2",
+        "articulations": {
+          "Chromatic Falls": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Chromatic Falls Clarinet And Bassoon": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Chromatic Rises": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Chromatic Rises Clarinet And Bassoon": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Compound Chromatic Falls": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Compound Chromatic Rises": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Short Tremolo": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Tenuto Trill Clarinet And Bassoon": {
+            "keySwitch": "7",
+            "UACC": "120"
+          }
+        }
+      },
+      "16": {
+        "name": "Woods Low Stings Tonal 1",
+        "articulations": {
+          "Long Diminuendo Clarinet And Bassoon": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Diminuendo Free SmallGlissando": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "Diminuendo Trill": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Diminuendo Trill Clarinet And Bassoon": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Long Diminuendo": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Long Diminuendo Flutter": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Long Diminuendo Flutter Clarinet And Bassoon": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Long Quarter Tone Movement Dim": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Long Quarter Tone Movement Dim Clarinet And Bassoon": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Marcato Chromatic Diminuendo": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Marcato Chromatic Diminuendo Clarinet And Bassoon": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "QuasiGlissando Falls": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Rapid To Slow Diminuendo": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Rapid To Slow Diminuendo Clarinet And Bassoon": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Semitone Trill Chromatic Movement": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Semitone Trill Chromatic Movement Clarinet And Bassoon": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Tremolo Chromatic Movement": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Tremolo Chromatic Movement Clarinet And Bassoon": {
+            "keySwitch": "10",
+            "UACC": "120"
+          }
+        }
+      },
+      "17": {
+        "name": "Woods Low Stings Tonal 2",
+        "articulations": {
+          "ErracicGlissando Decrescendo": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "ErraticGlissando Crescendo": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Falling Chromatic Patterns": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Falling Chromatic Patterns Clarinet And Bassoon": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Falling QuasiGlissando HT": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Falling QuasiGlissando HT Clarinet And Bassoon": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Quick Ascending And Decending Flourish": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Quick Ascending And Decending Flourish C+B": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Quick Marcatos Diminuendo": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Quick Marcatos Diminuendo Clarinet And Bassoon": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "Randominsed Movement Clarinet And Bassoon": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Rising HT Trill": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Rising HT Trill Clarinet And Bassoon": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Run Down To ffGlissando Clarinet And Bassoon": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Run Down Tp ffGlissando": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Run Up To ffGlissando Clarinet And Bassoon": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Run Up Tp ffGlissando": {
+            "keySwitch": "1",
+            "UACC": "120"
+          }
+        }
+      },
+      "18": {
+        "name": "Woods Low Stings Tonal 3",
+        "articulations": {
+          "Accent Semi Trill Clarinet And Bassoon": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Accent Semi Trill Dim": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Falling Marcato": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Fp Tremolo Crescendo": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Fp Tremolo Diminuendo": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Quarter Tone Trill Crescendo": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Quarter Tone Trill Diminuendo": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Quick Dim Falls": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Quick Dim Falls Clarinet And Bassoon": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Quick Dim Flurry": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Quick Dim Flurry Clarinet And Bassoon": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Quick Dim Rises": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Quick Dim Rises Clarinet And Bassoon": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Randomized Movements": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Run Up To Quick Dim Flurry": {
+            "keySwitch": "17",
+            "UACC": "120"
+          },
+          "Run Up To Quick Dim Flurry C+B": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "Staccato Bursts": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Staccato Bursts Clarinet And Bassoon": {
+            "keySwitch": "1",
+            "UACC": "120"
+          }
+        }
+      },
+      "19": {
+        "name": "Woods Low Stings Tonal 4",
+        "articulations": {
+          "Fade Out": {
+            "keySwitch": "0",
+            "UACC": "120"
+          }
+        }
+      },
+      "20": {
+        "name": "Woods Low Textures Atonal 1",
+        "articulations": {
+          "Random Chromatic Legato Movement C+B": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Cluster Down MW": {
+            "keySwitch": "16",
+            "UACC": "120"
+          },
+          "Cluster Up MW": {
+            "keySwitch": "15",
+            "UACC": "120"
+          },
+          "Cluster Upo Clarinet + Bassoon": {
+            "keySwitch": "14",
+            "UACC": "120"
+          },
+          "Constant Falling Clarinet + Bassoon": {
+            "keySwitch": "11",
+            "UACC": "120"
+          },
+          "Constant Falling MW": {
+            "keySwitch": "12",
+            "UACC": "120"
+          },
+          "Constant Rising Clarinet + Bassoon": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Constant Rising MW": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Fast Legato Chromatic Notes C+B": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Fast Legato Chromatic Notes MW": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Intense Chromatic Chatter MW": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "QuasiGlissando Sempre": {
+            "keySwitch": "13",
+            "UACC": "120"
+          },
+          "Random Bursts Semi Trill MW": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Random Chromatic Bursts Clarinet + Bassoon": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Random Chromatic Bursts MW": {
+            "keySwitch": "4",
+            "UACC": "120"
+          },
+          "Random Chromatic Movement": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Random Single Note Attacks MW": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "Repeated Falling Flurries Clarinet + Bassoon": {
+            "keySwitch": "17",
+            "UACC": "120"
+          }
+        }
+      },
+      "21": {
+        "name": "Woods Low Textures Atonal 2",
+        "articulations": {
+          "Marcato High Long": {
+            "keySwitch": "8",
+            "UACC": "120"
+          },
+          "Chaotic Chromatic Pattern": {
+            "keySwitch": "5",
+            "UACC": "120"
+          },
+          "High Whistle Tones": {
+            "keySwitch": "9",
+            "UACC": "120"
+          },
+          "Intense Chromatic Chatter Clarinet + Bassoon": {
+            "keySwitch": "10",
+            "UACC": "120"
+          },
+          "Quarter Tone Trill": {
+            "keySwitch": "6",
+            "UACC": "120"
+          },
+          "Repeated Falling Flurries MW": {
+            "keySwitch": "0",
+            "UACC": "120"
+          },
+          "Repeated Rising Flurries Clarinet + Bassoon": {
+            "keySwitch": "1",
+            "UACC": "120"
+          },
+          "Repeated Rising Flurries MW": {
+            "keySwitch": "2",
+            "UACC": "120"
+          },
+          "Slow Quater Tone Bends": {
+            "keySwitch": "7",
+            "UACC": "120"
+          },
+          "Slowly Moving Legato Trill MW": {
+            "keySwitch": "3",
+            "UACC": "120"
+          },
+          "Slowly Moving Legato Trill MW 2": {
+            "keySwitch": "4",
+            "UACC": "120"
+          }
+        }
+      }
     }
   },
   "17": {
