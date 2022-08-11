@@ -4185,7 +4185,7 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch\", 0)\n            }\n        }\n    }\n} else {\n    // instrument button is un-selected\n    if (articulationConfig == \"perInstrument\") {\n        for (let i = 1; i <= 60; i++) {\n            setVar(\"art_\" + i, \"visible\", 0)\n        }\n    } else {\n}\n// --- end articulation selector buttons --- //",
+                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nconsole.log(myId)\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 0) // sends note \"off\" using velocity = 0\n    }\n} else {\n}\n// --- end articulation selector buttons --- //",
                 "lock": false,
                 "onCreate": ""
               },
@@ -4229,7 +4229,7 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch\", 0)\n            }\n        }\n    }\n} else {\n    // instrument button is un-selected\n    if (articulationConfig == \"perInstrument\") {\n        for (let i = 1; i <= 60; i++) {\n            setVar(\"art_\" + i, \"visible\", 0)\n        }\n    } else {\n}\n// --- end articulation selector buttons --- //",
+                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nconsole.log(myId)\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 0) // sends note \"off\" using velocity = 0\n    }\n} else {\n}\n// --- end articulation selector buttons --- //",
                 "lock": false,
                 "onCreate": ""
               },
@@ -4273,7 +4273,7 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch\", 0)\n            }\n        }\n    }\n} else {\n    // instrument button is un-selected\n    if (articulationConfig == \"perInstrument\") {\n        for (let i = 1; i <= 60; i++) {\n            setVar(\"art_\" + i, \"visible\", 0)\n        }\n    } else {\n}\n// --- end articulation selector buttons --- //",
+                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nconsole.log(myId)\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 0) // sends note \"off\" using velocity = 0\n    }\n} else {\n}\n// --- end articulation selector buttons --- //",
                 "lock": false,
                 "onCreate": ""
               },
@@ -4317,7 +4317,7 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch\", 0)\n            }\n        }\n    }\n} else {\n    // instrument button is un-selected\n    if (articulationConfig == \"perInstrument\") {\n        for (let i = 1; i <= 60; i++) {\n            setVar(\"art_\" + i, \"visible\", 0)\n        }\n    } else {\n}\n// --- end articulation selector buttons --- //",
+                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nconsole.log(myId)\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 0) // sends note \"off\" using velocity = 0\n    }\n} else {\n}\n// --- end articulation selector buttons --- //",
                 "lock": false,
                 "onCreate": ""
               },
@@ -4361,7 +4361,7 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch\", 0)\n            }\n        }\n    }\n} else {\n    // instrument button is un-selected\n    if (articulationConfig == \"perInstrument\") {\n        for (let i = 1; i <= 60; i++) {\n            setVar(\"art_\" + i, \"visible\", 0)\n        }\n    } else {\n}\n// --- end articulation selector buttons --- //",
+                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nconsole.log(myId)\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 0) // sends note \"off\" using velocity = 0\n    }\n} else {\n}\n// --- end articulation selector buttons --- //",
                 "lock": false,
                 "onCreate": ""
               },
@@ -4405,7 +4405,7 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch\", 0)\n            }\n        }\n    }\n} else {\n    // instrument button is un-selected\n    if (articulationConfig == \"perInstrument\") {\n        for (let i = 1; i <= 60; i++) {\n            setVar(\"art_\" + i, \"visible\", 0)\n        }\n    } else {\n}\n// --- end articulation selector buttons --- //",
+                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nconsole.log(myId)\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 0) // sends note \"off\" using velocity = 0\n    }\n} else {\n}\n// --- end articulation selector buttons --- //",
                 "lock": false,
                 "onCreate": ""
               },
@@ -4449,7 +4449,7 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch\", 0)\n            }\n        }\n    }\n} else {\n    // instrument button is un-selected\n    if (articulationConfig == \"perInstrument\") {\n        for (let i = 1; i <= 60; i++) {\n            setVar(\"art_\" + i, \"visible\", 0)\n        }\n    } else {\n}\n// --- end articulation selector buttons --- //",
+                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nconsole.log(myId)\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 0) // sends note \"off\" using velocity = 0\n    }\n} else {\n}\n// --- end articulation selector buttons --- //",
                 "lock": false,
                 "onCreate": ""
               },
@@ -4493,7 +4493,7 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch\", 0)\n            }\n        }\n    }\n} else {\n    // instrument button is un-selected\n    if (articulationConfig == \"perInstrument\") {\n        for (let i = 1; i <= 60; i++) {\n            setVar(\"art_\" + i, \"visible\", 0)\n        }\n    } else {\n}\n// --- end articulation selector buttons --- //",
+                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nconsole.log(myId)\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 0) // sends note \"off\" using velocity = 0\n    }\n} else {\n}\n// --- end articulation selector buttons --- //",
                 "lock": false,
                 "onCreate": ""
               },
@@ -4537,7 +4537,7 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch\", 0)\n            }\n        }\n    }\n} else {\n    // instrument button is un-selected\n    if (articulationConfig == \"perInstrument\") {\n        for (let i = 1; i <= 60; i++) {\n            setVar(\"art_\" + i, \"visible\", 0)\n        }\n    } else {\n}\n// --- end articulation selector buttons --- //",
+                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nconsole.log(myId)\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 0) // sends note \"off\" using velocity = 0\n    }\n} else {\n}\n// --- end articulation selector buttons --- //",
                 "lock": false,
                 "onCreate": ""
               },
@@ -4581,7 +4581,7 @@
                 "target": "",
                 "ignoreDefaults": false,
                 "bypass": false,
-                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch\", 0)\n            }\n        }\n    }\n} else {\n    // instrument button is un-selected\n    if (articulationConfig == \"perInstrument\") {\n        for (let i = 1; i <= 60; i++) {\n            setVar(\"art_\" + i, \"visible\", 0)\n        }\n    } else {\n}\n// --- end articulation selector buttons --- //",
+                "onValue": "// --- articulation selector buttons --- //\nset(\"art_*\", 0, {sync:false, script: false, send:false})\nvar myId = getProp(\"this\", \"id\")\nconsole.log(myId)\nif (get(myId) === 1) {\n    let keyswitch = getVar(id, \"keyswitch\")\n    if (typeof(keyswitch) !== \"undefined\") {\n        console.log(\"Sending KS: \" + keyswitch)\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 100) // sends note \"on\" to channel 1, note defined by the variable, and velocity = 100\n        send(\"midi:VirtualMidi\", \"/note\", 1, keyswitch, 0) // sends note \"off\" using velocity = 0\n    }\n} else {\n}\n// --- end articulation selector buttons --- //",
                 "lock": false,
                 "onCreate": ""
               },
@@ -18141,7 +18141,7 @@
               "12": {
                 "id": "ar1",
                 "name": "Abbey Road One",
-                "primaryColor": "#D71E0B",
+                "primaryColor": "#990e9c",
                 "midiCC": 112,
                 "articulationsConfig": "library",
                 "articulations": {
@@ -23705,6 +23705,814 @@
                       "Sul Pont Slide Into Bowing Up": {
                         "keySwitch": "12",
                         "UACC": "120"
+                      }
+                    }
+                  }
+                }
+              },
+              "19": {
+                "id": "sps",
+                "name": "Percussion Swarm",
+                "primaryColor": "#b3b3cc",
+                "midiCC": 119,
+                "articulationConfig": "perInstrument",
+                "instruments": {
+                  "0": {
+                    "name": "Crotales",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "1": {
+                    "name": "Tubular Bells",
+                    "articulations": {
+                      "Pitched Cloud Metal": {
+                        "UACC": "120",
+                        "keySwitch": "6"
+                      },
+                      "Swarmed Sticks Metal": {
+                        "UACC": "120",
+                        "keySwitch": "7"
+                      },
+                      "Short Metal Sticks Metal": {
+                        "UACC": "120",
+                        "keySwitch": "8"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Superball": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Superball Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Superball": {
+                        "UACC": "120",
+                        "keySwitch": "5"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "4"
+                      }
+                    }
+                  },
+                  "2": {
+                    "name": "Marimbas",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud Finger": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "3": {
+                    "name": "Rototoms",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "4": {
+                    "name": "Damarus",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      }
+                    }
+                  },
+                  "5": {
+                    "name": "Angklungs",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "6": {
+                    "name": "Tongue Drums",
+                    "articulations": {
+                      "Swarmed Fingers Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "7"
+                      },
+                      "Pitched Cloud Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "6"
+                      },
+                      "Short Soft Sticks Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "8"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Superball": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Superball Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Superball": {
+                        "UACC": "120",
+                        "keySwitch": "5"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "4"
+                      }
+                    }
+                  },
+                  "7": {
+                    "name": "Hand Bells",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Twirls": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "8": {
+                    "name": "Glockenspiels",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "9": {
+                    "name": "Rammanas",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      }
+                    }
+                  },
+                  "10": {
+                    "name": "Kalimbas",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "11": {
+                    "name": "Xylophones",
+                    "articulations": {
+                      "Short Soft Sticks HR": {
+                        "UACC": "120",
+                        "keySwitch": "5"
+                      },
+                      "Pitched Cloud HR": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks HR": {
+                        "UACC": "120",
+                        "keySwitch": "4"
+                      }
+                    }
+                  },
+                  "12": {
+                    "name": "Glass Glockenenspiels",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "13": {
+                    "name": "Udus",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Hits": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Short Hits": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      }
+                    }
+                  },
+                  "14": {
+                    "name": "Chimes & Phones",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "15": {
+                    "name": "Pantam",
+                    "articulations": {
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "16": {
+                    "name": "Batas",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      }
+                    }
+                  },
+                  "17": {
+                    "name": "Wah Chimes",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Bows": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "18": {
+                    "name": "Dafs",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Short 2": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      }
+                    }
+                  }
+                }
+              },
+              "20": {
+                "id": "sos",
+                "name": "Orchestral Swarm",
+                "primaryColor": "#99ccff",
+                "midiCC": 119,
+                "articulationConfig": "perInstrument",
+                "instruments": {
+                  "0": {
+                    "name": "Crotales",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "1": {
+                    "name": "Tubular Bells",
+                    "articulations": {
+                      "Pitched Cloud Metal": {
+                        "UACC": "120",
+                        "keySwitch": "6"
+                      },
+                      "Swarmed Sticks Metal": {
+                        "UACC": "120",
+                        "keySwitch": "7"
+                      },
+                      "Short Metal Sticks Metal": {
+                        "UACC": "120",
+                        "keySwitch": "8"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Superball": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Superball Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Superball": {
+                        "UACC": "120",
+                        "keySwitch": "5"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "4"
+                      }
+                    }
+                  },
+                  "2": {
+                    "name": "Marimbas",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud Finger": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "3": {
+                    "name": "Rototoms",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "4": {
+                    "name": "Damarus",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      }
+                    }
+                  },
+                  "5": {
+                    "name": "Angklungs",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "6": {
+                    "name": "Tongue Drums",
+                    "articulations": {
+                      "Swarmed Fingers Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "7"
+                      },
+                      "Pitched Cloud Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "6"
+                      },
+                      "Short Soft Sticks Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "8"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Superball": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Superball Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Superball": {
+                        "UACC": "120",
+                        "keySwitch": "5"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "4"
+                      }
+                    }
+                  },
+                  "7": {
+                    "name": "Hand Bells",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Twirls": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "8": {
+                    "name": "Glockenspiels",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "9": {
+                    "name": "Rammanas",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      }
+                    }
+                  },
+                  "10": {
+                    "name": "Kalimbas",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "11": {
+                    "name": "Xylophones",
+                    "articulations": {
+                      "Short Soft Sticks HR": {
+                        "UACC": "120",
+                        "keySwitch": "5"
+                      },
+                      "Pitched Cloud HR": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks HR": {
+                        "UACC": "120",
+                        "keySwitch": "4"
+                      }
+                    }
+                  },
+                  "12": {
+                    "name": "Glass Glockenenspiels",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "13": {
+                    "name": "Udus",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Hits": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Short Hits": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      }
+                    }
+                  },
+                  "14": {
+                    "name": "Chimes & Phones",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "15": {
+                    "name": "Pantam",
+                    "articulations": {
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "16": {
+                    "name": "Batas",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      }
+                    }
+                  },
+                  "17": {
+                    "name": "Wah Chimes",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Bows": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "18": {
+                    "name": "Dafs",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Short 2": {
+                        "UACC": "120",
+                        "keySwitch": "3"
                       }
                     }
                   }
