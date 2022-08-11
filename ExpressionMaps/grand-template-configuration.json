@@ -5233,7 +5233,7 @@
     "id": "sos",
     "name": "Orchestral Swarm",
     "primaryColor": "#4d88ff",
-    "midiCC": 0,
+    "midiCC": 119,
     "articulationConfig": "perInstrument",
     "instruments": {
       "0": {
@@ -5529,7 +5529,7 @@
     "id": "sps",
     "name": "Percussion Swarm",
     "primaryColor": "#b3b3cc",
-    "midiCC": 0,
+    "midiCC": 120,
     "articulationConfig": "perInstrument",
     "instruments": {
       "0": {
@@ -5933,7 +5933,7 @@
     "id": "oac",
     "name": "OA Chamber Evos",
     "primaryColor": "#009900",
-    "midiCC": 0,
+    "midiCC": 121,
     "articulationConfig": "perInstrument",
     "instruments": {
       "0": {
@@ -6082,7 +6082,7 @@
     "id": "bdt",
     "name": "British Drama TK",
     "primaryColor": "#4ddbff",
-    "midiCC": 0,
+    "midiCC": 122,
     "articulationConfig": "perInstrument",
     "instruments": {
       "0": {
@@ -6413,7 +6413,7 @@
     "id": "cdt",
     "name": "Contemporary Drama TK",
     "primaryColor": "#b3003b",
-    "midiCC": 0,
+    "midiCC": 123,
     "articulationConfig": "perInstrument",
     "instruments": {
       "0": {
