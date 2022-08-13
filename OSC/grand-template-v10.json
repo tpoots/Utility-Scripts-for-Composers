@@ -14954,6 +14954,7 @@
               },
               "7": {
                 "id": "ar1",
+                "locator": 12,
                 "name": "Abbey Road One",
                 "primaryColor": "#990e9c",
                 "midiCC": 112,
@@ -16483,7 +16484,7 @@
                 "id": "sos",
                 "name": "Orchestral Swarm",
                 "primaryColor": "#4d88ff",
-                "midiCC": 0,
+                "midiCC": 119,
                 "articulationConfig": "perInstrument",
                 "instruments": {
                   "0": {
@@ -16610,6 +16611,19 @@
                     }
                   },
                   "3": {
+                    "name": "Brass",
+                    "articulations": {
+                      "Dim": {
+                        "UACC": "2",
+                        "keySwitch": "1"
+                      },
+                      "Swell": {
+                        "UACC": "1",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "4": {
                     "name": "Bones & Tubas",
                     "articulations": {
                       "Short": {
@@ -16641,19 +16655,6 @@
                         "keySwitch": "6"
                       },
                       "FX Flutter": {
-                        "UACC": "1",
-                        "keySwitch": "0"
-                      }
-                    }
-                  },
-                  "4": {
-                    "name": "Brass",
-                    "articulations": {
-                      "Dim": {
-                        "UACC": "2",
-                        "keySwitch": "1"
-                      },
-                      "Swell": {
                         "UACC": "1",
                         "keySwitch": "0"
                       }
@@ -16779,10 +16780,111 @@
                 "id": "sps",
                 "name": "Percussion Swarm",
                 "primaryColor": "#b3b3cc",
-                "midiCC": 0,
+                "midiCC": 120,
                 "articulationConfig": "perInstrument",
                 "instruments": {
                   "0": {
+                    "name": "Glockenspiels",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "1": {
+                    "name": "Glass Glockenenspiels",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "2": {
+                    "name": "Kalimbas",
+                    "articulations": {
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "3": {
+                    "name": "Marimbas",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud Finger": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "4": {
+                    "name": "Xylophones",
+                    "articulations": {
+                      "Short Soft Sticks HR": {
+                        "UACC": "120",
+                        "keySwitch": "5"
+                      },
+                      "Pitched Cloud HR": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Swarmed Sticks HR": {
+                        "UACC": "120",
+                        "keySwitch": "4"
+                      }
+                    }
+                  },
+                  "5": {
                     "name": "Crotales",
                     "articulations": {
                       "Swarmed Bows": {
@@ -16795,7 +16897,62 @@
                       }
                     }
                   },
-                  "1": {
+                  "6": {
+                    "name": "Hand Bells",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Twirls": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "7": {
+                    "name": "Chimes & Phones",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "8": {
+                    "name": "Wah Chimes",
+                    "articulations": {
+                      "Swarmed Bows": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Bows": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Pitched Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      }
+                    }
+                  },
+                  "9": {
                     "name": "Tubular Bells",
                     "articulations": {
                       "Pitched Cloud Metal": {
@@ -16836,79 +16993,7 @@
                       }
                     }
                   },
-                  "2": {
-                    "name": "Marimbas",
-                    "articulations": {
-                      "Atonal Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "3"
-                      },
-                      "Swarmed Bows": {
-                        "UACC": "120",
-                        "keySwitch": "2"
-                      },
-                      "Pitched Cloud Finger": {
-                        "UACC": "120",
-                        "keySwitch": "1"
-                      },
-                      "Pitched Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "0"
-                      }
-                    }
-                  },
-                  "3": {
-                    "name": "Rototoms",
-                    "articulations": {
-                      "Swarmed Bows": {
-                        "UACC": "120",
-                        "keySwitch": "1"
-                      },
-                      "Short Soft Sticks": {
-                        "UACC": "120",
-                        "keySwitch": "2"
-                      },
-                      "Pitched Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "0"
-                      }
-                    }
-                  },
-                  "4": {
-                    "name": "Damarus",
-                    "articulations": {
-                      "Atonal Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "0"
-                      },
-                      "Swarmed Fingers": {
-                        "UACC": "120",
-                        "keySwitch": "1"
-                      },
-                      "Short Soft Sticks": {
-                        "UACC": "120",
-                        "keySwitch": "2"
-                      }
-                    }
-                  },
-                  "5": {
-                    "name": "Angklungs",
-                    "articulations": {
-                      "Short Soft Sticks": {
-                        "UACC": "120",
-                        "keySwitch": "2"
-                      },
-                      "Swarmed Sticks": {
-                        "UACC": "120",
-                        "keySwitch": "1"
-                      },
-                      "Pitched Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "0"
-                      }
-                    }
-                  },
-                  "6": {
+                  "10": {
                     "name": "Tongue Drums",
                     "articulations": {
                       "Swarmed Fingers Fingers": {
@@ -16949,29 +17034,8 @@
                       }
                     }
                   },
-                  "7": {
-                    "name": "Hand Bells",
-                    "articulations": {
-                      "Swarmed Bows": {
-                        "UACC": "120",
-                        "keySwitch": "1"
-                      },
-                      "Short Twirls": {
-                        "UACC": "120",
-                        "keySwitch": "2"
-                      },
-                      "Short Soft Sticks": {
-                        "UACC": "120",
-                        "keySwitch": "3"
-                      },
-                      "Pitched Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "0"
-                      }
-                    }
-                  },
-                  "8": {
-                    "name": "Glockenspiels",
+                  "11": {
+                    "name": "Angklungs",
                     "articulations": {
                       "Short Soft Sticks": {
                         "UACC": "120",
@@ -16987,7 +17051,45 @@
                       }
                     }
                   },
-                  "9": {
+                  "12": {
+                    "name": "Dafs",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      },
+                      "Short 2": {
+                        "UACC": "120",
+                        "keySwitch": "3"
+                      }
+                    }
+                  },
+                  "13": {
+                    "name": "Damarus",
+                    "articulations": {
+                      "Atonal Cloud": {
+                        "UACC": "120",
+                        "keySwitch": "0"
+                      },
+                      "Swarmed Fingers": {
+                        "UACC": "120",
+                        "keySwitch": "1"
+                      },
+                      "Short Soft Sticks": {
+                        "UACC": "120",
+                        "keySwitch": "2"
+                      }
+                    }
+                  },
+                  "14": {
                     "name": "Rammanas",
                     "articulations": {
                       "Atonal Cloud": {
@@ -17004,70 +17106,24 @@
                       }
                     }
                   },
-                  "10": {
-                    "name": "Kalimbas",
+                  "15": {
+                    "name": "Batas",
                     "articulations": {
-                      "Short Soft Sticks": {
-                        "UACC": "120",
-                        "keySwitch": "2"
-                      },
-                      "Swarmed Sticks": {
-                        "UACC": "120",
-                        "keySwitch": "1"
-                      },
-                      "Pitched Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "0"
-                      }
-                    }
-                  },
-                  "11": {
-                    "name": "Xylophones",
-                    "articulations": {
-                      "Short Soft Sticks HR": {
-                        "UACC": "120",
-                        "keySwitch": "5"
-                      },
-                      "Pitched Cloud HR": {
-                        "UACC": "120",
-                        "keySwitch": "3"
-                      },
-                      "Pitched Cloud": {
+                      "Atonal Cloud": {
                         "UACC": "120",
                         "keySwitch": "0"
                       },
-                      "Swarmed Sticks": {
+                      "Swarmed Fingers": {
                         "UACC": "120",
                         "keySwitch": "1"
                       },
                       "Short Soft Sticks": {
                         "UACC": "120",
                         "keySwitch": "2"
-                      },
-                      "Swarmed Sticks HR": {
-                        "UACC": "120",
-                        "keySwitch": "4"
                       }
                     }
                   },
-                  "12": {
-                    "name": "Glass Glockenenspiels",
-                    "articulations": {
-                      "Short Soft Sticks": {
-                        "UACC": "120",
-                        "keySwitch": "2"
-                      },
-                      "Swarmed Sticks": {
-                        "UACC": "120",
-                        "keySwitch": "1"
-                      },
-                      "Pitched Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "0"
-                      }
-                    }
-                  },
-                  "13": {
+                  "16": {
                     "name": "Udus",
                     "articulations": {
                       "Atonal Cloud": {
@@ -17088,8 +17144,8 @@
                       }
                     }
                   },
-                  "14": {
-                    "name": "Chimes & Phones",
+                  "17": {
+                    "name": "Rototoms",
                     "articulations": {
                       "Swarmed Bows": {
                         "UACC": "120",
@@ -17105,7 +17161,7 @@
                       }
                     }
                   },
-                  "15": {
+                  "18": {
                     "name": "Pantam",
                     "articulations": {
                       "Swarmed Fingers": {
@@ -17121,61 +17177,6 @@
                         "keySwitch": "0"
                       }
                     }
-                  },
-                  "16": {
-                    "name": "Batas",
-                    "articulations": {
-                      "Atonal Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "0"
-                      },
-                      "Swarmed Fingers": {
-                        "UACC": "120",
-                        "keySwitch": "1"
-                      },
-                      "Short Soft Sticks": {
-                        "UACC": "120",
-                        "keySwitch": "2"
-                      }
-                    }
-                  },
-                  "17": {
-                    "name": "Wah Chimes",
-                    "articulations": {
-                      "Swarmed Bows": {
-                        "UACC": "120",
-                        "keySwitch": "1"
-                      },
-                      "Short Soft Bows": {
-                        "UACC": "120",
-                        "keySwitch": "2"
-                      },
-                      "Pitched Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "0"
-                      }
-                    }
-                  },
-                  "18": {
-                    "name": "Dafs",
-                    "articulations": {
-                      "Atonal Cloud": {
-                        "UACC": "120",
-                        "keySwitch": "0"
-                      },
-                      "Swarmed Fingers": {
-                        "UACC": "120",
-                        "keySwitch": "1"
-                      },
-                      "Short": {
-                        "UACC": "120",
-                        "keySwitch": "2"
-                      },
-                      "Short 2": {
-                        "UACC": "120",
-                        "keySwitch": "3"
-                      }
-                    }
                   }
                 }
               },
@@ -17183,7 +17184,7 @@
                 "id": "oac",
                 "name": "OA Chamber Evos",
                 "primaryColor": "#009900",
-                "midiCC": 0,
+                "midiCC": 121,
                 "articulationConfig": "perInstrument",
                 "instruments": {
                   "0": {
@@ -17332,7 +17333,7 @@
                 "id": "bdt",
                 "name": "British Drama TK",
                 "primaryColor": "#4ddbff",
-                "midiCC": 0,
+                "midiCC": 122,
                 "articulationConfig": "perInstrument",
                 "instruments": {
                   "0": {
@@ -17663,7 +17664,7 @@
                 "id": "cdt",
                 "name": "Contemporary Drama TK",
                 "primaryColor": "#b3003b",
-                "midiCC": 0,
+                "midiCC": 123,
                 "articulationConfig": "perInstrument",
                 "instruments": {
                   "0": {
@@ -18742,207 +18743,6 @@
                       },
                       "FX Shorter": {
                         "keySwitch": "17",
-                        "UACC": "120"
-                      }
-                    }
-                  },
-                  "5": {
-                    "name": "Tutti Evos Simple",
-                    "articulations": {
-                      "Long Aah Evo": {
-                        "keySwitch": "0",
-                        "UACC": "120"
-                      },
-                      "Breathy Mmm": {
-                        "keySwitch": "8",
-                        "UACC": "120"
-                      },
-                      "Long Aah Eh Aah": {
-                        "keySwitch": "3",
-                        "UACC": "120"
-                      },
-                      "Long Aah Full Out": {
-                        "keySwitch": "4",
-                        "UACC": "120"
-                      },
-                      "Long Eeh Evo": {
-                        "keySwitch": "5",
-                        "UACC": "120"
-                      },
-                      "Long Mmm Aah Mmm": {
-                        "keySwitch": "7",
-                        "UACC": "120"
-                      },
-                      "Long Mmm Evo": {
-                        "keySwitch": "1",
-                        "UACC": "120"
-                      },
-                      "Long Ooh Aah Ooh": {
-                        "keySwitch": "6",
-                        "UACC": "120"
-                      },
-                      "Long Ooh Evo": {
-                        "keySwitch": "2",
-                        "UACC": "120"
-                      }
-                    }
-                  },
-                  "6": {
-                    "name": "Tutti Evos Rhythmic",
-                    "articulations": {
-                      "Rhythmic Evo Dee": {
-                        "keySwitch": "0",
-                        "UACC": "120"
-                      },
-                      "Rhythmic Evo Lah": {
-                        "keySwitch": "1",
-                        "UACC": "120"
-                      },
-                      "Rhythmic Evo Nah": {
-                        "keySwitch": "2",
-                        "UACC": "120"
-                      }
-                    }
-                  },
-                  "7": {
-                    "name": "Tutti Evos Clashes",
-                    "articulations": {
-                      "Cloud Grace Ahh HT": {
-                        "keySwitch": "10",
-                        "UACC": "120"
-                      },
-                      "Cloud Grace Ahh WT": {
-                        "keySwitch": "11",
-                        "UACC": "120"
-                      },
-                      "Microtonal Bending Ahh": {
-                        "keySwitch": "12",
-                        "UACC": "120"
-                      },
-                      "Microtonal Cluster Pitch Ahh": {
-                        "keySwitch": "15",
-                        "UACC": "120"
-                      },
-                      "Microtonal Oscillating Ahh": {
-                        "keySwitch": "13",
-                        "UACC": "120"
-                      },
-                      "Microtonal Shift": {
-                        "keySwitch": "14",
-                        "UACC": "120"
-                      },
-                      "Pitch Clash Aah HT": {
-                        "keySwitch": "0",
-                        "UACC": "120"
-                      },
-                      "Pitch Clash Ahh Maj3": {
-                        "keySwitch": "5",
-                        "UACC": "120"
-                      },
-                      "Pitch Clash Ahh Min3": {
-                        "keySwitch": "4",
-                        "UACC": "120"
-                      },
-                      "Pitch Clash Ahh Perf4": {
-                        "keySwitch": "8",
-                        "UACC": "120"
-                      },
-                      "Pitch Clash Ahh Perf5": {
-                        "keySwitch": "9",
-                        "UACC": "120"
-                      },
-                      "Pitch Clash Ahh Static HT": {
-                        "keySwitch": "2",
-                        "UACC": "120"
-                      },
-                      "Pitch Clash Ahh Static Maj3": {
-                        "keySwitch": "7",
-                        "UACC": "120"
-                      },
-                      "Pitch Clash Ahh Static Min3": {
-                        "keySwitch": "6",
-                        "UACC": "120"
-                      },
-                      "Pitch Clash Ahh Static WT": {
-                        "keySwitch": "3",
-                        "UACC": "120"
-                      },
-                      "Pitch Clash Ahh WT": {
-                        "keySwitch": "1",
-                        "UACC": "120"
-                      }
-                    }
-                  },
-                  "8": {
-                    "name": "Tutti Evos Dynamic",
-                    "articulations": {
-                      "Dynamic Swell Aah": {
-                        "keySwitch": "0",
-                        "UACC": "120"
-                      },
-                      "Dynamic Swell Eh": {
-                        "keySwitch": "3",
-                        "UACC": "120"
-                      },
-                      "Dynamic Swell Mmm": {
-                        "keySwitch": "1",
-                        "UACC": "120"
-                      },
-                      "Dynamic Swell Ooh": {
-                        "keySwitch": "2",
-                        "UACC": "120"
-                      }
-                    }
-                  },
-                  "9": {
-                    "name": "Tutti Evos Special",
-                    "articulations": {
-                      "Aleatoric Aah": {
-                        "keySwitch": "5",
-                        "UACC": "120"
-                      },
-                      "Breathy Ohh": {
-                        "keySwitch": "0",
-                        "UACC": "120"
-                      },
-                      "Bubbling": {
-                        "keySwitch": "6",
-                        "UACC": "120"
-                      },
-                      "Cyclical": {
-                        "keySwitch": "9",
-                        "UACC": "120"
-                      },
-                      "Erupting Hums": {
-                        "keySwitch": "3",
-                        "UACC": "120"
-                      },
-                      "Fluctuating Oohs": {
-                        "keySwitch": "1",
-                        "UACC": "120"
-                      },
-                      "Fortepiano": {
-                        "keySwitch": "2",
-                        "UACC": "120"
-                      },
-                      "Harminic": {
-                        "keySwitch": "7",
-                        "UACC": "120"
-                      },
-                      "Nz": {
-                        "keySwitch": "8",
-                        "UACC": "120"
-                      },
-                      "Pitched Air": {
-                        "keySwitch": "11",
-                        "UACC": "120"
-                      },
-                      "Ricochet Aah Nng": {
-                        "keySwitch": "4",
-                        "UACC": "120"
-                      },
-                      "Whistle Mmm Bend": {
-                        "keySwitch": "10",
                         "UACC": "120"
                       }
                     }
@@ -25324,68 +25124,6 @@
                     }
                   },
                   "7": {
-                    "name": "Untuned Drums",
-                    "articulations": {
-                      "Bass Drum 1": {
-                        "keySwitch": "1",
-                        "UACC": "120"
-                      },
-                      "Bass Drum 2": {
-                        "keySwitch": "2",
-                        "UACC": "120"
-                      },
-                      "Military Drum": {
-                        "keySwitch": "4",
-                        "UACC": "120"
-                      },
-                      "Snare 1": {
-                        "keySwitch": "6",
-                        "UACC": "120"
-                      },
-                      "Snare 2": {
-                        "keySwitch": "7",
-                        "UACC": "120"
-                      },
-                      "Tenor Drum": {
-                        "keySwitch": "10",
-                        "UACC": "120"
-                      },
-                      "Toys": {
-                        "keySwitch": "11",
-                        "UACC": "120"
-                      }
-                    }
-                  },
-                  "8": {
-                    "name": "Untuned Metals",
-                    "articulations": {
-                      "Anvil": {
-                        "keySwitch": "0",
-                        "UACC": "120"
-                      },
-                      "Cymbals": {
-                        "keySwitch": "3",
-                        "UACC": "120"
-                      },
-                      "Piatti": {
-                        "keySwitch": "5",
-                        "UACC": "120"
-                      },
-                      "Tam Tam": {
-                        "keySwitch": "8",
-                        "UACC": "120"
-                      },
-                      "Tambourine": {
-                        "keySwitch": "9",
-                        "UACC": "120"
-                      },
-                      "Triangle": {
-                        "keySwitch": "12",
-                        "UACC": "120"
-                      }
-                    }
-                  },
-                  "9": {
                     "name": "Vibraphone",
                     "articulations": {
                       "Hits": {
@@ -25394,7 +25132,7 @@
                       }
                     }
                   },
-                  "10": {
+                  "8": {
                     "name": "Xylophone",
                     "articulations": {
                       "Hits": {
