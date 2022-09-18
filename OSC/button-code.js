@@ -223,3 +223,28 @@ set("cc_fader_" + buttonIndex, 127)
 var buttonIndex = id.substr(7,2)
 set("cc_fader_" + buttonIndex, 0)
 // --- end cc min buttons ---//
+
+// --- setup the instrument header and colors --- //
+var mapName = value
+console.log(mapName)
+var libraryId = mapName.substr(0,3).toLowerCase()
+var config = JSON.parse(JSON.stringify(get("configuration")))
+// set the color of the articulation buttons to the library color
+setVar('art_*', "color", config[libraryId]['primaryColor'])
+// --- end setup the instrument header and colors --- //
+
+// --- setup the articulations --- //
+var artMap = JSON.parse(value)
+setVar("art_*", "visible", 0)
+set("art_*", 0, {sync:false, script: false, send:false})
+
+var index = 1
+for (var art in artMap) {
+    var buttonId = "art_" + index
+    setVar(buttonId, "label", artMap[art][1])
+    setVar(buttonId, "enabled", 1)
+    setVar(buttonId, "keyswitch", artMap[art][0])
+    setVar(buttonId, "visible", 1)
+    index += 1
+}
+// --- end setup the articulations --- //

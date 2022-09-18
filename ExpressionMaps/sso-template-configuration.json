@@ -1,0 +1,230 @@
+{
+  "def": {
+    "id": "def",
+    "name": "Default (Unmapped)",
+    "primaryColor": "#3366ff",
+    "midiCC": 127,
+    "ccConfig": {
+      "1": {
+        "cc": 22,
+        "name": "Close"
+      },
+      "2": {
+        "cc": 23,
+        "name": "Tree"
+      },
+      "3": {
+        "cc": 24,
+        "name": "Ambient"
+      }
+    }
+  },
+  "ssw": {
+    "id": "ssw",
+    "name": "SSO Woodwinds",
+    "primaryColor": "#2DB8FF",
+    "midiCC": 101,
+    "ccConfig": {
+      "1": {
+        "cc": 29,
+        "name": "Fine"
+      },
+      "2": {
+        "cc": 30,
+        "name": "Medium"
+      },
+      "3": {
+        "cc": 31,
+        "name": "Broad"
+      }
+    }
+  },
+  "ssb": {
+    "id": "ssb",
+    "name": "SSO Brass",
+    "primaryColor": "#D7D621",
+    "midiCC": 102,
+    "ccConfig": {
+      "1": {
+        "cc": 29,
+        "name": "Fine"
+      },
+      "2": {
+        "cc": 30,
+        "name": "Medium"
+      },
+      "3": {
+        "cc": 31,
+        "name": "Broad"
+      }
+    }
+  },
+  "sss": {
+    "id": "sss",
+    "name": "SSO Strings",
+    "primaryColor": "#089F00",
+    "midiCC": 103,
+    "ccConfig": {
+      "1": {
+        "cc": 29,
+        "name": "Fine"
+      },
+      "2": {
+        "cc": 30,
+        "name": "Medium"
+      },
+      "3": {
+        "cc": 31,
+        "name": "Broad"
+      }
+    }
+  },
+  "scs": {
+    "id": "scs",
+    "name": "SCS Chamber Strings",
+    "primaryColor": "#8e9e18",
+    "midiCC": 104,
+    "ccConfig": {
+      "1": {
+        "cc": 29,
+        "name": "Fine"
+      },
+      "2": {
+        "cc": 30,
+        "name": "Medium"
+      },
+      "3": {
+        "cc": 31,
+        "name": "Broad"
+      }
+    }
+  },
+  "sst": {
+    "id": "sst",
+    "name": "Solo Strings",
+    "primaryColor": "#73C200",
+    "midiCC": 105,
+    "ccConfig": {
+      "1": {
+        "cc": 22,
+        "name": "Close"
+      },
+      "2": {
+        "cc": 23,
+        "name": "Tree"
+      },
+      "3": {
+        "cc": 24,
+        "name": "Ambient"
+      }
+    }
+  },
+  "sas": {
+    "id": "sas",
+    "name": "Appassionata Strings",
+    "primaryColor": "#FFA837",
+    "midiCC": 114
+  },
+  "ar1": {
+    "id": "ar1",
+    "name": "Abbey Road One",
+    "primaryColor": "#990e9c",
+    "midiCC": 112
+  },
+  "sa1": {
+    "id": "sa1",
+    "name": "Albion One",
+    "primaryColor": "#00FFFF",
+    "midiCC": 110
+  },
+  "sa7": {
+    "id": "sa7",
+    "name": "Albion Solstice",
+    "primaryColor": "#A569BD",
+    "midiCC": 111
+  },
+  "sos": {
+    "id": "sos",
+    "name": "Orchestral Swarm",
+    "primaryColor": "#4d88ff",
+    "midiCC": 119
+  },
+  "sps": {
+    "id": "sps",
+    "name": "Percussion Swarm",
+    "primaryColor": "#b3b3cc",
+    "midiCC": 120
+  },
+  "oac": {
+    "id": "oac",
+    "name": "OA Chamber Evos",
+    "primaryColor": "#009900",
+    "midiCC": 121
+  },
+  "bdt": {
+    "id": "bdt",
+    "name": "British Drama TK",
+    "primaryColor": "#4ddbff",
+    "midiCC": 122
+  },
+  "cdt": {
+    "id": "cdt",
+    "name": "Contemporary Drama TK",
+    "primaryColor": "#b3003b",
+    "midiCC": 123
+  },
+  "ewc": {
+    "id": "ewc",
+    "name": "Eric Whitacre Choir",
+    "primaryColor": "#ff80aa",
+    "midiCC": 113
+  },
+  "a4w": {
+    "id": "a4w",
+    "name": "Albion Uist Winds",
+    "primaryColor": "#d9d9f2",
+    "midiCC": 116
+  },
+  "a4b": {
+    "id": "a4b",
+    "name": "Albion Uist Brass",
+    "primaryColor": "#8c8cd9",
+    "midiCC": 117
+  },
+  "a4s": {
+    "id": "a4s",
+    "name": "Albion Uist Strings",
+    "primaryColor": "#5353c6",
+    "midiCC": 118
+  },
+  "bht": {
+    "id": "bht",
+    "name": "BHCT",
+    "primaryColor": "#00ba92",
+    "midiCC": 115
+  },
+  "sbw": {
+    "id": "sbw",
+    "name": "BBCSO Woodwinds",
+    "primaryColor": "#0224C1",
+    "midiCC": 106
+  },
+  "sbb": {
+    "id": "sbb",
+    "name": "BBCSO Brass",
+    "primaryColor": "#FF7307",
+    "midiCC": 107
+  },
+  "sbs": {
+    "id": "sbs",
+    "name": "BBCSO Strings",
+    "primaryColor": "#2C8200",
+    "midiCC": 108
+  },
+  "sbp": {
+    "id": "sbp",
+    "name": "BBCSO Percussion",
+    "primaryColor": "#7E0000",
+    "midiCC": 109
+  }
+}
