@@ -63,12 +63,11 @@ module.exports = {
             let fullTrackName = getTrackName(sysExVal)
 
             console.log('Received track name ' + fullTrackName)
+            receive('/SET', 'setup_instrument', fullTrackName)
             if (typeof allArticulations[fullTrackName] !== 'undefined') {
-                receive('/SET', 'set_track_name', fullTrackName)
                 console.log('about to send ' + JSON.stringify(allArticulations[fullTrackName]))
                 receive('/SET', 'setup_articulations_script', JSON.stringify(allArticulations[fullTrackName]))
             } else {
-                receive('/SET', 'set_track_name', 'DEF ' + fullTrackName)
                 console.log('about to send ' + JSON.stringify(allArticulations['Default']))
                 receive('/SET', 'setup_articulations_script', JSON.stringify(allArticulations['Default']))
             }

@@ -224,14 +224,63 @@ var buttonIndex = id.substr(7,2)
 set("cc_fader_" + buttonIndex, 0)
 // --- end cc min buttons ---//
 
-// --- setup the instrument header and colors --- //
+// --- setup the instrument --- //
 var mapName = value
-console.log(mapName)
 var libraryId = mapName.substr(0,3).toLowerCase()
 var config = JSON.parse(JSON.stringify(get("configuration")))
+if (typeof  config[libraryId] === 'undefined') {
+    // no library-specific config exists so use the default
+    libraryId = 'def'
+}
 // set the color of the articulation buttons to the library color
 setVar('art_*', "color", config[libraryId]['primaryColor'])
-// --- end setup the instrument header and colors --- //
+
+// set up the label and color of the articulation header
+set("label_artics*", mapName, {sync:false, script: false, send:false})
+setVar('label_artics', "color", config[libraryId]['primaryColor'])
+
+// set up CC faders
+var ccConfig = config[libraryId]["ccConfig"]
+if (typeof ccConfig !== "undefined") {
+    // hide all CC UI elements
+    setVar("cc_max_*", "visible", 0)
+    setVar("cc_fader_*", "visible", 0)
+    setVar("cc_min_*", "visible", 0)
+    setVar("cc_only_*", "visible", 0)
+    setVar("cc_id_*", "visible", 0)
+    setVar("cc_label_*", "visible", 0)
+    // show only those set up for the library
+    for (let i = 1; i <= 20; i++) {
+        if (typeof ccConfig[i] !== "undefined") {
+            setVar("cc_fader_" + i, "cc", ccConfig[i].cc)
+            setVar("cc_id_" + i, "name", "CC " + ccConfig[i].cc)
+            setVar("cc_label_" + i, "name", ccConfig[i].name)
+            // show CC UI element
+             setVar("cc_max_" + i, "visible", 1)
+             setVar("cc_fader_" + i, "visible", 1)
+             setVar("cc_min_" + i, "visible", 1)
+             setVar("cc_only_" + i, "visible", 1)
+             setVar("cc_id_" + i, "visible", 1)
+             setVar("cc_label_" + i, "visible", 1)
+        }
+    }
+} else {
+    console.log("setting up default CC faders")
+    // show all CC UI elements
+    setVar("cc_max_*", "visible", 1)
+    setVar("cc_fader_*", "visible", 1)
+    setVar("cc_min_*", "visible", 1)
+    setVar("cc_only_*", "visible", 1)
+    setVar("cc_id_*", "visible", 1)
+    setVar("cc_label_*", "visible", 1)
+    for (let i = 1; i<= 20; i++) {
+        var cc = 20+i
+        setVar("cc_fader_" + i, "cc", cc)
+        setVar("cc_id_" + i, "name", "CC " + cc)
+        setVar("cc_label_" + i, "name", "CC " + cc)
+    }
+}
+// --- end setup the instrument --- //
 
 // --- setup the articulations --- //
 var artMap = JSON.parse(value)

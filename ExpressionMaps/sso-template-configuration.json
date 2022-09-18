@@ -4,20 +4,6 @@
     "name": "Default (Unmapped)",
     "primaryColor": "#3366ff",
     "midiCC": 127,
-    "ccConfig": {
-      "1": {
-        "cc": 22,
-        "name": "Close"
-      },
-      "2": {
-        "cc": 23,
-        "name": "Tree"
-      },
-      "3": {
-        "cc": 24,
-        "name": "Ambient"
-      }
-    }
   },
   "ssw": {
     "id": "ssw",
