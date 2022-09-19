@@ -1,9 +1,9 @@
 const fs = nativeRequire('fs');
 const xmljs = nativeRequire('xml-js');
-const glob = nativeRequire('glob');
 
 var clients = []
-var mapFiles = glob.sync('E:/Projects/Cubase Projects/Expression Maps/SSO Template/*.expressionmap')
+var expressionMapsDirectory = 'E:/Projects/Cubase Projects/Expression Maps/SSO Template'
+var mapFiles = []
 
 midiPort_MCU_To_OSC = 'MCUtoOSC'
 midiPort_MCU_From_OSC = 'MCUfromOSC'
@@ -20,9 +20,6 @@ var posBuffer = 72
 var expressionMapName = "" // current expression map that we are parsing
 var allArticulations = {}
 var defaultArticulations = [[0, 'C-2'],[1, 'C#-2'],[2, 'D-2'],[3, 'D#-2'],[4, 'E-2'],[5, 'F-2'],[6, 'F#-2'],[7, 'G-2'],[8, 'G#-2'],[9, 'A-2'],[10, 'A#-2'],[11, 'B-2'],[12, 'C-1'],[13, 'C#-1'],[14, 'D-1'],[15, 'D#-1'],[16, 'E-1'],[17, 'F-1'],[18, 'F#-1'],[19, 'G-1']] // if none defined
-
-
-console.log(mapFiles)
 
 app.on('open', (data, client) => {
     console.log("Client connected...")
@@ -59,6 +56,12 @@ module.exports = {
             console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>sysex value received")
             let sysExVal = args[0].value
 
+            // check to see if we have our expression map files enumerated, if not then enumerate them
+            if (mapFiles.length === 0) {
+                // parse the expression maps folder
+                getExpressionMapFiles(expressionMapsDirectory, mapFiles)
+                console.log(mapFiles)
+            }
             // check to see if articulations are loaded, if not then load them
             if (Object.keys(allArticulations).length === 0) {
                 // parse the expression maps folder
@@ -110,8 +113,6 @@ function getTrackName(sysExVal) {
     var d = sysExVal.split(" ").slice(6).map(x => parseInt(x, 16)) // slices off the front 6 elements, x => parseInt(x, 16) converts the rest from Hex to Int then .map creates the array d[]
 
     pos = d[0] // first byte -> position // hex to int
-
-    console.log("position = " + pos)
 
     text = d.slice(1).map(x => String.fromCharCode(x)) // these are the new characters which are updated on the console, the rest -> updated characters
     if (pos < 29) {
@@ -203,12 +204,10 @@ async function parseExpressionMaps() {
     for (const mapFileName of mapFiles) {
 
         let mapFile =  mapFileName.split('\\').pop().split('/').pop().split('.')[0]
-        console.log('Selected Map:  ' + mapFileName)
         const data = fs.readFileSync(mapFileName)
         var converted = xmljs.xml2js(data, {compact: false, spaces: 4})
         converted['elements'][0]['elements'].forEach(parseElements)
     }
-    console.log(Object.entries(allArticulations));
 }
 
 function parseElements(item, index, arr) {
@@ -236,8 +235,7 @@ function parsePSoundSlots(elements) {
       })
     }
   })
-  articulations.sort(compareNumbers)
-  return articulations
+  return articulations.sort(compareNumbers)
 }
 
 function parseSlot(soundSlot) {
@@ -255,10 +253,23 @@ function parseSlot(soundSlot) {
       })
     }
   })
-  console.log('Name: ' + name + ' Keyswitch: ' + keySwitch)
   return [keySwitch, name]
 }
 
 function compareNumbers(a, b) {
-  return a - b;
+//  console.log('sorting a: ' + a + ' vs b: ' + b)
+  return a[0] - b[0];
+}
+
+var getExpressionMapFiles = function(dir, files){
+    fs.readdirSync(dir).forEach(function(file){
+        var subpath = dir + '/' + file;
+        if(fs.lstatSync(subpath).isDirectory()){
+            getExpressionMapFiles(subpath, files);
+        } else {
+            if (file.indexOf('.expressionmap') != -1) {
+                files.push(dir + '/' + file);
+            }
+        }
+    });
 }
