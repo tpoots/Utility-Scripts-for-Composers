@@ -19,12 +19,16 @@ var posBuffer = 72
 
 var expressionMapName = "" // current expression map that we are parsing
 var allArticulations = {}
+var defaultArticulations = [[0, 'C-2'],[1, 'C#-2'],[2, 'D-2'],[3, 'D#-2'],[4, 'E-2'],[5, 'F-2'],[6, 'F#-2'],[7, 'G-2'],[8, 'G#-2'],[9, 'A-2'],[10, 'A#-2'],[11, 'B-2'],[12, 'C-1'],[13, 'C#-1'],[14, 'D-1'],[15, 'D#-1'],[16, 'E-1'],[17, 'F-1'],[18, 'F#-1'],[19, 'G-1']] // if none defined
+
 
 console.log(mapFiles)
 
 app.on('open', (data, client) => {
     console.log("Client connected...")
     if (!clients.includes(client.id)) clients.push(client.id)
+
+    receive('/SET', 'library_setup_script', 0)
 })
 
 app.on('close', (data, client)=>{
@@ -37,10 +41,6 @@ module.exports = {
 
     init: function(){
         // this will be executed once when the osc server starts
-        // set up "default" map for unampped tracks
-        allArticulations['Default'] = [[0, 'C-2'],[1, 'C#-2'],[2, 'D-2'],[3, 'D#-2'],[4, 'E-2'],[5, 'F-2'],[6, 'F#-2']]
-        // parse the expression maps folder
-        parseExpressionMaps()
     },
 
     oscInFilter:function(data){
@@ -59,17 +59,21 @@ module.exports = {
             console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>sysex value received")
             let sysExVal = args[0].value
 
+            // check to see if articulations are loaded, if not then load them
+            if (Object.keys(allArticulations).length === 0) {
+                // parse the expression maps folder
+                parseExpressionMaps()
+            }
+
             //Use the function getTrackName to do all the cool stuff to get the fullTrackName
             let fullTrackName = getTrackName(sysExVal)
 
             console.log('Received track name ' + fullTrackName)
             receive('/SET', 'setup_instrument', fullTrackName)
             if (typeof allArticulations[fullTrackName] !== 'undefined') {
-                console.log('about to send ' + JSON.stringify(allArticulations[fullTrackName]))
                 receive('/SET', 'setup_articulations_script', JSON.stringify(allArticulations[fullTrackName]))
             } else {
-                console.log('about to send ' + JSON.stringify(allArticulations['Default']))
-                receive('/SET', 'setup_articulations_script', JSON.stringify(allArticulations['Default']))
+                receive('/SET', 'setup_articulations_script', JSON.stringify(defaultArticulations))
             }
 
         }

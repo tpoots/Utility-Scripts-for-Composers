@@ -1,10 +1,4 @@
 {
-  "def": {
-    "id": "def",
-    "name": "Default (Unmapped)",
-    "primaryColor": "#3366ff",
-    "midiCC": 127,
-  },
   "ssw": {
     "id": "ssw",
     "name": "SSO Woodwinds",
@@ -165,23 +159,11 @@
     "primaryColor": "#ff80aa",
     "midiCC": 113
   },
-  "a4w": {
-    "id": "a4w",
-    "name": "Albion Uist Winds",
-    "primaryColor": "#d9d9f2",
+  "sa4": {
+    "id": "sa4",
+    "name": "Albion Uist",
+    "primaryColor": "#ff0066",
     "midiCC": 116
-  },
-  "a4b": {
-    "id": "a4b",
-    "name": "Albion Uist Brass",
-    "primaryColor": "#8c8cd9",
-    "midiCC": 117
-  },
-  "a4s": {
-    "id": "a4s",
-    "name": "Albion Uist Strings",
-    "primaryColor": "#5353c6",
-    "midiCC": 118
   },
   "bht": {
     "id": "bht",
