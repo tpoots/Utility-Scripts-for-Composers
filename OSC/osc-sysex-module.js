@@ -45,8 +45,6 @@ module.exports = {
         // Filter incoming osc messages
         var {address, args, host, port} = data
 
-        if (host !== 'midi' || port !== midiPort_MCU_To_OSC) return
-
         var inArgs = args.map(x => x.value),
             outArgs = [],
             action = ''
